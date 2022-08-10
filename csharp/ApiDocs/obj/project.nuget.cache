@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "dnPbF0KCuC09RAprMxfO3ie8DTUSqczylFm59WO2qPuVHKoFB2ZBTtEqVkGvXmT/A+SXEUSVUJ9TJhHAfBq7JQ==",
+  "success": true,
+  "projectFilePath": "D:\\a\\onnxruntime\\onnxruntime\\csharp\\ApiDocs\\ApiDocs.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\runneradmin\\.nuget\\packages\\docfx.console\\2.59.3\\docfx.console.2.59.3.nupkg.sha512"
+  ],
+  "logs": []
+}
