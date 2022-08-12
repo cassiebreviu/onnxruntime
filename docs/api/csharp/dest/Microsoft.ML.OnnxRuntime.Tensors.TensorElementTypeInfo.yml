@@ -1,0 +1,243 @@
+### YamlMime:ManagedReference
+items:
+- uid: Microsoft.ML.OnnxRuntime.Tensors.TensorElementTypeInfo
+  commentId: T:Microsoft.ML.OnnxRuntime.Tensors.TensorElementTypeInfo
+  id: TensorElementTypeInfo
+  parent: Microsoft.ML.OnnxRuntime.Tensors
+  children:
+  - Microsoft.ML.OnnxRuntime.Tensors.TensorElementTypeInfo.#ctor(Type,System.Int32)
+  - Microsoft.ML.OnnxRuntime.Tensors.TensorElementTypeInfo.IsString
+  - Microsoft.ML.OnnxRuntime.Tensors.TensorElementTypeInfo.TensorType
+  - Microsoft.ML.OnnxRuntime.Tensors.TensorElementTypeInfo.TypeSize
+  langs:
+  - csharp
+  - vb
+  name: TensorElementTypeInfo
+  nameWithType: TensorElementTypeInfo
+  fullName: Microsoft.ML.OnnxRuntime.Tensors.TensorElementTypeInfo
+  type: Class
+  source:
+    remote:
+      path: csharp/src/Microsoft.ML.OnnxRuntime/Tensors/Tensor.shared.cs
+      branch: csharp-docs
+      repo: https://github.com/cassiebreviu/onnxruntime
+    id: TensorElementTypeInfo
+    path: ../src/Microsoft.ML.OnnxRuntime/Tensors/Tensor.shared.cs
+    startLine: 249
+  assemblies:
+  - Microsoft.ML.OnnxRuntime
+  namespace: Microsoft.ML.OnnxRuntime.Tensors
+  summary: "\nHolds TensorElement traits\n"
+  example: []
+  syntax:
+    content: 'public class TensorElementTypeInfo : object'
+    content.vb: >-
+      Public Class TensorElementTypeInfo
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Microsoft.ML.OnnxRuntime.Tensors.TensorElementTypeInfo.TensorType
+  commentId: P:Microsoft.ML.OnnxRuntime.Tensors.TensorElementTypeInfo.TensorType
+  id: TensorType
+  parent: Microsoft.ML.OnnxRuntime.Tensors.TensorElementTypeInfo
+  langs:
+  - csharp
+  - vb
+  name: TensorType
+  nameWithType: TensorElementTypeInfo.TensorType
+  fullName: Microsoft.ML.OnnxRuntime.Tensors.TensorElementTypeInfo.TensorType
+  type: Property
+  source:
+    remote:
+      path: csharp/src/Microsoft.ML.OnnxRuntime/Tensors/Tensor.shared.cs
+      branch: csharp-docs
+      repo: https://github.com/cassiebreviu/onnxruntime
+    id: TensorType
+    path: ../src/Microsoft.ML.OnnxRuntime/Tensors/Tensor.shared.cs
+    startLine: 255
+  assemblies:
+  - Microsoft.ML.OnnxRuntime
+  namespace: Microsoft.ML.OnnxRuntime.Tensors
+  summary: "\nTensor element type\n"
+  example: []
+  syntax:
+    content: public Type TensorType { get; }
+    parameters: []
+    return:
+      type: Type
+      description: System.Type
+    content.vb: Public ReadOnly Property TensorType As Type
+  overload: Microsoft.ML.OnnxRuntime.Tensors.TensorElementTypeInfo.TensorType*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Microsoft.ML.OnnxRuntime.Tensors.TensorElementTypeInfo.TypeSize
+  commentId: P:Microsoft.ML.OnnxRuntime.Tensors.TensorElementTypeInfo.TypeSize
+  id: TypeSize
+  parent: Microsoft.ML.OnnxRuntime.Tensors.TensorElementTypeInfo
+  langs:
+  - csharp
+  - vb
+  name: TypeSize
+  nameWithType: TensorElementTypeInfo.TypeSize
+  fullName: Microsoft.ML.OnnxRuntime.Tensors.TensorElementTypeInfo.TypeSize
+  type: Property
+  source:
+    remote:
+      path: csharp/src/Microsoft.ML.OnnxRuntime/Tensors/Tensor.shared.cs
+      branch: csharp-docs
+      repo: https://github.com/cassiebreviu/onnxruntime
+    id: TypeSize
+    path: ../src/Microsoft.ML.OnnxRuntime/Tensors/Tensor.shared.cs
+    startLine: 260
+  assemblies:
+  - Microsoft.ML.OnnxRuntime
+  namespace: Microsoft.ML.OnnxRuntime.Tensors
+  summary: "\nSize of the stored primitive type in bytes\n"
+  example: []
+  syntax:
+    content: public int TypeSize { get; }
+    parameters: []
+    return:
+      type: System.Int32
+      description: size in bytes
+    content.vb: Public ReadOnly Property TypeSize As Integer
+  overload: Microsoft.ML.OnnxRuntime.Tensors.TensorElementTypeInfo.TypeSize*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Microsoft.ML.OnnxRuntime.Tensors.TensorElementTypeInfo.IsString
+  commentId: P:Microsoft.ML.OnnxRuntime.Tensors.TensorElementTypeInfo.IsString
+  id: IsString
+  parent: Microsoft.ML.OnnxRuntime.Tensors.TensorElementTypeInfo
+  langs:
+  - csharp
+  - vb
+  name: IsString
+  nameWithType: TensorElementTypeInfo.IsString
+  fullName: Microsoft.ML.OnnxRuntime.Tensors.TensorElementTypeInfo.IsString
+  type: Property
+  source:
+    remote:
+      path: csharp/src/Microsoft.ML.OnnxRuntime/Tensors/Tensor.shared.cs
+      branch: csharp-docs
+      repo: https://github.com/cassiebreviu/onnxruntime
+    id: IsString
+    path: ../src/Microsoft.ML.OnnxRuntime/Tensors/Tensor.shared.cs
+    startLine: 265
+  assemblies:
+  - Microsoft.ML.OnnxRuntime
+  namespace: Microsoft.ML.OnnxRuntime.Tensors
+  summary: "\nIs the type is a string\n"
+  example: []
+  syntax:
+    content: public bool IsString { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+      description: true if Tensor element type is a string
+    content.vb: Public ReadOnly Property IsString As Boolean
+  overload: Microsoft.ML.OnnxRuntime.Tensors.TensorElementTypeInfo.IsString*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Microsoft.ML.OnnxRuntime.Tensors.TensorElementTypeInfo.#ctor(Type,System.Int32)
+  commentId: M:Microsoft.ML.OnnxRuntime.Tensors.TensorElementTypeInfo.#ctor(Type,System.Int32)
+  id: '#ctor(Type,System.Int32)'
+  parent: Microsoft.ML.OnnxRuntime.Tensors.TensorElementTypeInfo
+  langs:
+  - csharp
+  - vb
+  name: TensorElementTypeInfo(Type, Int32)
+  nameWithType: TensorElementTypeInfo.TensorElementTypeInfo(Type, Int32)
+  fullName: Microsoft.ML.OnnxRuntime.Tensors.TensorElementTypeInfo.TensorElementTypeInfo(Type, System.Int32)
+  type: Constructor
+  source:
+    remote:
+      path: csharp/src/Microsoft.ML.OnnxRuntime/Tensors/Tensor.shared.cs
+      branch: csharp-docs
+      repo: https://github.com/cassiebreviu/onnxruntime
+    id: .ctor
+    path: ../src/Microsoft.ML.OnnxRuntime/Tensors/Tensor.shared.cs
+    startLine: 271
+  assemblies:
+  - Microsoft.ML.OnnxRuntime
+  namespace: Microsoft.ML.OnnxRuntime.Tensors
+  summary: "\nCtor\n"
+  example: []
+  syntax:
+    content: public TensorElementTypeInfo(Type type, int typeSize)
+    parameters:
+    - id: type
+      type: Type
+      description: Tensor element type
+    - id: typeSize
+      type: System.Int32
+      description: typesize
+    content.vb: Public Sub New(type As Type, typeSize As Integer)
+  overload: Microsoft.ML.OnnxRuntime.Tensors.TensorElementTypeInfo.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Microsoft.ML.OnnxRuntime.Tensors
+  commentId: N:Microsoft.ML.OnnxRuntime.Tensors
+  name: Microsoft.ML.OnnxRuntime.Tensors
+  nameWithType: Microsoft.ML.OnnxRuntime.Tensors
+  fullName: Microsoft.ML.OnnxRuntime.Tensors
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Microsoft.ML.OnnxRuntime.Tensors.TensorElementTypeInfo.TensorType*
+  commentId: Overload:Microsoft.ML.OnnxRuntime.Tensors.TensorElementTypeInfo.TensorType
+  name: TensorType
+  nameWithType: TensorElementTypeInfo.TensorType
+  fullName: Microsoft.ML.OnnxRuntime.Tensors.TensorElementTypeInfo.TensorType
+- uid: Type
+  isExternal: true
+  name: Type
+  nameWithType: Type
+  fullName: Type
+- uid: Microsoft.ML.OnnxRuntime.Tensors.TensorElementTypeInfo.TypeSize*
+  commentId: Overload:Microsoft.ML.OnnxRuntime.Tensors.TensorElementTypeInfo.TypeSize
+  name: TypeSize
+  nameWithType: TensorElementTypeInfo.TypeSize
+  fullName: Microsoft.ML.OnnxRuntime.Tensors.TensorElementTypeInfo.TypeSize
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Microsoft.ML.OnnxRuntime.Tensors.TensorElementTypeInfo.IsString*
+  commentId: Overload:Microsoft.ML.OnnxRuntime.Tensors.TensorElementTypeInfo.IsString
+  name: IsString
+  nameWithType: TensorElementTypeInfo.IsString
+  fullName: Microsoft.ML.OnnxRuntime.Tensors.TensorElementTypeInfo.IsString
+- uid: System.Boolean
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Microsoft.ML.OnnxRuntime.Tensors.TensorElementTypeInfo.#ctor*
+  commentId: Overload:Microsoft.ML.OnnxRuntime.Tensors.TensorElementTypeInfo.#ctor
+  name: TensorElementTypeInfo
+  nameWithType: TensorElementTypeInfo.TensorElementTypeInfo
+  fullName: Microsoft.ML.OnnxRuntime.Tensors.TensorElementTypeInfo.TensorElementTypeInfo
