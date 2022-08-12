@@ -1,0 +1,206 @@
+### YamlMime:ManagedReference
+items:
+- uid: Microsoft.ML.OnnxRuntime.OrtArenaCfg
+  commentId: T:Microsoft.ML.OnnxRuntime.OrtArenaCfg
+  id: OrtArenaCfg
+  parent: Microsoft.ML.OnnxRuntime
+  children:
+  - Microsoft.ML.OnnxRuntime.OrtArenaCfg.#ctor(System.UInt32,System.Int32,System.Int32,System.Int32)
+  - Microsoft.ML.OnnxRuntime.OrtArenaCfg.IsInvalid
+  - Microsoft.ML.OnnxRuntime.OrtArenaCfg.ReleaseHandle
+  langs:
+  - csharp
+  - vb
+  name: OrtArenaCfg
+  nameWithType: OrtArenaCfg
+  fullName: Microsoft.ML.OnnxRuntime.OrtArenaCfg
+  type: Class
+  source:
+    remote:
+      path: csharp/src/Microsoft.ML.OnnxRuntime/OrtAllocator.shared.cs
+      branch: csharp-docs
+      repo: https://github.com/cassiebreviu/onnxruntime
+    id: OrtArenaCfg
+    path: ../src/Microsoft.ML.OnnxRuntime/OrtAllocator.shared.cs
+    startLine: 35
+  assemblies:
+  - Microsoft.ML.OnnxRuntime
+  namespace: Microsoft.ML.OnnxRuntime
+  summary: "\nThis class encapsulates arena configuration information that will be used to define the behavior\nof an arena based allocator\nSee docs/C_API.md for more details\n"
+  example: []
+  syntax:
+    content: 'public class OrtArenaCfg : SafeHandle'
+    content.vb: >-
+      Public Class OrtArenaCfg
+          Inherits SafeHandle
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Microsoft.ML.OnnxRuntime.OrtArenaCfg.#ctor(System.UInt32,System.Int32,System.Int32,System.Int32)
+  commentId: M:Microsoft.ML.OnnxRuntime.OrtArenaCfg.#ctor(System.UInt32,System.Int32,System.Int32,System.Int32)
+  id: '#ctor(System.UInt32,System.Int32,System.Int32,System.Int32)'
+  parent: Microsoft.ML.OnnxRuntime.OrtArenaCfg
+  langs:
+  - csharp
+  - vb
+  name: OrtArenaCfg(UInt32, Int32, Int32, Int32)
+  nameWithType: OrtArenaCfg.OrtArenaCfg(UInt32, Int32, Int32, Int32)
+  fullName: Microsoft.ML.OnnxRuntime.OrtArenaCfg.OrtArenaCfg(System.UInt32, System.Int32, System.Int32, System.Int32)
+  type: Constructor
+  source:
+    remote:
+      path: csharp/src/Microsoft.ML.OnnxRuntime/OrtAllocator.shared.cs
+      branch: csharp-docs
+      repo: https://github.com/cassiebreviu/onnxruntime
+    id: .ctor
+    path: ../src/Microsoft.ML.OnnxRuntime/OrtAllocator.shared.cs
+    startLine: 45
+  assemblies:
+  - Microsoft.ML.OnnxRuntime
+  namespace: Microsoft.ML.OnnxRuntime
+  summary: "\nCreate an instance of arena configuration which will be used to create an arena based allocator\nSee docs/C_API.md for details on what the following parameters mean and how to choose these values\n"
+  example: []
+  syntax:
+    content: public OrtArenaCfg(uint maxMemory, int arenaExtendStrategy, int initialChunkSizeBytes, int maxDeadBytesPerChunk)
+    parameters:
+    - id: maxMemory
+      type: System.UInt32
+      description: Maximum amount of memory the arena allocates
+    - id: arenaExtendStrategy
+      type: System.Int32
+      description: Strategy for arena expansion
+    - id: initialChunkSizeBytes
+      type: System.Int32
+      description: Size of the region that the arena allocates first
+    - id: maxDeadBytesPerChunk
+      type: System.Int32
+      description: Maximum amount of fragmentation allowed per chunk
+    content.vb: Public Sub New(maxMemory As UInteger, arenaExtendStrategy As Integer, initialChunkSizeBytes As Integer, maxDeadBytesPerChunk As Integer)
+  overload: Microsoft.ML.OnnxRuntime.OrtArenaCfg.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.ML.OnnxRuntime.OrtArenaCfg.IsInvalid
+  commentId: P:Microsoft.ML.OnnxRuntime.OrtArenaCfg.IsInvalid
+  id: IsInvalid
+  parent: Microsoft.ML.OnnxRuntime.OrtArenaCfg
+  langs:
+  - csharp
+  - vb
+  name: IsInvalid
+  nameWithType: OrtArenaCfg.IsInvalid
+  fullName: Microsoft.ML.OnnxRuntime.OrtArenaCfg.IsInvalid
+  type: Property
+  source:
+    remote:
+      path: csharp/src/Microsoft.ML.OnnxRuntime/OrtAllocator.shared.cs
+      branch: csharp-docs
+      repo: https://github.com/cassiebreviu/onnxruntime
+    id: IsInvalid
+    path: ../src/Microsoft.ML.OnnxRuntime/OrtAllocator.shared.cs
+    startLine: 69
+  assemblies:
+  - Microsoft.ML.OnnxRuntime
+  namespace: Microsoft.ML.OnnxRuntime
+  summary: "\nOverrides SafeHandle.IsInvalid\n"
+  example: []
+  syntax:
+    content: public override bool IsInvalid { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+      description: returns true if handle is equal to Zero
+    content.vb: Public Overrides ReadOnly Property IsInvalid As Boolean
+  overload: Microsoft.ML.OnnxRuntime.OrtArenaCfg.IsInvalid*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
+- uid: Microsoft.ML.OnnxRuntime.OrtArenaCfg.ReleaseHandle
+  commentId: M:Microsoft.ML.OnnxRuntime.OrtArenaCfg.ReleaseHandle
+  id: ReleaseHandle
+  parent: Microsoft.ML.OnnxRuntime.OrtArenaCfg
+  langs:
+  - csharp
+  - vb
+  name: ReleaseHandle()
+  nameWithType: OrtArenaCfg.ReleaseHandle()
+  fullName: Microsoft.ML.OnnxRuntime.OrtArenaCfg.ReleaseHandle()
+  type: Method
+  source:
+    remote:
+      path: csharp/src/Microsoft.ML.OnnxRuntime/OrtAllocator.shared.cs
+      branch: csharp-docs
+      repo: https://github.com/cassiebreviu/onnxruntime
+    id: ReleaseHandle
+    path: ../src/Microsoft.ML.OnnxRuntime/OrtAllocator.shared.cs
+    startLine: 76
+  assemblies:
+  - Microsoft.ML.OnnxRuntime
+  namespace: Microsoft.ML.OnnxRuntime
+  summary: "\nOverrides SafeHandle.ReleaseHandle() to properly dispose of\nthe native instance of OrtEnv\n"
+  example: []
+  syntax:
+    content: protected override bool ReleaseHandle()
+    return:
+      type: System.Boolean
+      description: always returns true
+    content.vb: Protected Overrides Function ReleaseHandle As Boolean
+  overload: Microsoft.ML.OnnxRuntime.OrtArenaCfg.ReleaseHandle*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+references:
+- uid: Microsoft.ML.OnnxRuntime
+  commentId: N:Microsoft.ML.OnnxRuntime
+  name: Microsoft.ML.OnnxRuntime
+  nameWithType: Microsoft.ML.OnnxRuntime
+  fullName: Microsoft.ML.OnnxRuntime
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Microsoft.ML.OnnxRuntime.OrtArenaCfg.#ctor*
+  commentId: Overload:Microsoft.ML.OnnxRuntime.OrtArenaCfg.#ctor
+  name: OrtArenaCfg
+  nameWithType: OrtArenaCfg.OrtArenaCfg
+  fullName: Microsoft.ML.OnnxRuntime.OrtArenaCfg.OrtArenaCfg
+- uid: System.UInt32
+  isExternal: true
+  name: UInt32
+  nameWithType: UInt32
+  fullName: System.UInt32
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Microsoft.ML.OnnxRuntime.OrtArenaCfg.IsInvalid*
+  commentId: Overload:Microsoft.ML.OnnxRuntime.OrtArenaCfg.IsInvalid
+  name: IsInvalid
+  nameWithType: OrtArenaCfg.IsInvalid
+  fullName: Microsoft.ML.OnnxRuntime.OrtArenaCfg.IsInvalid
+- uid: System.Boolean
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Microsoft.ML.OnnxRuntime.OrtArenaCfg.ReleaseHandle*
+  commentId: Overload:Microsoft.ML.OnnxRuntime.OrtArenaCfg.ReleaseHandle
+  name: ReleaseHandle
+  nameWithType: OrtArenaCfg.ReleaseHandle
+  fullName: Microsoft.ML.OnnxRuntime.OrtArenaCfg.ReleaseHandle
