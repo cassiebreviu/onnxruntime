@@ -1,0 +1,47 @@
+### YamlMime:ManagedReference
+items:
+- uid: Microsoft.ML.OnnxRuntime.IDisposableReadOnlyCollection`1
+  commentId: T:Microsoft.ML.OnnxRuntime.IDisposableReadOnlyCollection`1
+  id: IDisposableReadOnlyCollection`1
+  parent: Microsoft.ML.OnnxRuntime
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: IDisposableReadOnlyCollection<T>
+  nameWithType: IDisposableReadOnlyCollection<T>
+  fullName: Microsoft.ML.OnnxRuntime.IDisposableReadOnlyCollection<T>
+  type: Interface
+  source:
+    remote:
+      path: csharp/src/Microsoft.ML.OnnxRuntime/DisposableNamedOnnxValue.shared.cs
+      branch: csharp-docs
+      repo: https://github.com/cassiebreviu/onnxruntime
+    id: IDisposableReadOnlyCollection
+    path: ../src/Microsoft.ML.OnnxRuntime/DisposableNamedOnnxValue.shared.cs
+    startLine: 10
+  assemblies:
+  - Microsoft.ML.OnnxRuntime
+  namespace: Microsoft.ML.OnnxRuntime
+  syntax:
+    content: public interface IDisposableReadOnlyCollection<T>
+    typeParameters:
+    - id: T
+    content.vb: >-
+      Public Interface IDisposableReadOnlyCollection(Of T)
+          Inherits IReadOnlyCollection(Of T), IDisposable
+  nameWithType.vb: IDisposableReadOnlyCollection(Of T)
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+  fullName.vb: Microsoft.ML.OnnxRuntime.IDisposableReadOnlyCollection(Of T)
+  name.vb: IDisposableReadOnlyCollection(Of T)
+references:
+- uid: Microsoft.ML.OnnxRuntime
+  commentId: N:Microsoft.ML.OnnxRuntime
+  name: Microsoft.ML.OnnxRuntime
+  nameWithType: Microsoft.ML.OnnxRuntime
+  fullName: Microsoft.ML.OnnxRuntime
