@@ -1,0 +1,51 @@
+### YamlMime:ManagedReference
+items:
+- uid: Microsoft.ML.OnnxRuntime.OnnxRuntimeException
+  commentId: T:Microsoft.ML.OnnxRuntime.OnnxRuntimeException
+  id: OnnxRuntimeException
+  parent: Microsoft.ML.OnnxRuntime
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: OnnxRuntimeException
+  nameWithType: OnnxRuntimeException
+  fullName: Microsoft.ML.OnnxRuntime.OnnxRuntimeException
+  type: Class
+  source:
+    remote:
+      path: csharp/src/Microsoft.ML.OnnxRuntime/Exceptions.shared.cs
+      branch: csharp-docs
+      repo: https://github.com/cassiebreviu/onnxruntime
+    id: OnnxRuntimeException
+    path: ../src/Microsoft.ML.OnnxRuntime/Exceptions.shared.cs
+    startLine: 33
+  assemblies:
+  - Microsoft.ML.OnnxRuntime
+  namespace: Microsoft.ML.OnnxRuntime
+  summary: "\nThe Exception that is thrown for errors related ton OnnxRuntime\n"
+  example: []
+  syntax:
+    content: 'public class OnnxRuntimeException : Exception'
+    content.vb: >-
+      Public Class OnnxRuntimeException
+          Inherits Exception
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+references:
+- uid: Microsoft.ML.OnnxRuntime
+  commentId: N:Microsoft.ML.OnnxRuntime
+  name: Microsoft.ML.OnnxRuntime
+  nameWithType: Microsoft.ML.OnnxRuntime
+  fullName: Microsoft.ML.OnnxRuntime
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
