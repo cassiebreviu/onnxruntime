@@ -26,6 +26,7 @@ jobs:
         clean: false
     - name: Move API docs into target area
       run: |
+        rm -r -fo docs/api/csharp
         MOVE csharp/ApiDocs/csharp docs/api
         rm -r -fo csharp
     - name: Git Checkin
