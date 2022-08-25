@@ -28,7 +28,7 @@ jobs:
       run: |
         rm -r -fo docs/api/csharp
         MOVE csharp/ApiDocs/csharp docs/api
-        rm -r -fo csharp
+      #  rm -r -fo csharp
     - name: Git Checkin
       run: git add .
     - name: Create Pull Request
