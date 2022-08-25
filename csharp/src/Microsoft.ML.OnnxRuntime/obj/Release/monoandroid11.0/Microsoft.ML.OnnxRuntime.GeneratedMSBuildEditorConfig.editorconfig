@@ -1,3 +1,0 @@
-is_global = true
-build_property.RootNamespace = Microsoft.ML.OnnxRuntime
-build_property.ProjectDir = D:\a\onnxruntime\onnxruntime\csharp\src\Microsoft.ML.OnnxRuntime\
