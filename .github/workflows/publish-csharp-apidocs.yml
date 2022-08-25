@@ -28,9 +28,9 @@ jobs:
       run: |
         cd docs
         cd api
-        mkdir csharp
+        rmdir csharp
         cd ../../
-        MOVE csharp/ApiDocs/dest docs/api/csharp
+        MOVE csharp/ApiDocs/csharp docs/api
     - name: Git Checkin
       run: git add .
     - name: Create Pull Request

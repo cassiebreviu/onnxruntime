@@ -9,7 +9,7 @@
           "src": "../"
         }
       ],
-      "dest": "dest",
+      "dest": "csharp",
       "disableGitFeatures": false,
       "disableDefaultFilter": false
     }
@@ -22,7 +22,7 @@
           "api/**.html",
           "api/index.md",
           "api/**/index.md"
-        ] 
+        ]
       },
       {
         "files": [
@@ -53,7 +53,7 @@
         ]
       }
     ],
-    "dest": "dest",
+    "dest": "csharp",
     "globalMetadataFiles": [],
     "fileMetadataFiles": [],
     "template": [
