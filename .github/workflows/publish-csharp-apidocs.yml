@@ -28,7 +28,7 @@ jobs:
       run: |
         MOVE csharp/ApiDocs/csharp docs/api
     - name: Git Checkin
-      run: git add .
+      run: git add docs/api/
     - name: Create Pull Request
       uses: peter-evans/create-pull-request@v3
       with:
