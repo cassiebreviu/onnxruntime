@@ -27,6 +27,7 @@ jobs:
     - name: Move API docs into target area
       run: |
         MOVE csharp/ApiDocs/csharp docs/api
+        rmdir csharp
     - name: Git Checkin
       run: git add docs/api/
     - name: Create Pull Request
