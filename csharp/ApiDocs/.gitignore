@@ -6,11 +6,6 @@
 /**/packages/
 /**/bin/
 /**/obj/
-csharp/ApiDocs/obj
-csharp/ApiDocs/Debug
-csharp/obj
-csharp/bin
-csharp/src
 src
 bin
 obj
