@@ -6,6 +6,10 @@
 /**/packages/
 /**/bin/
 /**/obj/
+/**/**/bin/
+/**/**/obj/
+/**/**/src/
+/**/**/Debug/
 src
 bin
 obj
