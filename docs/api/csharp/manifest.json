@@ -9,10 +9,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Microsoft.ML.OnnxRuntime.CoreMLFlags.html",
-          "hash": "HOTRexfxkV+bCxVaLk9aq38ktD7XhAvfdcpLL079wFc="
+          "hash": "VqsJZjEWcy9vGl5HRjHX1OUheJba0vzJBRewPFsH8i4="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -21,10 +21,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Microsoft.ML.OnnxRuntime.DisposableNamedOnnxValue.html",
-          "hash": "X2ywFC6BQdOEQSBlbkWdTdqCivmDYCa6FMukCt/AsF8="
+          "hash": "qQXyI5R9aArs3iElBJMBTBJUirW7G+LI/1itbmvdn6c="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -33,10 +33,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Microsoft.ML.OnnxRuntime.ExecutionMode.html",
-          "hash": "Zd0UUxR8fpdw9h8WtQxxZzIAWvUUDWd11A2Q9/HMaz4="
+          "hash": "FbgT4Q5y3gB5AxykafQ2gW/FWGx3XPisj2dvxWngyXs="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -45,10 +45,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Microsoft.ML.OnnxRuntime.FixedBufferOnnxValue.html",
-          "hash": "T3oxXtROu3Pb9Nhz9XfSD+t5zJ6T2zeFvS1q8W/Yssg="
+          "hash": "tA4PvEA+QAFAHCDwlFeaV0ykxSbklElRK2OVcEMkr1o="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -57,10 +57,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Microsoft.ML.OnnxRuntime.GraphOptimizationLevel.html",
-          "hash": "JN4aCcEzZ+C0JTdLpY8HEXbsoN1I/F1EJwcKYP7SSrk="
+          "hash": "766r4d06YuNvx87SaOVBNPdzafUJSnUckB56LTB/GMU="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -69,10 +69,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Microsoft.ML.OnnxRuntime.IDisposableReadOnlyCollection-1.html",
-          "hash": "QKs5np6MRC7TGSqc+5JZ0YjIQIypBh+WXkXBgPkVrvU="
+          "hash": "qVitxyUcL+q7uig9+mCKCVa/zlGSjJPnfA21ngZAzh4="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -81,10 +81,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Microsoft.ML.OnnxRuntime.InferenceSession.html",
-          "hash": "q1K7rodi6T0fc1jv3RBK+OBeUS4KRi/kIU4idaRsmoA="
+          "hash": "P0v4DCyz7zvfXaVrFAIIcjCrQJcFTmn/vNJibxP3qDo="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -93,10 +93,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Microsoft.ML.OnnxRuntime.LogLevel.html",
-          "hash": "ScXVADJ9wWAaiO+oOIA8Xs09RwDgbNVit9bhGN3bGH8="
+          "hash": "hwFm9JFWdX3hh1HP4gDM2JFnYIZlRZ+NRjsJ+ZpEgno="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -105,10 +105,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Microsoft.ML.OnnxRuntime.ModelMetadata.html",
-          "hash": "i8ugruWE2HHQnN6gOa9C6xpY62zqvPGZJ9LA0urmH8s="
+          "hash": "93bPzkeUyHEPPxDXEcAcq6OYndC5lz17PvV0rV4VyX0="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -117,10 +117,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Microsoft.ML.OnnxRuntime.NamedOnnxValue.html",
-          "hash": "VRcMgHxyp8qWq50UfNgU5lVHaSIqi1k20PL51VEGBqE="
+          "hash": "PRkMIRSYAcOakr6wrWW1Jja7Du+g2fgRbIMYx5hpM9k="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -129,10 +129,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Microsoft.ML.OnnxRuntime.NnapiFlags.html",
-          "hash": "gu5vlULE7aG/eZwPhKmtk4JKC/s9CdeN2Hni02/yiLE="
+          "hash": "69bl/crAXK4FbR1XqzwkgbTMwJSlWIGvRVfBTlM78qw="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -141,10 +141,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Microsoft.ML.OnnxRuntime.NodeMetadata.html",
-          "hash": "voSWUAqzYLotx7SZm6S+jgHOtErD4PII/d6ZlFDoVgU="
+          "hash": "4WcVeI6T4QfaNt60DpIDqjjyngy0r6fJSuNryWTd9rc="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -153,10 +153,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Microsoft.ML.OnnxRuntime.OnnxRuntimeException.html",
-          "hash": "EF32wgrUTieimKkMRVepgFZVa9V+gFhElJ8H5gry/6w="
+          "hash": "y2dmfP9Mz8f8gu7U8SdcS/HyThR2/88C8sY5qkOIrQ0="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -165,10 +165,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Microsoft.ML.OnnxRuntime.OnnxValueType.html",
-          "hash": "mDC8bTaGRUvRMCEYNqEVjmIpCZ2n2X2bCZ6K17MhuRI="
+          "hash": "spOtWih3B5myeyTpsDHG92L8elrl73L2q3ZGqq4fAY0="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -177,10 +177,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Microsoft.ML.OnnxRuntime.OrtAllocator.html",
-          "hash": "0Bjvemjqhigd+3pIUaVYkQhTuqlU89mLNmG1C+sidxQ="
+          "hash": "RgG17ZLaSa6SD3A7gr9Q3wa+Xifxv+r1kmk+7E4R62I="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -189,10 +189,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Microsoft.ML.OnnxRuntime.OrtAllocatorType.html",
-          "hash": "Fl8z9W6j8HTk0+F0Pi5dc6fV4Fikbi2zH12HiTxjvYg="
+          "hash": "wW71ToxIwbioum8YAPFhupywHiSp9P6MxZa8BqKdhak="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -201,10 +201,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Microsoft.ML.OnnxRuntime.OrtApi.html",
-          "hash": "ZtWpfC/7dmMDr9qPZ0NlueXd5Mi6VaiIZrsleey0iPw="
+          "hash": "FzIrfDIbrEulqdrXgi81tr4mr5E78lWI9TuQo4zt2p0="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -213,10 +213,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Microsoft.ML.OnnxRuntime.OrtApiBase.html",
-          "hash": "tzWxcf33snOZB8HowMm0SaQpO9sBfMRFR0KlEA0Nlws="
+          "hash": "CGKuwYkHEmFSULmN0sVX1CRl0gb05l3BcAov5nZ1VBQ="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -225,10 +225,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Microsoft.ML.OnnxRuntime.OrtArenaCfg.html",
-          "hash": "CTetuRXoflun8DhYklZNXTKxtdjX5l2X/RUV4zpVbRQ="
+          "hash": "aZp5Otkd5CpMSmazWZQQZNCB4jXpdKwYaK+/lqJk6xg="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -237,10 +237,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Microsoft.ML.OnnxRuntime.OrtCUDAProviderOptions.html",
-          "hash": "TbRoGpVa/6/5xozZ3iH98KUWLCdP66CDojOv73m1WO0="
+          "hash": "TVpuU01G97YUgjKRuNHk+PzutcA8EdIpyqKxuaMU5Zk="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -249,10 +249,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Microsoft.ML.OnnxRuntime.OrtEnv.html",
-          "hash": "R1Bc3lIkQzEzGCb8cTMompSy0cePhyuTNqLbmacUwUs="
+          "hash": "wWh+HZ8oHuyPvUYGFPQHTC4BKbjwvUQAm6souqXVnBU="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -261,10 +261,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Microsoft.ML.OnnxRuntime.OrtExternalAllocation.html",
-          "hash": "3L8gh6x8c6E0QLxtGKH9vYpHf6c8Vt5ZsC1cWxtlpyw="
+          "hash": "/Xtc/02bSPAHiF+s3396TzwlCzggaTl8BVQwHp6zOGY="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -273,10 +273,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Microsoft.ML.OnnxRuntime.OrtIoBinding.html",
-          "hash": "msIQe+grJLHmtlVAMKOyXFp5lJzqW+UNOqsxeLhYOuU="
+          "hash": "sbRU8pMHBBY7cXFs0mE3MMGhmqxVwAhWTOrJw4KHEvY="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -285,10 +285,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Microsoft.ML.OnnxRuntime.OrtLanguageProjection.html",
-          "hash": "uXv191NHANrLF3/dqhG6/yaOsx71jIaYwAX2YEjxn80="
+          "hash": "dDi5NL8vg102FAwsZHLIXzA8q5uJyT+ddQ8SHbDp6S8="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -297,10 +297,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Microsoft.ML.OnnxRuntime.OrtLoggingLevel.html",
-          "hash": "d1Ax3PJCLCIi4mRE88pptgVufCds+719jp5k5oY6V7Q="
+          "hash": "j1wYRdvWayf4H5L1WDLbHy2zwmMP2ABxWkwrzGOvYyY="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -309,10 +309,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Microsoft.ML.OnnxRuntime.OrtMemType.html",
-          "hash": "l1Jw6yf7Ud0n7XqW4POeCOTwLktXRIYTYsVo/OzcLmQ="
+          "hash": "Wxc72tqvQ6aLwqQiKrUMtlwjTN+qQVYx0pqU2DQRPrI="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -321,10 +321,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Microsoft.ML.OnnxRuntime.OrtMemoryAllocation.html",
-          "hash": "v9rlXFDANMEEE+NrXdc5+gQlzAQzrZH+i9ucFPhGrD4="
+          "hash": "KFmO1HfQ0my2+BAsdWXWPRgp+j/kXPf5obyelpr02aU="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -333,10 +333,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Microsoft.ML.OnnxRuntime.OrtMemoryInfo.html",
-          "hash": "BewKjp1duKE8+gjR1nA1N8/CphC0pKAyZ8G17sRJjQk="
+          "hash": "+McoAWuXI5Uy+fGAgjiPbbS635aV0fWViR97urocDAA="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -345,10 +345,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Microsoft.ML.OnnxRuntime.OrtTensorRTProviderOptions.html",
-          "hash": "W3oiU+5XjZAvgdbM7w1gJlHSamjAQs2vftMojoInYvQ="
+          "hash": "uTSFfoL+Q/kUlw6LcuEOl3No4JfkCw4+eiyfELb4THU="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -357,10 +357,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Microsoft.ML.OnnxRuntime.OrtValue.html",
-          "hash": "3TXq+fWB3gT9sF3VPvfODw3Wr1EmRVhQ9A68ONKBtr0="
+          "hash": "fFt3992hGRIf1BJCMgwQNuT3qvWCqddmdBcRKUY7LI4="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -369,10 +369,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Microsoft.ML.OnnxRuntime.PrePackedWeightsContainer.html",
-          "hash": "EUM91OShTXEeko9cANuYhSuKcKXEa+otgV3jAhFI+Ko="
+          "hash": "llh+ug+qMFJ4wwZq9QzriBHmAGtRd6bpTc/9F7VXT0I="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -381,10 +381,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Microsoft.ML.OnnxRuntime.ProviderOptionsValueHelper.html",
-          "hash": "sLrbe0HEq+HXimw1P1oVP1kbek683TPv1Z/bz8c5bds="
+          "hash": "LDL+79msnXiIKbF/z+NBhdrDYaqbzt5rhNW+cEn9xNY="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -393,10 +393,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Microsoft.ML.OnnxRuntime.RunOptions.html",
-          "hash": "rBpVMpq7ufhNU+AREoiGMrzeMsjQaQZF8cwRp71e4V4="
+          "hash": "o1Ixt/L59R92AXuO9u+AcSesGcpptSQU4Rk8ihtL/pc="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -405,10 +405,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Microsoft.ML.OnnxRuntime.SessionOptions.html",
-          "hash": "djMRuzTS7U+vSFhNsJnSgwWxZXc1aPKUdZP1sWdo+b4="
+          "hash": "bo1tpjILfewDePcgPolqlmt4kdgnIFGarF5mDUzzAY4="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -417,10 +417,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Microsoft.ML.OnnxRuntime.SessionOptionsContainer.html",
-          "hash": "HRlj3LPQYHkNIFHpilWe4yDSsyzCSoDNWxoAcWUTsMo="
+          "hash": "gt9pNl8/YKtqeuwuXA973uAE81A4uB3xFguEv9ayiWY="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -429,10 +429,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Microsoft.ML.OnnxRuntime.Tensors.ArrayTensorExtensions.html",
-          "hash": "wzBWk8u0+g42jhPbXGa+jQQTkLd5ikPYUDYhX5FTtBU="
+          "hash": "fvk/Ux2i9fW8a456B+qJZnzfH9ZzAQi4DQ8OXXRnFkM="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -441,10 +441,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Microsoft.ML.OnnxRuntime.Tensors.BFloat16.html",
-          "hash": "xjip5J9KjxxoAysIoE0udFLo1dgN4FqKoneCfJeQ4oY="
+          "hash": "7JCqmD/mBbLqacf1xUC71GcAd/StVoUaGKmPlu6H9tI="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -453,10 +453,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Microsoft.ML.OnnxRuntime.Tensors.DenseTensor-1.html",
-          "hash": "kNUeGrvInEpPx1ERaNz7hnDqBOnwLQDTike2neBWOD4="
+          "hash": "KY98zCuxWuePNcrjhHU/5Y/kcpO9sZH3oUxkMtExT7A="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -465,10 +465,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Microsoft.ML.OnnxRuntime.Tensors.Float16.html",
-          "hash": "mrLqqDrsfwnXrqbW8DrpzB++TrVA7wGzJQdfu90uk6I="
+          "hash": "hhgXbfnpkvEYs6PRiT5GgQFENTmp2aD4+H3PGS7Nlj8="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -477,10 +477,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Microsoft.ML.OnnxRuntime.Tensors.Tensor-1.html",
-          "hash": "lU19olhXmTVs6uw0YhlnpVkdhupQbEoB7qW9YZgLGVY="
+          "hash": "p7CRW5hw8OPb/uDHg5pUuNpTAN99s+58LWeQ/PbWu4g="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -489,10 +489,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Microsoft.ML.OnnxRuntime.Tensors.Tensor.html",
-          "hash": "SJ7t+fL4XkJKMgpgSgWun+v8JH4sPsBKJTDKXIppnWw="
+          "hash": "rZw0bTLa/eQJJ2rGw9cATywLHXrCcYSHIJ3WIr7bKI0="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -501,10 +501,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Microsoft.ML.OnnxRuntime.Tensors.TensorBase.html",
-          "hash": "qx/fsMX+n4oWukmQNePfHvcuYCQaBC9pW5ibHuNi4uE="
+          "hash": "QxQGjfzH+izxVx3ZNrZOa+Qmd3/sXyxR1uqO9HcDUYo="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -513,10 +513,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Microsoft.ML.OnnxRuntime.Tensors.TensorElementType.html",
-          "hash": "H5M4+IObo0Z5anc/Ic+fiat+QKfXsqwZ7wbzoxZ2IxY="
+          "hash": "rBGgHGPNuXtPNcNmnYWS4Riz2zckHFaDXG0K++kbWAc="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -525,10 +525,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Microsoft.ML.OnnxRuntime.Tensors.TensorElementTypeInfo.html",
-          "hash": "wvc74CxMpSUHZmEsJmWJTx60uojVVXwow/YsgxJHHVc="
+          "hash": "GY8/fcWKmJxk3SBAk/+0gs0wj2grHJg+0MGl9lfWyoc="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -537,10 +537,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Microsoft.ML.OnnxRuntime.Tensors.TensorTypeInfo.html",
-          "hash": "YisnzYn9OtMImoqO+DC0VR2p1zZfEegbxGF/1S8jO+0="
+          "hash": "I5joPDYSeCC33kx2b5tUinpXBd2y/yVNoicmFGnIM2U="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -552,7 +552,7 @@
           "hash": "47A2uw0du4LcFbEJzdcEDSeq3mUj7nrhLTmHEwM0Tlo="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -561,10 +561,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Microsoft.ML.OnnxRuntime.html",
-          "hash": "/4BffRmfswWHyv7XzNj2JF6/nrXXIa/p503vATq90Pw="
+          "hash": "cJW7ywORI8Dbb97+DSeaDVXbbRQ7SHrQsKz164PEMlE="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -576,10 +576,10 @@
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "l3Bftw0kO2xLcJU2Utp/vKEVnSDfsjvEM/1A0DQ1NHc="
+          "hash": "4wOdnKoot7KeGB8OBABKgWKdgA9G+KcSLa++VQUMav8="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -600,10 +600,10 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "EdVLSJlYAnSucwkPIyJFLP4NI5hpNrU+gm/Op8B17UU="
+          "hash": "s17UtsDM3t4UDCMWO1z/9vqMio6ymsBrAf4JmLp8hlE="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -622,25 +622,23 @@
   "incremental_info": [
     {
       "status": {
-        "can_incremental": false,
-        "details": "Cannot build incrementally because last build info is missing.",
+        "can_incremental": true,
         "incrementalPhase": "build",
         "total_file_count": 0,
-        "skipped_file_count": 0,
-        "full_build_reason_code": "NoAvailableBuildCache"
+        "skipped_file_count": 0
       },
       "processors": {
         "ConceptualDocumentProcessor": {
-          "can_incremental": false,
+          "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 2,
-          "skipped_file_count": 0
+          "skipped_file_count": 2
         },
         "ManagedReferenceDocumentProcessor": {
-          "can_incremental": false,
+          "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 48,
-          "skipped_file_count": 0
+          "skipped_file_count": 48
         },
         "TocDocumentProcessor": {
           "can_incremental": false,
@@ -653,8 +651,8 @@
     },
     {
       "status": {
-        "can_incremental": false,
-        "details": "Cannot support incremental post processing, the reason is: last post processor info is null.",
+        "can_incremental": true,
+        "details": "Can support incremental post processing.",
         "incrementalPhase": "postProcessing",
         "total_file_count": 0,
         "skipped_file_count": 0

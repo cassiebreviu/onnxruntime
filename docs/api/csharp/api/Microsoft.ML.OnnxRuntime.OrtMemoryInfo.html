@@ -85,73 +85,18 @@ used to allocate the underlying memory.</p>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">System.Runtime.InteropServices.SafeHandle</span></div>
-    <div class="level2"><span class="xref">OrtMemoryInfo</span></div>
-  </div>
-  <div class="implements">
-    <h5>Implements</h5>
-    <div><span class="xref">System.IDisposable</span></div>
-  </div>
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
-    <div>
-      <span class="xref">System.Runtime.InteropServices.SafeHandle.handle</span>
-    </div>
-    <div>
-      <span class="xref">System.Runtime.InteropServices.SafeHandle.DangerousAddRef(System.Boolean)</span>
-    </div>
-    <div>
-      <span class="xref">System.Runtime.InteropServices.SafeHandle.DangerousGetHandle()</span>
-    </div>
-    <div>
-      <span class="xref">System.Runtime.InteropServices.SafeHandle.DangerousRelease()</span>
-    </div>
-    <div>
-      <span class="xref">System.Runtime.InteropServices.SafeHandle.Dispose()</span>
-    </div>
-    <div>
-      <span class="xref">System.Runtime.InteropServices.SafeHandle.Dispose(System.Boolean)</span>
-    </div>
-    <div>
-      <span class="xref">System.Runtime.InteropServices.SafeHandle.SetHandle(System.IntPtr)</span>
-    </div>
-    <div>
-      <span class="xref">System.Runtime.InteropServices.SafeHandle.SetHandleAsInvalid()</span>
-    </div>
-    <div>
-      <span class="xref">System.Runtime.InteropServices.SafeHandle.IsClosed</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetType()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.MemberwiseClone()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ToString()</span>
-    </div>
+    <div class="level1"><span class="xref">OrtMemoryInfo</span></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Microsoft.ML.OnnxRuntime.html">Microsoft.ML.OnnxRuntime</a></h6>
-  <h6><strong>Assembly</strong>: Microsoft.ML.OnnxRuntime.dll</h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
   <h5 id="Microsoft_ML_OnnxRuntime_OrtMemoryInfo_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class OrtMemoryInfo : SafeHandle, IDisposable</code></pre>
+    <pre><code class="lang-csharp hljs">public class OrtMemoryInfo : SafeHandle</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/cassiebreviu/onnxruntime/new/csharp-docs/apiSpec/new?filename=Microsoft_ML_OnnxRuntime_OrtMemoryInfo__ctor_System_Byte___Microsoft_ML_OnnxRuntime_OrtAllocatorType_System_Int32_Microsoft_ML_OnnxRuntime_OrtMemType_.md&amp;value=---%0Auid%3A%20Microsoft.ML.OnnxRuntime.OrtMemoryInfo.%23ctor(System.Byte%5B%5D%2CMicrosoft.ML.OnnxRuntime.OrtAllocatorType%2CSystem.Int32%2CMicrosoft.ML.OnnxRuntime.OrtMemType)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/cassiebreviu/onnxruntime/blob/csharp-docs/csharp/src/Microsoft.ML.OnnxRuntime/OrtAllocator.shared.cs/#L176">View Source</a>
-  </span>
+  
+  
   <a id="Microsoft_ML_OnnxRuntime_OrtMemoryInfo__ctor_" data-uid="Microsoft.ML.OnnxRuntime.OrtMemoryInfo.#ctor*"></a>
   <h4 id="Microsoft_ML_OnnxRuntime_OrtMemoryInfo__ctor_System_Byte___Microsoft_ML_OnnxRuntime_OrtAllocatorType_System_Int32_Microsoft_ML_OnnxRuntime_OrtMemType_" data-uid="Microsoft.ML.OnnxRuntime.OrtMemoryInfo.#ctor(System.Byte[],Microsoft.ML.OnnxRuntime.OrtAllocatorType,System.Int32,Microsoft.ML.OnnxRuntime.OrtMemType)">OrtMemoryInfo(Byte[], OrtAllocatorType, Int32, OrtMemType)</h4>
   <div class="markdown level1 summary"><p>Create an instance of OrtMemoryInfo according to the specification
@@ -201,13 +146,8 @@ registered with Add methods.</p>
       </tr>
     </tbody>
   </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/cassiebreviu/onnxruntime/new/csharp-docs/apiSpec/new?filename=Microsoft_ML_OnnxRuntime_OrtMemoryInfo__ctor_System_String_Microsoft_ML_OnnxRuntime_OrtAllocatorType_System_Int32_Microsoft_ML_OnnxRuntime_OrtMemType_.md&amp;value=---%0Auid%3A%20Microsoft.ML.OnnxRuntime.OrtMemoryInfo.%23ctor(System.String%2CMicrosoft.ML.OnnxRuntime.OrtAllocatorType%2CSystem.Int32%2CMicrosoft.ML.OnnxRuntime.OrtMemType)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/cassiebreviu/onnxruntime/blob/csharp-docs/csharp/src/Microsoft.ML.OnnxRuntime/OrtAllocator.shared.cs/#L197">View Source</a>
-  </span>
+  
+  
   <a id="Microsoft_ML_OnnxRuntime_OrtMemoryInfo__ctor_" data-uid="Microsoft.ML.OnnxRuntime.OrtMemoryInfo.#ctor*"></a>
   <h4 id="Microsoft_ML_OnnxRuntime_OrtMemoryInfo__ctor_System_String_Microsoft_ML_OnnxRuntime_OrtAllocatorType_System_Int32_Microsoft_ML_OnnxRuntime_OrtMemType_" data-uid="Microsoft.ML.OnnxRuntime.OrtMemoryInfo.#ctor(System.String,Microsoft.ML.OnnxRuntime.OrtAllocatorType,System.Int32,Microsoft.ML.OnnxRuntime.OrtMemType)">OrtMemoryInfo(String, OrtAllocatorType, Int32, OrtMemType)</h4>
   <div class="markdown level1 summary"><p>Create an instance of OrtMemoryInfo according to the specification.</p>
@@ -255,13 +195,8 @@ registered with Add methods.</p>
   </table>
   <h3 id="fields">Fields
   </h3>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/cassiebreviu/onnxruntime/new/csharp-docs/apiSpec/new?filename=Microsoft_ML_OnnxRuntime_OrtMemoryInfo_allocatorCPU.md&amp;value=---%0Auid%3A%20Microsoft.ML.OnnxRuntime.OrtMemoryInfo.allocatorCPU%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/cassiebreviu/onnxruntime/blob/csharp-docs/csharp/src/Microsoft.ML.OnnxRuntime/OrtAllocator.shared.cs/#L154">View Source</a>
-  </span>
+  
+  
   <h4 id="Microsoft_ML_OnnxRuntime_OrtMemoryInfo_allocatorCPU" data-uid="Microsoft.ML.OnnxRuntime.OrtMemoryInfo.allocatorCPU">allocatorCPU</h4>
   <div class="markdown level1 summary"><p>Predefined utf8 encoded allocator names. Use them to construct an instance of
 OrtMemoryInfo to avoid UTF-16 to UTF-8 conversion costs.</p>
@@ -286,13 +221,8 @@ OrtMemoryInfo to avoid UTF-16 to UTF-8 conversion costs.</p>
       </tr>
     </tbody>
   </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/cassiebreviu/onnxruntime/new/csharp-docs/apiSpec/new?filename=Microsoft_ML_OnnxRuntime_OrtMemoryInfo_allocatorCUDA.md&amp;value=---%0Auid%3A%20Microsoft.ML.OnnxRuntime.OrtMemoryInfo.allocatorCUDA%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/cassiebreviu/onnxruntime/blob/csharp-docs/csharp/src/Microsoft.ML.OnnxRuntime/OrtAllocator.shared.cs/#L159">View Source</a>
-  </span>
+  
+  
   <h4 id="Microsoft_ML_OnnxRuntime_OrtMemoryInfo_allocatorCUDA" data-uid="Microsoft.ML.OnnxRuntime.OrtMemoryInfo.allocatorCUDA">allocatorCUDA</h4>
   <div class="markdown level1 summary"><p>Predefined utf8 encoded allocator names. Use them to construct an instance of
 OrtMemoryInfo to avoid UTF-16 to UTF-8 conversion costs.</p>
@@ -317,13 +247,8 @@ OrtMemoryInfo to avoid UTF-16 to UTF-8 conversion costs.</p>
       </tr>
     </tbody>
   </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/cassiebreviu/onnxruntime/new/csharp-docs/apiSpec/new?filename=Microsoft_ML_OnnxRuntime_OrtMemoryInfo_allocatorCUDA_PINNED.md&amp;value=---%0Auid%3A%20Microsoft.ML.OnnxRuntime.OrtMemoryInfo.allocatorCUDA_PINNED%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/cassiebreviu/onnxruntime/blob/csharp-docs/csharp/src/Microsoft.ML.OnnxRuntime/OrtAllocator.shared.cs/#L164">View Source</a>
-  </span>
+  
+  
   <h4 id="Microsoft_ML_OnnxRuntime_OrtMemoryInfo_allocatorCUDA_PINNED" data-uid="Microsoft.ML.OnnxRuntime.OrtMemoryInfo.allocatorCUDA_PINNED">allocatorCUDA_PINNED</h4>
   <div class="markdown level1 summary"><p>Predefined utf8 encoded allocator names. Use them to construct an instance of
 OrtMemoryInfo to avoid UTF-16 to UTF-8 conversion costs.</p>
@@ -350,13 +275,8 @@ OrtMemoryInfo to avoid UTF-16 to UTF-8 conversion costs.</p>
   </table>
   <h3 id="properties">Properties
   </h3>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/cassiebreviu/onnxruntime/new/csharp-docs/apiSpec/new?filename=Microsoft_ML_OnnxRuntime_OrtMemoryInfo_DefaultInstance.md&amp;value=---%0Auid%3A%20Microsoft.ML.OnnxRuntime.OrtMemoryInfo.DefaultInstance%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/cassiebreviu/onnxruntime/blob/csharp-docs/csharp/src/Microsoft.ML.OnnxRuntime/OrtAllocator.shared.cs/#L115">View Source</a>
-  </span>
+  
+  
   <a id="Microsoft_ML_OnnxRuntime_OrtMemoryInfo_DefaultInstance_" data-uid="Microsoft.ML.OnnxRuntime.OrtMemoryInfo.DefaultInstance*"></a>
   <h4 id="Microsoft_ML_OnnxRuntime_OrtMemoryInfo_DefaultInstance" data-uid="Microsoft.ML.OnnxRuntime.OrtMemoryInfo.DefaultInstance">DefaultInstance</h4>
   <div class="markdown level1 summary"><p>Default CPU based instance</p>
@@ -382,13 +302,8 @@ OrtMemoryInfo to avoid UTF-16 to UTF-8 conversion costs.</p>
       </tr>
     </tbody>
   </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/cassiebreviu/onnxruntime/new/csharp-docs/apiSpec/new?filename=Microsoft_ML_OnnxRuntime_OrtMemoryInfo_Id.md&amp;value=---%0Auid%3A%20Microsoft.ML.OnnxRuntime.OrtMemoryInfo.Id%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/cassiebreviu/onnxruntime/blob/csharp-docs/csharp/src/Microsoft.ML.OnnxRuntime/OrtAllocator.shared.cs/#L219">View Source</a>
-  </span>
+  
+  
   <a id="Microsoft_ML_OnnxRuntime_OrtMemoryInfo_Id_" data-uid="Microsoft.ML.OnnxRuntime.OrtMemoryInfo.Id*"></a>
   <h4 id="Microsoft_ML_OnnxRuntime_OrtMemoryInfo_Id" data-uid="Microsoft.ML.OnnxRuntime.OrtMemoryInfo.Id">Id</h4>
   <div class="markdown level1 summary"><p>Returns device ID</p>
@@ -414,13 +329,8 @@ OrtMemoryInfo to avoid UTF-16 to UTF-8 conversion costs.</p>
       </tr>
     </tbody>
   </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/cassiebreviu/onnxruntime/new/csharp-docs/apiSpec/new?filename=Microsoft_ML_OnnxRuntime_OrtMemoryInfo_IsInvalid.md&amp;value=---%0Auid%3A%20Microsoft.ML.OnnxRuntime.OrtMemoryInfo.IsInvalid%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/cassiebreviu/onnxruntime/blob/csharp-docs/csharp/src/Microsoft.ML.OnnxRuntime/OrtAllocator.shared.cs/#L135">View Source</a>
-  </span>
+  
+  
   <a id="Microsoft_ML_OnnxRuntime_OrtMemoryInfo_IsInvalid_" data-uid="Microsoft.ML.OnnxRuntime.OrtMemoryInfo.IsInvalid*"></a>
   <h4 id="Microsoft_ML_OnnxRuntime_OrtMemoryInfo_IsInvalid" data-uid="Microsoft.ML.OnnxRuntime.OrtMemoryInfo.IsInvalid">IsInvalid</h4>
   <div class="markdown level1 summary"><p>Overrides SafeHandle.IsInvalid</p>
@@ -446,15 +356,8 @@ OrtMemoryInfo to avoid UTF-16 to UTF-8 conversion costs.</p>
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">System.Runtime.InteropServices.SafeHandle.IsInvalid</span></div>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/cassiebreviu/onnxruntime/new/csharp-docs/apiSpec/new?filename=Microsoft_ML_OnnxRuntime_OrtMemoryInfo_Name.md&amp;value=---%0Auid%3A%20Microsoft.ML.OnnxRuntime.OrtMemoryInfo.Name%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/cassiebreviu/onnxruntime/blob/csharp-docs/csharp/src/Microsoft.ML.OnnxRuntime/OrtAllocator.shared.cs/#L205">View Source</a>
-  </span>
+  
+  
   <a id="Microsoft_ML_OnnxRuntime_OrtMemoryInfo_Name_" data-uid="Microsoft.ML.OnnxRuntime.OrtMemoryInfo.Name*"></a>
   <h4 id="Microsoft_ML_OnnxRuntime_OrtMemoryInfo_Name" data-uid="Microsoft.ML.OnnxRuntime.OrtMemoryInfo.Name">Name</h4>
   <div class="markdown level1 summary"><p>Name of the allocator associated with the OrtMemoryInfo instance</p>
@@ -481,13 +384,8 @@ OrtMemoryInfo to avoid UTF-16 to UTF-8 conversion costs.</p>
   </table>
   <h3 id="methods">Methods
   </h3>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/cassiebreviu/onnxruntime/new/csharp-docs/apiSpec/new?filename=Microsoft_ML_OnnxRuntime_OrtMemoryInfo_Equals_Microsoft_ML_OnnxRuntime_OrtMemoryInfo_.md&amp;value=---%0Auid%3A%20Microsoft.ML.OnnxRuntime.OrtMemoryInfo.Equals(Microsoft.ML.OnnxRuntime.OrtMemoryInfo)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/cassiebreviu/onnxruntime/blob/csharp-docs/csharp/src/Microsoft.ML.OnnxRuntime/OrtAllocator.shared.cs/#L273">View Source</a>
-  </span>
+  
+  
   <a id="Microsoft_ML_OnnxRuntime_OrtMemoryInfo_Equals_" data-uid="Microsoft.ML.OnnxRuntime.OrtMemoryInfo.Equals*"></a>
   <h4 id="Microsoft_ML_OnnxRuntime_OrtMemoryInfo_Equals_Microsoft_ML_OnnxRuntime_OrtMemoryInfo_" data-uid="Microsoft.ML.OnnxRuntime.OrtMemoryInfo.Equals(Microsoft.ML.OnnxRuntime.OrtMemoryInfo)">Equals(OrtMemoryInfo)</h4>
   <div class="markdown level1 summary"><p>Compares this instance with another</p>
@@ -531,13 +429,8 @@ OrtMemoryInfo to avoid UTF-16 to UTF-8 conversion costs.</p>
       </tr>
     </tbody>
   </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/cassiebreviu/onnxruntime/new/csharp-docs/apiSpec/new?filename=Microsoft_ML_OnnxRuntime_OrtMemoryInfo_Equals_System_Object_.md&amp;value=---%0Auid%3A%20Microsoft.ML.OnnxRuntime.OrtMemoryInfo.Equals(System.Object)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/cassiebreviu/onnxruntime/blob/csharp-docs/csharp/src/Microsoft.ML.OnnxRuntime/OrtAllocator.shared.cs/#L258">View Source</a>
-  </span>
+  
+  
   <a id="Microsoft_ML_OnnxRuntime_OrtMemoryInfo_Equals_" data-uid="Microsoft.ML.OnnxRuntime.OrtMemoryInfo.Equals*"></a>
   <h4 id="Microsoft_ML_OnnxRuntime_OrtMemoryInfo_Equals_System_Object_" data-uid="Microsoft.ML.OnnxRuntime.OrtMemoryInfo.Equals(System.Object)">Equals(Object)</h4>
   <div class="markdown level1 summary"><p>Overrides System.Object.Equals(object)</p>
@@ -581,15 +474,8 @@ OrtMemoryInfo to avoid UTF-16 to UTF-8 conversion costs.</p>
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">System.Object.Equals(System.Object)</span></div>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/cassiebreviu/onnxruntime/new/csharp-docs/apiSpec/new?filename=Microsoft_ML_OnnxRuntime_OrtMemoryInfo_GetAllocatorType.md&amp;value=---%0Auid%3A%20Microsoft.ML.OnnxRuntime.OrtMemoryInfo.GetAllocatorType%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/cassiebreviu/onnxruntime/blob/csharp-docs/csharp/src/Microsoft.ML.OnnxRuntime/OrtAllocator.shared.cs/#L246">View Source</a>
-  </span>
+  
+  
   <a id="Microsoft_ML_OnnxRuntime_OrtMemoryInfo_GetAllocatorType_" data-uid="Microsoft.ML.OnnxRuntime.OrtMemoryInfo.GetAllocatorType*"></a>
   <h4 id="Microsoft_ML_OnnxRuntime_OrtMemoryInfo_GetAllocatorType" data-uid="Microsoft.ML.OnnxRuntime.OrtMemoryInfo.GetAllocatorType">GetAllocatorType()</h4>
   <div class="markdown level1 summary"><p>Fetches allocator type from the underlying OrtAllocator</p>
@@ -615,13 +501,8 @@ OrtMemoryInfo to avoid UTF-16 to UTF-8 conversion costs.</p>
       </tr>
     </tbody>
   </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/cassiebreviu/onnxruntime/new/csharp-docs/apiSpec/new?filename=Microsoft_ML_OnnxRuntime_OrtMemoryInfo_GetHashCode.md&amp;value=---%0Auid%3A%20Microsoft.ML.OnnxRuntime.OrtMemoryInfo.GetHashCode%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/cassiebreviu/onnxruntime/blob/csharp-docs/csharp/src/Microsoft.ML.OnnxRuntime/OrtAllocator.shared.cs/#L288">View Source</a>
-  </span>
+  
+  
   <a id="Microsoft_ML_OnnxRuntime_OrtMemoryInfo_GetHashCode_" data-uid="Microsoft.ML.OnnxRuntime.OrtMemoryInfo.GetHashCode*"></a>
   <h4 id="Microsoft_ML_OnnxRuntime_OrtMemoryInfo_GetHashCode" data-uid="Microsoft.ML.OnnxRuntime.OrtMemoryInfo.GetHashCode">GetHashCode()</h4>
   <div class="markdown level1 summary"><p>Overrides System.Object.GetHashCode()</p>
@@ -647,15 +528,8 @@ OrtMemoryInfo to avoid UTF-16 to UTF-8 conversion costs.</p>
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">System.Object.GetHashCode()</span></div>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/cassiebreviu/onnxruntime/new/csharp-docs/apiSpec/new?filename=Microsoft_ML_OnnxRuntime_OrtMemoryInfo_GetMemoryType.md&amp;value=---%0Auid%3A%20Microsoft.ML.OnnxRuntime.OrtMemoryInfo.GetMemoryType%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/cassiebreviu/onnxruntime/blob/csharp-docs/csharp/src/Microsoft.ML.OnnxRuntime/OrtAllocator.shared.cs/#L235">View Source</a>
-  </span>
+  
+  
   <a id="Microsoft_ML_OnnxRuntime_OrtMemoryInfo_GetMemoryType_" data-uid="Microsoft.ML.OnnxRuntime.OrtMemoryInfo.GetMemoryType*"></a>
   <h4 id="Microsoft_ML_OnnxRuntime_OrtMemoryInfo_GetMemoryType" data-uid="Microsoft.ML.OnnxRuntime.OrtMemoryInfo.GetMemoryType">GetMemoryType()</h4>
   <div class="markdown level1 summary"><p>The below 2 are really properties but naming them is a challenge
@@ -683,13 +557,8 @@ calls behind them so exposing them as Get() would be appropriate.</p>
       </tr>
     </tbody>
   </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/cassiebreviu/onnxruntime/new/csharp-docs/apiSpec/new?filename=Microsoft_ML_OnnxRuntime_OrtMemoryInfo_ReleaseHandle.md&amp;value=---%0Auid%3A%20Microsoft.ML.OnnxRuntime.OrtMemoryInfo.ReleaseHandle%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/cassiebreviu/onnxruntime/blob/csharp-docs/csharp/src/Microsoft.ML.OnnxRuntime/OrtAllocator.shared.cs/#L299">View Source</a>
-  </span>
+  
+  
   <a id="Microsoft_ML_OnnxRuntime_OrtMemoryInfo_ReleaseHandle_" data-uid="Microsoft.ML.OnnxRuntime.OrtMemoryInfo.ReleaseHandle*"></a>
   <h4 id="Microsoft_ML_OnnxRuntime_OrtMemoryInfo_ReleaseHandle" data-uid="Microsoft.ML.OnnxRuntime.OrtMemoryInfo.ReleaseHandle">ReleaseHandle()</h4>
   <div class="markdown level1 summary"><p>Overrides SafeHandle.ReleaseHandle() to properly dispose of
@@ -716,12 +585,6 @@ the native instance of OrtMmeoryInfo</p>
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">System.Runtime.InteropServices.SafeHandle.ReleaseHandle()</span></div>
-  <h3 id="implements">Implements</h3>
-  <div>
-      <span class="xref">System.IDisposable</span>
-  </div>
 </article>
           </div>
           
@@ -729,12 +592,6 @@ the native instance of OrtMmeoryInfo</p>
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
-                  <li>
-                    <a href="https://github.com/cassiebreviu/onnxruntime/new/csharp-docs/apiSpec/new?filename=Microsoft_ML_OnnxRuntime_OrtMemoryInfo.md&amp;value=---%0Auid%3A%20Microsoft.ML.OnnxRuntime.OrtMemoryInfo%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
-                  </li>
-                  <li>
-                    <a href="https://github.com/cassiebreviu/onnxruntime/blob/csharp-docs/csharp/src/Microsoft.ML.OnnxRuntime/OrtAllocator.shared.cs/#L98" class="contribution-link">View Source</a>
-                  </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
