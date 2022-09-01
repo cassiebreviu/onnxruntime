@@ -1,0 +1,979 @@
+### YamlMime:ManagedReference
+items:
+- uid: Microsoft.ML.OnnxRuntime.NamedOnnxValue
+  commentId: T:Microsoft.ML.OnnxRuntime.NamedOnnxValue
+  id: NamedOnnxValue
+  parent: Microsoft.ML.OnnxRuntime
+  children:
+  - Microsoft.ML.OnnxRuntime.NamedOnnxValue.#ctor(System.String,Object)
+  - Microsoft.ML.OnnxRuntime.NamedOnnxValue._name
+  - Microsoft.ML.OnnxRuntime.NamedOnnxValue._value
+  - Microsoft.ML.OnnxRuntime.NamedOnnxValue.AsDictionary``2
+  - Microsoft.ML.OnnxRuntime.NamedOnnxValue.AsEnumerable``1
+  - Microsoft.ML.OnnxRuntime.NamedOnnxValue.AsTensor``1
+  - Microsoft.ML.OnnxRuntime.NamedOnnxValue.CreateFromTensor``1(System.String,Tensor{``0})
+  - Microsoft.ML.OnnxRuntime.NamedOnnxValue.Name
+  - Microsoft.ML.OnnxRuntime.NamedOnnxValue.Value
+  langs:
+  - csharp
+  - vb
+  name: NamedOnnxValue
+  nameWithType: NamedOnnxValue
+  fullName: Microsoft.ML.OnnxRuntime.NamedOnnxValue
+  type: Class
+  source:
+    id: NamedOnnxValue
+    path: ''
+    startLine: 2080
+  assemblies:
+  - cs.temp.dll
+  namespace: Microsoft.ML.OnnxRuntime
+  syntax:
+    content: public class NamedOnnxValue
+    content.vb: Public Class NamedOnnxValue
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - Microsoft.ML.OnnxRuntime.DisposableNamedOnnxValue
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Microsoft.ML.OnnxRuntime.NamedOnnxValue._value
+  commentId: F:Microsoft.ML.OnnxRuntime.NamedOnnxValue._value
+  id: _value
+  parent: Microsoft.ML.OnnxRuntime.NamedOnnxValue
+  langs:
+  - csharp
+  - vb
+  name: _value
+  nameWithType: NamedOnnxValue._value
+  fullName: Microsoft.ML.OnnxRuntime.NamedOnnxValue._value
+  type: Field
+  source:
+    id: _value
+    path: ''
+    startLine: 2085
+  assemblies:
+  - cs.temp.dll
+  namespace: Microsoft.ML.OnnxRuntime
+  summary: "\nManaged Tensor, Dictionary or IList\n"
+  example: []
+  syntax:
+    content: protected Object _value
+    return:
+      type: Object
+    content.vb: Protected _value As Object
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Microsoft.ML.OnnxRuntime.NamedOnnxValue._name
+  commentId: F:Microsoft.ML.OnnxRuntime.NamedOnnxValue._name
+  id: _name
+  parent: Microsoft.ML.OnnxRuntime.NamedOnnxValue
+  langs:
+  - csharp
+  - vb
+  name: _name
+  nameWithType: NamedOnnxValue._name
+  fullName: Microsoft.ML.OnnxRuntime.NamedOnnxValue._name
+  type: Field
+  source:
+    id: _name
+    path: ''
+    startLine: 2089
+  assemblies:
+  - cs.temp.dll
+  namespace: Microsoft.ML.OnnxRuntime
+  summary: "\nName of the instance, model input/output\n"
+  example: []
+  syntax:
+    content: protected string _name
+    return:
+      type: System.String
+    content.vb: Protected _name As String
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Microsoft.ML.OnnxRuntime.NamedOnnxValue.#ctor(System.String,Object)
+  commentId: M:Microsoft.ML.OnnxRuntime.NamedOnnxValue.#ctor(System.String,Object)
+  id: '#ctor(System.String,Object)'
+  parent: Microsoft.ML.OnnxRuntime.NamedOnnxValue
+  langs:
+  - csharp
+  - vb
+  name: NamedOnnxValue(String, Object)
+  nameWithType: NamedOnnxValue.NamedOnnxValue(String, Object)
+  fullName: Microsoft.ML.OnnxRuntime.NamedOnnxValue.NamedOnnxValue(System.String, Object)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 2098
+  assemblies:
+  - cs.temp.dll
+  namespace: Microsoft.ML.OnnxRuntime
+  summary: "\nConstructs an instance of NamedOnnxValue and represents\na model input to an inference session. It also represents a modle output\nwhen serves as a base for DisposablenamedOnnxvalue\n"
+  example: []
+  syntax:
+    content: protected NamedOnnxValue(string name, Object value)
+    parameters:
+    - id: name
+      type: System.String
+      description: input/output name
+    - id: value
+      type: Object
+      description: Object that may be a tensor, Dictionary, IList
+    content.vb: Protected Sub New(name As String, value As Object)
+  overload: Microsoft.ML.OnnxRuntime.NamedOnnxValue.#ctor*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Microsoft.ML.OnnxRuntime.NamedOnnxValue.CreateFromTensor``1(System.String,Tensor{``0})
+  commentId: M:Microsoft.ML.OnnxRuntime.NamedOnnxValue.CreateFromTensor``1(System.String,Tensor{``0})
+  id: CreateFromTensor``1(System.String,Tensor{``0})
+  parent: Microsoft.ML.OnnxRuntime.NamedOnnxValue
+  langs:
+  - csharp
+  - vb
+  name: CreateFromTensor<T>(String, Tensor<T>)
+  nameWithType: NamedOnnxValue.CreateFromTensor<T>(String, Tensor<T>)
+  fullName: Microsoft.ML.OnnxRuntime.NamedOnnxValue.CreateFromTensor<T>(System.String, Tensor<T>)
+  type: Method
+  source:
+    id: CreateFromTensor
+    path: ''
+    startLine: 2112
+  assemblies:
+  - cs.temp.dll
+  namespace: Microsoft.ML.OnnxRuntime
+  summary: "\nThis is a factory method that instantiates NamedOnnxValue\nand associated name with an instance of a Tensor<code data-dev-comment-type=\"typeparamref\" class=\"typeparamref\">T</code>\n"
+  example: []
+  syntax:
+    content: public static NamedOnnxValue CreateFromTensor<T>(string name, Tensor<T> value)
+    parameters:
+    - id: name
+      type: System.String
+      description: name
+    - id: value
+      type: Tensor{{T}}
+      description: Tensor<code data-dev-comment-type="typeparamref" class="typeparamref">T</code>
+    typeParameters:
+    - id: T
+      description: ''
+    return:
+      type: Microsoft.ML.OnnxRuntime.NamedOnnxValue
+      description: ''
+    content.vb: Public Shared Function CreateFromTensor(Of T)(name As String, value As Tensor(Of T)) As NamedOnnxValue
+  overload: Microsoft.ML.OnnxRuntime.NamedOnnxValue.CreateFromTensor*
+  nameWithType.vb: NamedOnnxValue.CreateFromTensor(Of T)(String, Tensor(Of T))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Microsoft.ML.OnnxRuntime.NamedOnnxValue.CreateFromTensor(Of T)(System.String, Tensor(Of T))
+  name.vb: CreateFromTensor(Of T)(String, Tensor(Of T))
+- uid: Microsoft.ML.OnnxRuntime.NamedOnnxValue.Name
+  commentId: P:Microsoft.ML.OnnxRuntime.NamedOnnxValue.Name
+  id: Name
+  parent: Microsoft.ML.OnnxRuntime.NamedOnnxValue
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: NamedOnnxValue.Name
+  fullName: Microsoft.ML.OnnxRuntime.NamedOnnxValue.Name
+  type: Property
+  source:
+    id: Name
+    path: ''
+    startLine: 2121
+  assemblies:
+  - cs.temp.dll
+  namespace: Microsoft.ML.OnnxRuntime
+  summary: "\nExposes the name of the of the model input/output\n"
+  example: []
+  syntax:
+    content: public string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+      description: name string
+    content.vb: Public Property Name As String
+  overload: Microsoft.ML.OnnxRuntime.NamedOnnxValue.Name*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Microsoft.ML.OnnxRuntime.NamedOnnxValue.Value
+  commentId: P:Microsoft.ML.OnnxRuntime.NamedOnnxValue.Value
+  id: Value
+  parent: Microsoft.ML.OnnxRuntime.NamedOnnxValue
+  langs:
+  - csharp
+  - vb
+  name: Value
+  nameWithType: NamedOnnxValue.Value
+  fullName: Microsoft.ML.OnnxRuntime.NamedOnnxValue.Value
+  type: Property
+  source:
+    id: Value
+    path: ''
+    startLine: 2126
+  assemblies:
+  - cs.temp.dll
+  namespace: Microsoft.ML.OnnxRuntime
+  summary: "\nExposes the underlying managed object\n"
+  example: []
+  syntax:
+    content: public Object Value { get; set; }
+    parameters: []
+    return:
+      type: Object
+      description: object
+    content.vb: Public Property Value As Object
+  overload: Microsoft.ML.OnnxRuntime.NamedOnnxValue.Value*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Microsoft.ML.OnnxRuntime.NamedOnnxValue.AsTensor``1
+  commentId: M:Microsoft.ML.OnnxRuntime.NamedOnnxValue.AsTensor``1
+  id: AsTensor``1
+  parent: Microsoft.ML.OnnxRuntime.NamedOnnxValue
+  langs:
+  - csharp
+  - vb
+  name: AsTensor<T>()
+  nameWithType: NamedOnnxValue.AsTensor<T>()
+  fullName: Microsoft.ML.OnnxRuntime.NamedOnnxValue.AsTensor<T>()
+  type: Method
+  source:
+    id: AsTensor
+    path: ''
+    startLine: 2133
+  assemblies:
+  - cs.temp.dll
+  namespace: Microsoft.ML.OnnxRuntime
+  summary: "\nTry-get value as a Tensor&lt;T>.\n"
+  example: []
+  syntax:
+    content: public Tensor<T> AsTensor<T>()
+    typeParameters:
+    - id: T
+      description: Type
+    return:
+      type: Tensor{{T}}
+      description: Tensor object if contained value is a Tensor. Null otherwise
+    content.vb: Public Function AsTensor(Of T) As Tensor(Of T)
+  overload: Microsoft.ML.OnnxRuntime.NamedOnnxValue.AsTensor*
+  nameWithType.vb: NamedOnnxValue.AsTensor(Of T)()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Microsoft.ML.OnnxRuntime.NamedOnnxValue.AsTensor(Of T)()
+  name.vb: AsTensor(Of T)()
+- uid: Microsoft.ML.OnnxRuntime.NamedOnnxValue.AsEnumerable``1
+  commentId: M:Microsoft.ML.OnnxRuntime.NamedOnnxValue.AsEnumerable``1
+  id: AsEnumerable``1
+  parent: Microsoft.ML.OnnxRuntime.NamedOnnxValue
+  langs:
+  - csharp
+  - vb
+  name: AsEnumerable<T>()
+  nameWithType: NamedOnnxValue.AsEnumerable<T>()
+  fullName: Microsoft.ML.OnnxRuntime.NamedOnnxValue.AsEnumerable<T>()
+  type: Method
+  source:
+    id: AsEnumerable
+    path: ''
+    startLine: 2143
+  assemblies:
+  - cs.temp.dll
+  namespace: Microsoft.ML.OnnxRuntime
+  summary: "\nTry-get value as an Enumerable&lt;T>.\n"
+  example: []
+  syntax:
+    content: public IEnumerable<T> AsEnumerable<T>()
+    typeParameters:
+    - id: T
+      description: Type
+    return:
+      type: IEnumerable{{T}}
+      description: Enumerable object if contained value is a Enumerable. Null otherwise
+    content.vb: Public Function AsEnumerable(Of T) As IEnumerable(Of T)
+  overload: Microsoft.ML.OnnxRuntime.NamedOnnxValue.AsEnumerable*
+  nameWithType.vb: NamedOnnxValue.AsEnumerable(Of T)()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Microsoft.ML.OnnxRuntime.NamedOnnxValue.AsEnumerable(Of T)()
+  name.vb: AsEnumerable(Of T)()
+- uid: Microsoft.ML.OnnxRuntime.NamedOnnxValue.AsDictionary``2
+  commentId: M:Microsoft.ML.OnnxRuntime.NamedOnnxValue.AsDictionary``2
+  id: AsDictionary``2
+  parent: Microsoft.ML.OnnxRuntime.NamedOnnxValue
+  langs:
+  - csharp
+  - vb
+  name: AsDictionary<K, V>()
+  nameWithType: NamedOnnxValue.AsDictionary<K, V>()
+  fullName: Microsoft.ML.OnnxRuntime.NamedOnnxValue.AsDictionary<K, V>()
+  type: Method
+  source:
+    id: AsDictionary
+    path: ''
+    startLine: 2155
+  assemblies:
+  - cs.temp.dll
+  namespace: Microsoft.ML.OnnxRuntime
+  summary: "\nTry-get value as an Dictionary&lt;K,V>.\n"
+  example: []
+  syntax:
+    content: public IDictionary<K, V> AsDictionary<K, V>()
+    typeParameters:
+    - id: K
+      description: Key type
+    - id: V
+      description: Value type
+    return:
+      type: IDictionary{{K},{V}}
+      description: Dictionary object if contained value is a Dictionary. Null otherwise
+    content.vb: Public Function AsDictionary(Of K, V) As IDictionary(Of K, V)
+  overload: Microsoft.ML.OnnxRuntime.NamedOnnxValue.AsDictionary*
+  nameWithType.vb: NamedOnnxValue.AsDictionary(Of K, V)()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Microsoft.ML.OnnxRuntime.NamedOnnxValue.AsDictionary(Of K, V)()
+  name.vb: AsDictionary(Of K, V)()
+references:
+- uid: Microsoft.ML.OnnxRuntime
+  commentId: N:Microsoft.ML.OnnxRuntime
+  name: Microsoft.ML.OnnxRuntime
+  nameWithType: Microsoft.ML.OnnxRuntime
+  fullName: Microsoft.ML.OnnxRuntime
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: Object
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Microsoft.ML.OnnxRuntime.NamedOnnxValue.#ctor*
+  commentId: Overload:Microsoft.ML.OnnxRuntime.NamedOnnxValue.#ctor
+  name: NamedOnnxValue
+  nameWithType: NamedOnnxValue.NamedOnnxValue
+  fullName: Microsoft.ML.OnnxRuntime.NamedOnnxValue.NamedOnnxValue
+- uid: Microsoft.ML.OnnxRuntime.NamedOnnxValue.CreateFromTensor*
+  commentId: Overload:Microsoft.ML.OnnxRuntime.NamedOnnxValue.CreateFromTensor
+  name: CreateFromTensor
+  nameWithType: NamedOnnxValue.CreateFromTensor
+  fullName: Microsoft.ML.OnnxRuntime.NamedOnnxValue.CreateFromTensor
+- uid: Tensor{{T}}
+  commentId: '!:Tensor{``0}'
+  definition: Tensor`1
+  name: Tensor<T>
+  nameWithType: Tensor<T>
+  fullName: Tensor<T>
+  nameWithType.vb: Tensor(Of T)
+  fullName.vb: Tensor(Of T)
+  name.vb: Tensor(Of T)
+  spec.csharp:
+  - uid: Tensor`1
+    name: Tensor
+    nameWithType: Tensor
+    fullName: Tensor
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Tensor`1
+    name: Tensor
+    nameWithType: Tensor
+    fullName: Tensor
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.ML.OnnxRuntime.NamedOnnxValue
+  commentId: T:Microsoft.ML.OnnxRuntime.NamedOnnxValue
+  parent: Microsoft.ML.OnnxRuntime
+  name: NamedOnnxValue
+  nameWithType: NamedOnnxValue
+  fullName: Microsoft.ML.OnnxRuntime.NamedOnnxValue
+- uid: Tensor`1
+  isExternal: true
+  name: Tensor<>
+  nameWithType: Tensor<>
+  fullName: Tensor<>
+  nameWithType.vb: Tensor(Of )
+  fullName.vb: Tensor(Of )
+  name.vb: Tensor(Of )
+  spec.csharp:
+  - uid: Tensor`1
+    name: Tensor
+    nameWithType: Tensor
+    fullName: Tensor
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Tensor`1
+    name: Tensor
+    nameWithType: Tensor
+    fullName: Tensor
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.ML.OnnxRuntime.NamedOnnxValue.Name*
+  commentId: Overload:Microsoft.ML.OnnxRuntime.NamedOnnxValue.Name
+  name: Name
+  nameWithType: NamedOnnxValue.Name
+  fullName: Microsoft.ML.OnnxRuntime.NamedOnnxValue.Name
+- uid: Microsoft.ML.OnnxRuntime.NamedOnnxValue.Value*
+  commentId: Overload:Microsoft.ML.OnnxRuntime.NamedOnnxValue.Value
+  name: Value
+  nameWithType: NamedOnnxValue.Value
+  fullName: Microsoft.ML.OnnxRuntime.NamedOnnxValue.Value
+- uid: Microsoft.ML.OnnxRuntime.NamedOnnxValue.AsTensor*
+  commentId: Overload:Microsoft.ML.OnnxRuntime.NamedOnnxValue.AsTensor
+  name: AsTensor
+  nameWithType: NamedOnnxValue.AsTensor
+  fullName: Microsoft.ML.OnnxRuntime.NamedOnnxValue.AsTensor
+- uid: Microsoft.ML.OnnxRuntime.NamedOnnxValue.AsEnumerable*
+  commentId: Overload:Microsoft.ML.OnnxRuntime.NamedOnnxValue.AsEnumerable
+  name: AsEnumerable
+  nameWithType: NamedOnnxValue.AsEnumerable
+  fullName: Microsoft.ML.OnnxRuntime.NamedOnnxValue.AsEnumerable
+- uid: IEnumerable{{T}}
+  commentId: '!:IEnumerable{``0}'
+  definition: IEnumerable`1
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: IEnumerable`1
+  commentId: '!:IEnumerable`1'
+  isExternal: true
+  name: IEnumerable<>
+  nameWithType: IEnumerable<>
+  fullName: IEnumerable<>
+  nameWithType.vb: IEnumerable(Of )
+  fullName.vb: IEnumerable(Of )
+  name.vb: IEnumerable(Of )
+  spec.csharp:
+  - uid: IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.ML.OnnxRuntime.NamedOnnxValue.AsDictionary*
+  commentId: Overload:Microsoft.ML.OnnxRuntime.NamedOnnxValue.AsDictionary
+  name: AsDictionary
+  nameWithType: NamedOnnxValue.AsDictionary
+  fullName: Microsoft.ML.OnnxRuntime.NamedOnnxValue.AsDictionary
+- uid: IDictionary{{K},{V}}
+  commentId: '!:IDictionary{``0,``1}'
+  definition: IDictionary`2
+  name: IDictionary<K, V>
+  nameWithType: IDictionary<K, V>
+  fullName: IDictionary<K, V>
+  nameWithType.vb: IDictionary(Of K, V)
+  fullName.vb: IDictionary(Of K, V)
+  name.vb: IDictionary(Of K, V)
+  spec.csharp:
+  - uid: IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: IDictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: K
+    nameWithType: K
+    fullName: K
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: V
+    nameWithType: V
+    fullName: V
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: IDictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: K
+    nameWithType: K
+    fullName: K
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: V
+    nameWithType: V
+    fullName: V
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: IDictionary`2
+  commentId: '!:IDictionary`2'
+  isExternal: true
+  name: IDictionary<, >
+  nameWithType: IDictionary<, >
+  fullName: IDictionary<, >
+  nameWithType.vb: IDictionary(Of , )
+  fullName.vb: IDictionary(Of , )
+  name.vb: IDictionary(Of , )
+  spec.csharp:
+  - uid: IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: IDictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: IDictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )

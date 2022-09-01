@@ -1,0 +1,415 @@
+### YamlMime:ManagedReference
+items:
+- uid: Microsoft.ML.OnnxRuntime.OrtTensorRTProviderOptions
+  commentId: T:Microsoft.ML.OnnxRuntime.OrtTensorRTProviderOptions
+  id: OrtTensorRTProviderOptions
+  parent: Microsoft.ML.OnnxRuntime
+  children:
+  - Microsoft.ML.OnnxRuntime.OrtTensorRTProviderOptions.#ctor
+  - Microsoft.ML.OnnxRuntime.OrtTensorRTProviderOptions.GetDeviceId
+  - Microsoft.ML.OnnxRuntime.OrtTensorRTProviderOptions.GetOptions
+  - Microsoft.ML.OnnxRuntime.OrtTensorRTProviderOptions.IsInvalid
+  - Microsoft.ML.OnnxRuntime.OrtTensorRTProviderOptions.ReleaseHandle
+  - Microsoft.ML.OnnxRuntime.OrtTensorRTProviderOptions.UpdateOptions(Dictionary{System.String,System.String})
+  langs:
+  - csharp
+  - vb
+  name: OrtTensorRTProviderOptions
+  nameWithType: OrtTensorRTProviderOptions
+  fullName: Microsoft.ML.OnnxRuntime.OrtTensorRTProviderOptions
+  type: Class
+  source:
+    id: OrtTensorRTProviderOptions
+    path: ''
+    startLine: 5941
+  assemblies:
+  - cs.temp.dll
+  namespace: Microsoft.ML.OnnxRuntime
+  summary: "\nHolds the options for configuring a TensorRT Execution Provider instance\n"
+  example: []
+  syntax:
+    content: 'public class OrtTensorRTProviderOptions : SafeHandle'
+    content.vb: >-
+      Public Class OrtTensorRTProviderOptions
+          Inherits SafeHandle
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Microsoft.ML.OnnxRuntime.OrtTensorRTProviderOptions.#ctor
+  commentId: M:Microsoft.ML.OnnxRuntime.OrtTensorRTProviderOptions.#ctor
+  id: '#ctor'
+  parent: Microsoft.ML.OnnxRuntime.OrtTensorRTProviderOptions
+  langs:
+  - csharp
+  - vb
+  name: OrtTensorRTProviderOptions()
+  nameWithType: OrtTensorRTProviderOptions.OrtTensorRTProviderOptions()
+  fullName: Microsoft.ML.OnnxRuntime.OrtTensorRTProviderOptions.OrtTensorRTProviderOptions()
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 5959
+  assemblies:
+  - cs.temp.dll
+  namespace: Microsoft.ML.OnnxRuntime
+  summary: "\nConstructs an empty OrtTensorRTProviderOptions instance\n"
+  example: []
+  syntax:
+    content: public OrtTensorRTProviderOptions()
+    content.vb: Public Sub New
+  overload: Microsoft.ML.OnnxRuntime.OrtTensorRTProviderOptions.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.ML.OnnxRuntime.OrtTensorRTProviderOptions.GetOptions
+  commentId: M:Microsoft.ML.OnnxRuntime.OrtTensorRTProviderOptions.GetOptions
+  id: GetOptions
+  parent: Microsoft.ML.OnnxRuntime.OrtTensorRTProviderOptions
+  langs:
+  - csharp
+  - vb
+  name: GetOptions()
+  nameWithType: OrtTensorRTProviderOptions.GetOptions()
+  fullName: Microsoft.ML.OnnxRuntime.OrtTensorRTProviderOptions.GetOptions()
+  type: Method
+  source:
+    id: GetOptions
+    path: ''
+    startLine: 5972
+  assemblies:
+  - cs.temp.dll
+  namespace: Microsoft.ML.OnnxRuntime
+  summary: "\nGet TensorRT EP provider options\n"
+  example: []
+  syntax:
+    content: public string GetOptions()
+    return:
+      type: System.String
+      description: 'return C# UTF-16 encoded string '
+    content.vb: Public Function GetOptions As String
+  overload: Microsoft.ML.OnnxRuntime.OrtTensorRTProviderOptions.GetOptions*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.ML.OnnxRuntime.OrtTensorRTProviderOptions.UpdateOptions(Dictionary{System.String,System.String})
+  commentId: M:Microsoft.ML.OnnxRuntime.OrtTensorRTProviderOptions.UpdateOptions(Dictionary{System.String,System.String})
+  id: UpdateOptions(Dictionary{System.String,System.String})
+  parent: Microsoft.ML.OnnxRuntime.OrtTensorRTProviderOptions
+  langs:
+  - csharp
+  - vb
+  name: UpdateOptions(Dictionary<String, String>)
+  nameWithType: OrtTensorRTProviderOptions.UpdateOptions(Dictionary<String, String>)
+  fullName: Microsoft.ML.OnnxRuntime.OrtTensorRTProviderOptions.UpdateOptions(Dictionary<System.String, System.String>)
+  type: Method
+  source:
+    id: UpdateOptions
+    path: ''
+    startLine: 5991
+  assemblies:
+  - cs.temp.dll
+  namespace: Microsoft.ML.OnnxRuntime
+  summary: "\nUpdates  the configuration knobs of OrtTensorRTProviderOptions that will eventually be used to configure a TensorRT EP\nPlease refer to the following on different key/value pairs to configure a TensorRT EP and their meaning:\nhttps://www.onnxruntime.ai/docs/reference/execution-providers/TensorRT-ExecutionProvider.html\n"
+  example: []
+  syntax:
+    content: public void UpdateOptions(Dictionary<string, string> providerOptions)
+    parameters:
+    - id: providerOptions
+      type: Dictionary{System.String,System.String}
+      description: key/value pairs used to configure a TensorRT Execution Provider
+    content.vb: Public Sub UpdateOptions(providerOptions As Dictionary(Of String, String))
+  overload: Microsoft.ML.OnnxRuntime.OrtTensorRTProviderOptions.UpdateOptions*
+  nameWithType.vb: OrtTensorRTProviderOptions.UpdateOptions(Dictionary(Of String, String))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Microsoft.ML.OnnxRuntime.OrtTensorRTProviderOptions.UpdateOptions(Dictionary(Of System.String, System.String))
+  name.vb: UpdateOptions(Dictionary(Of String, String))
+- uid: Microsoft.ML.OnnxRuntime.OrtTensorRTProviderOptions.GetDeviceId
+  commentId: M:Microsoft.ML.OnnxRuntime.OrtTensorRTProviderOptions.GetDeviceId
+  id: GetDeviceId
+  parent: Microsoft.ML.OnnxRuntime.OrtTensorRTProviderOptions
+  langs:
+  - csharp
+  - vb
+  name: GetDeviceId()
+  nameWithType: OrtTensorRTProviderOptions.GetDeviceId()
+  fullName: Microsoft.ML.OnnxRuntime.OrtTensorRTProviderOptions.GetDeviceId()
+  type: Method
+  source:
+    id: GetDeviceId
+    path: ''
+    startLine: 6012
+  assemblies:
+  - cs.temp.dll
+  namespace: Microsoft.ML.OnnxRuntime
+  summary: "\nGet device id of TensorRT EP.\n"
+  example: []
+  syntax:
+    content: public int GetDeviceId()
+    return:
+      type: System.Int32
+      description: 'device id '
+    content.vb: Public Function GetDeviceId As Integer
+  overload: Microsoft.ML.OnnxRuntime.OrtTensorRTProviderOptions.GetDeviceId*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.ML.OnnxRuntime.OrtTensorRTProviderOptions.IsInvalid
+  commentId: P:Microsoft.ML.OnnxRuntime.OrtTensorRTProviderOptions.IsInvalid
+  id: IsInvalid
+  parent: Microsoft.ML.OnnxRuntime.OrtTensorRTProviderOptions
+  langs:
+  - csharp
+  - vb
+  name: IsInvalid
+  nameWithType: OrtTensorRTProviderOptions.IsInvalid
+  fullName: Microsoft.ML.OnnxRuntime.OrtTensorRTProviderOptions.IsInvalid
+  type: Property
+  source:
+    id: IsInvalid
+    path: ''
+    startLine: 6025
+  assemblies:
+  - cs.temp.dll
+  namespace: Microsoft.ML.OnnxRuntime
+  summary: "\nOverrides SafeHandle.IsInvalid\n"
+  example: []
+  syntax:
+    content: public override bool IsInvalid { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+      description: returns true if handle is equal to Zero
+    content.vb: Public Overrides ReadOnly Property IsInvalid As Boolean
+  overload: Microsoft.ML.OnnxRuntime.OrtTensorRTProviderOptions.IsInvalid*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
+- uid: Microsoft.ML.OnnxRuntime.OrtTensorRTProviderOptions.ReleaseHandle
+  commentId: M:Microsoft.ML.OnnxRuntime.OrtTensorRTProviderOptions.ReleaseHandle
+  id: ReleaseHandle
+  parent: Microsoft.ML.OnnxRuntime.OrtTensorRTProviderOptions
+  langs:
+  - csharp
+  - vb
+  name: ReleaseHandle()
+  nameWithType: OrtTensorRTProviderOptions.ReleaseHandle()
+  fullName: Microsoft.ML.OnnxRuntime.OrtTensorRTProviderOptions.ReleaseHandle()
+  type: Method
+  source:
+    id: ReleaseHandle
+    path: ''
+    startLine: 6040
+  assemblies:
+  - cs.temp.dll
+  namespace: Microsoft.ML.OnnxRuntime
+  summary: "\nOverrides SafeHandle.ReleaseHandle() to properly dispose of\nthe native instance of OrtTensorRTProviderOptions\n"
+  example: []
+  syntax:
+    content: protected override bool ReleaseHandle()
+    return:
+      type: System.Boolean
+      description: always returns true
+    content.vb: Protected Overrides Function ReleaseHandle As Boolean
+  overload: Microsoft.ML.OnnxRuntime.OrtTensorRTProviderOptions.ReleaseHandle*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+references:
+- uid: Microsoft.ML.OnnxRuntime
+  commentId: N:Microsoft.ML.OnnxRuntime
+  name: Microsoft.ML.OnnxRuntime
+  nameWithType: Microsoft.ML.OnnxRuntime
+  fullName: Microsoft.ML.OnnxRuntime
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Microsoft.ML.OnnxRuntime.OrtTensorRTProviderOptions.#ctor*
+  commentId: Overload:Microsoft.ML.OnnxRuntime.OrtTensorRTProviderOptions.#ctor
+  name: OrtTensorRTProviderOptions
+  nameWithType: OrtTensorRTProviderOptions.OrtTensorRTProviderOptions
+  fullName: Microsoft.ML.OnnxRuntime.OrtTensorRTProviderOptions.OrtTensorRTProviderOptions
+- uid: Microsoft.ML.OnnxRuntime.OrtTensorRTProviderOptions.GetOptions*
+  commentId: Overload:Microsoft.ML.OnnxRuntime.OrtTensorRTProviderOptions.GetOptions
+  name: GetOptions
+  nameWithType: OrtTensorRTProviderOptions.GetOptions
+  fullName: Microsoft.ML.OnnxRuntime.OrtTensorRTProviderOptions.GetOptions
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Microsoft.ML.OnnxRuntime.OrtTensorRTProviderOptions.UpdateOptions*
+  commentId: Overload:Microsoft.ML.OnnxRuntime.OrtTensorRTProviderOptions.UpdateOptions
+  name: UpdateOptions
+  nameWithType: OrtTensorRTProviderOptions.UpdateOptions
+  fullName: Microsoft.ML.OnnxRuntime.OrtTensorRTProviderOptions.UpdateOptions
+- uid: Dictionary{System.String,System.String}
+  commentId: '!:Dictionary{System.String,System.String}'
+  definition: Dictionary`2
+  name: Dictionary<String, String>
+  nameWithType: Dictionary<String, String>
+  fullName: Dictionary<System.String, System.String>
+  nameWithType.vb: Dictionary(Of String, String)
+  fullName.vb: Dictionary(Of System.String, System.String)
+  name.vb: Dictionary(Of String, String)
+  spec.csharp:
+  - uid: Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Dictionary`2
+  isExternal: true
+  name: Dictionary<, >
+  nameWithType: Dictionary<, >
+  fullName: Dictionary<, >
+  nameWithType.vb: Dictionary(Of , )
+  fullName.vb: Dictionary(Of , )
+  name.vb: Dictionary(Of , )
+  spec.csharp:
+  - uid: Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.ML.OnnxRuntime.OrtTensorRTProviderOptions.GetDeviceId*
+  commentId: Overload:Microsoft.ML.OnnxRuntime.OrtTensorRTProviderOptions.GetDeviceId
+  name: GetDeviceId
+  nameWithType: OrtTensorRTProviderOptions.GetDeviceId
+  fullName: Microsoft.ML.OnnxRuntime.OrtTensorRTProviderOptions.GetDeviceId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Microsoft.ML.OnnxRuntime.OrtTensorRTProviderOptions.IsInvalid*
+  commentId: Overload:Microsoft.ML.OnnxRuntime.OrtTensorRTProviderOptions.IsInvalid
+  name: IsInvalid
+  nameWithType: OrtTensorRTProviderOptions.IsInvalid
+  fullName: Microsoft.ML.OnnxRuntime.OrtTensorRTProviderOptions.IsInvalid
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Microsoft.ML.OnnxRuntime.OrtTensorRTProviderOptions.ReleaseHandle*
+  commentId: Overload:Microsoft.ML.OnnxRuntime.OrtTensorRTProviderOptions.ReleaseHandle
+  name: ReleaseHandle
+  nameWithType: OrtTensorRTProviderOptions.ReleaseHandle
+  fullName: Microsoft.ML.OnnxRuntime.OrtTensorRTProviderOptions.ReleaseHandle

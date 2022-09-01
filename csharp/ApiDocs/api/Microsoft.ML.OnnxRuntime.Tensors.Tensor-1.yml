@@ -1,0 +1,2483 @@
+### YamlMime:ManagedReference
+items:
+- uid: Microsoft.ML.OnnxRuntime.Tensors.Tensor`1
+  commentId: T:Microsoft.ML.OnnxRuntime.Tensors.Tensor`1
+  id: Tensor`1
+  parent: Microsoft.ML.OnnxRuntime.Tensors
+  children:
+  - Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.#ctor(Array,System.Boolean)
+  - Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.#ctor(ReadOnlySpan{System.Int32},System.Boolean)
+  - Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.#ctor(System.Int32)
+  - Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.Clone
+  - Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.CloneEmpty
+  - Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.CloneEmpty(ReadOnlySpan{System.Int32})
+  - Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.CloneEmpty``1
+  - Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.CloneEmpty``1(ReadOnlySpan{System.Int32})
+  - Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.Compare(Microsoft.ML.OnnxRuntime.Tensors.Tensor{`0},Microsoft.ML.OnnxRuntime.Tensors.Tensor{`0})
+  - Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.Contains(`0)
+  - Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.CopyTo(`0[],System.Int32)
+  - Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.Dimensions
+  - Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.Equals(Microsoft.ML.OnnxRuntime.Tensors.Tensor{`0},Microsoft.ML.OnnxRuntime.Tensors.Tensor{`0})
+  - Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.Fill(`0)
+  - Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.GetArrayString(System.Boolean)
+  - Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.GetDiagonal
+  - Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.GetDiagonal(System.Int32)
+  - Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.GetTriangle
+  - Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.GetTriangle(System.Int32)
+  - Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.GetTriangle(System.Int32,System.Boolean)
+  - Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.GetUpperTriangle
+  - Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.GetUpperTriangle(System.Int32)
+  - Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.GetValue(System.Int32)
+  - Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.IndexOf(`0)
+  - Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.IsFixedSize
+  - Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.IsReadOnly
+  - Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.IsReversedStride
+  - Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.Item(ReadOnlySpan{System.Int32})
+  - Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.Item(System.Int32[])
+  - Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.Length
+  - Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.Rank
+  - Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.Reshape(ReadOnlySpan{System.Int32})
+  - Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.SetValue(System.Int32,`0)
+  - Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.Strides
+  - Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.ToDenseTensor
+  langs:
+  - csharp
+  - vb
+  name: Tensor<T>
+  nameWithType: Tensor<T>
+  fullName: Microsoft.ML.OnnxRuntime.Tensors.Tensor<T>
+  type: Class
+  source:
+    id: Tensor
+    path: ''
+    startLine: 8431
+  assemblies:
+  - cs.temp.dll
+  namespace: Microsoft.ML.OnnxRuntime.Tensors
+  summary: "\nRepresents a multi-dimensional collection of objects of type T that can be accessed by indices.\n"
+  example: []
+  syntax:
+    content: 'public abstract class Tensor<T> : TensorBase'
+    typeParameters:
+    - id: T
+      description: type contained within the Tensor.  Typically a value type such as int, double, float, etc.
+    content.vb: >-
+      Public MustInherit Class Tensor(Of T)
+          Inherits TensorBase
+  inheritance:
+  - System.Object
+  - Microsoft.ML.OnnxRuntime.Tensors.TensorBase
+  derivedClasses:
+  - Microsoft.ML.OnnxRuntime.Tensors.DenseTensor`1
+  implements:
+  - IList
+  - IList{{T}}
+  - IReadOnlyList{{T}}
+  - IStructuralComparable
+  - IStructuralEquatable
+  inheritedMembers:
+  - Microsoft.ML.OnnxRuntime.Tensors.TensorBase.GetTypeInfo(Type)
+  - Microsoft.ML.OnnxRuntime.Tensors.TensorBase.GetElementTypeInfo(Microsoft.ML.OnnxRuntime.Tensors.TensorElementType)
+  - Microsoft.ML.OnnxRuntime.Tensors.TensorBase.GetTypeInfo
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  nameWithType.vb: Tensor(Of T)
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
+  fullName.vb: Microsoft.ML.OnnxRuntime.Tensors.Tensor(Of T)
+  name.vb: Tensor(Of T)
+- uid: Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.#ctor(System.Int32)
+  commentId: M:Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.#ctor(System.Int32)
+  id: '#ctor(System.Int32)'
+  parent: Microsoft.ML.OnnxRuntime.Tensors.Tensor`1
+  langs:
+  - csharp
+  - vb
+  name: Tensor(Int32)
+  nameWithType: Tensor<T>.Tensor(Int32)
+  fullName: Microsoft.ML.OnnxRuntime.Tensors.Tensor<T>.Tensor(System.Int32)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 8583
+  assemblies:
+  - cs.temp.dll
+  namespace: Microsoft.ML.OnnxRuntime.Tensors
+  summary: "\nInitialize a 1-dimensional tensor of the specified length\n"
+  example: []
+  syntax:
+    content: protected Tensor(int length)
+    parameters:
+    - id: length
+      type: System.Int32
+      description: Size of the 1-dimensional tensor
+    content.vb: Protected Sub New(length As Integer)
+  overload: Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.#ctor*
+  nameWithType.vb: Tensor(Of T).Tensor(Int32)
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+  fullName.vb: Microsoft.ML.OnnxRuntime.Tensors.Tensor(Of T).Tensor(System.Int32)
+- uid: Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.#ctor(ReadOnlySpan{System.Int32},System.Boolean)
+  commentId: M:Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.#ctor(ReadOnlySpan{System.Int32},System.Boolean)
+  id: '#ctor(ReadOnlySpan{System.Int32},System.Boolean)'
+  parent: Microsoft.ML.OnnxRuntime.Tensors.Tensor`1
+  langs:
+  - csharp
+  - vb
+  name: Tensor(ReadOnlySpan<Int32>, Boolean)
+  nameWithType: Tensor<T>.Tensor(ReadOnlySpan<Int32>, Boolean)
+  fullName: Microsoft.ML.OnnxRuntime.Tensors.Tensor<T>.Tensor(ReadOnlySpan<System.Int32>, System.Boolean)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 8596
+  assemblies:
+  - cs.temp.dll
+  namespace: Microsoft.ML.OnnxRuntime.Tensors
+  summary: "\nInitialize an n-dimensional tensor with the specified dimensions and layout.  ReverseStride=true gives a stride of 1-element width to the first dimension (0).  ReverseStride=false gives a stride of 1-element width to the last dimension (n-1).\n"
+  example: []
+  syntax:
+    content: protected Tensor(ReadOnlySpan<int> dimensions, bool reverseStride)
+    parameters:
+    - id: dimensions
+      type: ReadOnlySpan{System.Int32}
+      description: An span of integers that represent the size of each dimension of the Tensor to create.
+    - id: reverseStride
+      type: System.Boolean
+      description: 'False (default) to indicate that the first dimension is most major (farthest apart) and the last dimension is most minor (closest together): akin to row-major in a rank-2 tensor.  True to indicate that the last dimension is most major (farthest apart) and the first dimension is most minor (closest together): akin to column-major in a rank-2 tensor.'
+    content.vb: Protected Sub New(dimensions As ReadOnlySpan(Of Integer), reverseStride As Boolean)
+  overload: Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.#ctor*
+  nameWithType.vb: Tensor(Of T).Tensor(ReadOnlySpan(Of Int32), Boolean)
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+  fullName.vb: Microsoft.ML.OnnxRuntime.Tensors.Tensor(Of T).Tensor(ReadOnlySpan(Of System.Int32), System.Boolean)
+  name.vb: Tensor(ReadOnlySpan(Of Int32), Boolean)
+- uid: Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.#ctor(Array,System.Boolean)
+  commentId: M:Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.#ctor(Array,System.Boolean)
+  id: '#ctor(Array,System.Boolean)'
+  parent: Microsoft.ML.OnnxRuntime.Tensors.Tensor`1
+  langs:
+  - csharp
+  - vb
+  name: Tensor(Array, Boolean)
+  nameWithType: Tensor<T>.Tensor(Array, Boolean)
+  fullName: Microsoft.ML.OnnxRuntime.Tensors.Tensor<T>.Tensor(Array, System.Boolean)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 8632
+  assemblies:
+  - cs.temp.dll
+  namespace: Microsoft.ML.OnnxRuntime.Tensors
+  summary: "\nInitializes tensor with same dimensions as array, content of array is ignored.  \nReverseStride=true gives a stride of 1-element width to the first dimension (0).  \nReverseStride=false gives a stride of 1-element width to the last dimension (n-1).\n"
+  example: []
+  syntax:
+    content: protected Tensor(Array fromArray, bool reverseStride)
+    parameters:
+    - id: fromArray
+      type: Array
+      description: Array from which to derive dimensions.
+    - id: reverseStride
+      type: System.Boolean
+      description: "\nFalse (default) to indicate that the first dimension is most major (farthest apart) and the \nlast dimension is most minor (closest together): akin to row-major in a rank-2 tensor.  \nTrue to indicate that the last dimension is most major (farthest apart) and the first dimension \nis most minor (closest together): akin to column-major in a rank-2 tensor."
+    content.vb: Protected Sub New(fromArray As Array, reverseStride As Boolean)
+  overload: Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.#ctor*
+  nameWithType.vb: Tensor(Of T).Tensor(Array, Boolean)
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+  fullName.vb: Microsoft.ML.OnnxRuntime.Tensors.Tensor(Of T).Tensor(Array, System.Boolean)
+- uid: Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.Length
+  commentId: P:Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.Length
+  id: Length
+  parent: Microsoft.ML.OnnxRuntime.Tensors.Tensor`1
+  langs:
+  - csharp
+  - vb
+  name: Length
+  nameWithType: Tensor<T>.Length
+  fullName: Microsoft.ML.OnnxRuntime.Tensors.Tensor<T>.Length
+  type: Property
+  source:
+    id: Length
+    path: ''
+    startLine: 8656
+  assemblies:
+  - cs.temp.dll
+  namespace: Microsoft.ML.OnnxRuntime.Tensors
+  summary: "\nTotal length of the Tensor.\n"
+  example: []
+  syntax:
+    content: public long Length { get; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public ReadOnly Property Length As Long
+  overload: Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.Length*
+  nameWithType.vb: Tensor(Of T).Length
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+  fullName.vb: Microsoft.ML.OnnxRuntime.Tensors.Tensor(Of T).Length
+- uid: Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.Rank
+  commentId: P:Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.Rank
+  id: Rank
+  parent: Microsoft.ML.OnnxRuntime.Tensors.Tensor`1
+  langs:
+  - csharp
+  - vb
+  name: Rank
+  nameWithType: Tensor<T>.Rank
+  fullName: Microsoft.ML.OnnxRuntime.Tensors.Tensor<T>.Rank
+  type: Property
+  source:
+    id: Rank
+    path: ''
+    startLine: 8661
+  assemblies:
+  - cs.temp.dll
+  namespace: Microsoft.ML.OnnxRuntime.Tensors
+  summary: "\nRank of the tensor: number of dimensions.\n"
+  example: []
+  syntax:
+    content: public int Rank { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property Rank As Integer
+  overload: Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.Rank*
+  nameWithType.vb: Tensor(Of T).Rank
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+  fullName.vb: Microsoft.ML.OnnxRuntime.Tensors.Tensor(Of T).Rank
+- uid: Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.IsReversedStride
+  commentId: P:Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.IsReversedStride
+  id: IsReversedStride
+  parent: Microsoft.ML.OnnxRuntime.Tensors.Tensor`1
+  langs:
+  - csharp
+  - vb
+  name: IsReversedStride
+  nameWithType: Tensor<T>.IsReversedStride
+  fullName: Microsoft.ML.OnnxRuntime.Tensors.Tensor<T>.IsReversedStride
+  type: Property
+  source:
+    id: IsReversedStride
+    path: ''
+    startLine: 8666
+  assemblies:
+  - cs.temp.dll
+  namespace: Microsoft.ML.OnnxRuntime.Tensors
+  summary: "\nTrue if strides are reversed (AKA Column-major)\n"
+  example: []
+  syntax:
+    content: public bool IsReversedStride { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsReversedStride As Boolean
+  overload: Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.IsReversedStride*
+  nameWithType.vb: Tensor(Of T).IsReversedStride
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+  fullName.vb: Microsoft.ML.OnnxRuntime.Tensors.Tensor(Of T).IsReversedStride
+- uid: Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.Dimensions
+  commentId: P:Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.Dimensions
+  id: Dimensions
+  parent: Microsoft.ML.OnnxRuntime.Tensors.Tensor`1
+  langs:
+  - csharp
+  - vb
+  name: Dimensions
+  nameWithType: Tensor<T>.Dimensions
+  fullName: Microsoft.ML.OnnxRuntime.Tensors.Tensor<T>.Dimensions
+  type: Property
+  source:
+    id: Dimensions
+    path: ''
+    startLine: 8671
+  assemblies:
+  - cs.temp.dll
+  namespace: Microsoft.ML.OnnxRuntime.Tensors
+  summary: "\nReturns a readonly view of the dimensions of this tensor.\n"
+  example: []
+  syntax:
+    content: public ReadOnlySpan<int> Dimensions { get; }
+    parameters: []
+    return:
+      type: ReadOnlySpan{System.Int32}
+    content.vb: Public ReadOnly Property Dimensions As ReadOnlySpan(Of Integer)
+  overload: Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.Dimensions*
+  nameWithType.vb: Tensor(Of T).Dimensions
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+  fullName.vb: Microsoft.ML.OnnxRuntime.Tensors.Tensor(Of T).Dimensions
+- uid: Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.Strides
+  commentId: P:Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.Strides
+  id: Strides
+  parent: Microsoft.ML.OnnxRuntime.Tensors.Tensor`1
+  langs:
+  - csharp
+  - vb
+  name: Strides
+  nameWithType: Tensor<T>.Strides
+  fullName: Microsoft.ML.OnnxRuntime.Tensors.Tensor<T>.Strides
+  type: Property
+  source:
+    id: Strides
+    path: ''
+    startLine: 8676
+  assemblies:
+  - cs.temp.dll
+  namespace: Microsoft.ML.OnnxRuntime.Tensors
+  summary: "\nReturns a readonly view of the strides of this tensor.\n"
+  example: []
+  syntax:
+    content: public ReadOnlySpan<int> Strides { get; }
+    parameters: []
+    return:
+      type: ReadOnlySpan{System.Int32}
+    content.vb: Public ReadOnly Property Strides As ReadOnlySpan(Of Integer)
+  overload: Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.Strides*
+  nameWithType.vb: Tensor(Of T).Strides
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+  fullName.vb: Microsoft.ML.OnnxRuntime.Tensors.Tensor(Of T).Strides
+- uid: Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.Fill(`0)
+  commentId: M:Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.Fill(`0)
+  id: Fill(`0)
+  parent: Microsoft.ML.OnnxRuntime.Tensors.Tensor`1
+  langs:
+  - csharp
+  - vb
+  name: Fill(T)
+  nameWithType: Tensor<T>.Fill(T)
+  fullName: Microsoft.ML.OnnxRuntime.Tensors.Tensor<T>.Fill(T)
+  type: Method
+  source:
+    id: Fill
+    path: ''
+    startLine: 8682
+  assemblies:
+  - cs.temp.dll
+  namespace: Microsoft.ML.OnnxRuntime.Tensors
+  summary: "\nSets all elements in Tensor to <code data-dev-comment-type=\"paramref\" class=\"paramref\">value</code>.\n"
+  example: []
+  syntax:
+    content: public virtual void Fill(T value)
+    parameters:
+    - id: value
+      type: '{T}'
+      description: Value to fill
+    content.vb: Public Overridable Sub Fill(value As T)
+  overload: Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.Fill*
+  nameWithType.vb: Tensor(Of T).Fill(T)
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+  fullName.vb: Microsoft.ML.OnnxRuntime.Tensors.Tensor(Of T).Fill(T)
+- uid: Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.Clone
+  commentId: M:Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.Clone
+  id: Clone
+  parent: Microsoft.ML.OnnxRuntime.Tensors.Tensor`1
+  langs:
+  - csharp
+  - vb
+  name: Clone()
+  nameWithType: Tensor<T>.Clone()
+  fullName: Microsoft.ML.OnnxRuntime.Tensors.Tensor<T>.Clone()
+  type: Method
+  source:
+    id: Clone
+    path: ''
+    startLine: 8694
+  assemblies:
+  - cs.temp.dll
+  namespace: Microsoft.ML.OnnxRuntime.Tensors
+  summary: "\nCreates a shallow copy of this tensor, with new backing storage.\n"
+  example: []
+  syntax:
+    content: public abstract Tensor<T> Clone()
+    return:
+      type: Microsoft.ML.OnnxRuntime.Tensors.Tensor`1
+      description: A shallow copy of this tensor.
+    content.vb: Public MustOverride Function Clone As Tensor(Of T)
+  overload: Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.Clone*
+  nameWithType.vb: Tensor(Of T).Clone()
+  modifiers.csharp:
+  - public
+  - abstract
+  modifiers.vb:
+  - Public
+  - MustOverride
+  fullName.vb: Microsoft.ML.OnnxRuntime.Tensors.Tensor(Of T).Clone()
+- uid: Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.CloneEmpty
+  commentId: M:Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.CloneEmpty
+  id: CloneEmpty
+  parent: Microsoft.ML.OnnxRuntime.Tensors.Tensor`1
+  langs:
+  - csharp
+  - vb
+  name: CloneEmpty()
+  nameWithType: Tensor<T>.CloneEmpty()
+  fullName: Microsoft.ML.OnnxRuntime.Tensors.Tensor<T>.CloneEmpty()
+  type: Method
+  source:
+    id: CloneEmpty
+    path: ''
+    startLine: 8700
+  assemblies:
+  - cs.temp.dll
+  namespace: Microsoft.ML.OnnxRuntime.Tensors
+  summary: "\nCreates a new Tensor with the same layout and dimensions as this tensor with elements initialized to their default value.\n"
+  example: []
+  syntax:
+    content: public virtual Tensor<T> CloneEmpty()
+    return:
+      type: Microsoft.ML.OnnxRuntime.Tensors.Tensor`1
+      description: A new Tensor with the same layout and dimensions as this tensor with elements initialized to their default value.
+    content.vb: Public Overridable Function CloneEmpty As Tensor(Of T)
+  overload: Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.CloneEmpty*
+  nameWithType.vb: Tensor(Of T).CloneEmpty()
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+  fullName.vb: Microsoft.ML.OnnxRuntime.Tensors.Tensor(Of T).CloneEmpty()
+- uid: Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.CloneEmpty(ReadOnlySpan{System.Int32})
+  commentId: M:Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.CloneEmpty(ReadOnlySpan{System.Int32})
+  id: CloneEmpty(ReadOnlySpan{System.Int32})
+  parent: Microsoft.ML.OnnxRuntime.Tensors.Tensor`1
+  langs:
+  - csharp
+  - vb
+  name: CloneEmpty(ReadOnlySpan<Int32>)
+  nameWithType: Tensor<T>.CloneEmpty(ReadOnlySpan<Int32>)
+  fullName: Microsoft.ML.OnnxRuntime.Tensors.Tensor<T>.CloneEmpty(ReadOnlySpan<System.Int32>)
+  type: Method
+  source:
+    id: CloneEmpty
+    path: ''
+    startLine: 8710
+  assemblies:
+  - cs.temp.dll
+  namespace: Microsoft.ML.OnnxRuntime.Tensors
+  summary: "\nCreates a new Tensor with the specified dimensions and the same layout as this tensor with elements initialized to their default value.\n"
+  example: []
+  syntax:
+    content: public virtual Tensor<T> CloneEmpty(ReadOnlySpan<int> dimensions)
+    parameters:
+    - id: dimensions
+      type: ReadOnlySpan{System.Int32}
+      description: An span of integers that represent the size of each dimension of the DenseTensor to create.
+    return:
+      type: Microsoft.ML.OnnxRuntime.Tensors.Tensor`1
+      description: A new Tensor with the same layout as this tensor and specified <code data-dev-comment-type="paramref" class="paramref">dimensions</code> with elements initialized to their default value.
+    content.vb: Public Overridable Function CloneEmpty(dimensions As ReadOnlySpan(Of Integer)) As Tensor(Of T)
+  overload: Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.CloneEmpty*
+  nameWithType.vb: Tensor(Of T).CloneEmpty(ReadOnlySpan(Of Int32))
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+  fullName.vb: Microsoft.ML.OnnxRuntime.Tensors.Tensor(Of T).CloneEmpty(ReadOnlySpan(Of System.Int32))
+  name.vb: CloneEmpty(ReadOnlySpan(Of Int32))
+- uid: Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.CloneEmpty``1
+  commentId: M:Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.CloneEmpty``1
+  id: CloneEmpty``1
+  parent: Microsoft.ML.OnnxRuntime.Tensors.Tensor`1
+  langs:
+  - csharp
+  - vb
+  name: CloneEmpty<TResult>()
+  nameWithType: Tensor<T>.CloneEmpty<TResult>()
+  fullName: Microsoft.ML.OnnxRuntime.Tensors.Tensor<T>.CloneEmpty<TResult>()
+  type: Method
+  source:
+    id: CloneEmpty
+    path: ''
+    startLine: 8720
+  assemblies:
+  - cs.temp.dll
+  namespace: Microsoft.ML.OnnxRuntime.Tensors
+  summary: "\nCreates a new Tensor of a different type with the same layout and size as this tensor with elements initialized to their default value.\n"
+  example: []
+  syntax:
+    content: public virtual Tensor<TResult> CloneEmpty<TResult>()
+    typeParameters:
+    - id: TResult
+      description: Type contained within the new Tensor.  Typically a value type such as int, double, float, etc.
+    return:
+      type: Microsoft.ML.OnnxRuntime.Tensors.Tensor{{TResult}}
+      description: A new Tensor with the same layout and dimensions as this tensor with elements of <code data-dev-comment-type="typeparamref" class="typeparamref">TResult</code> type initialized to their default value.
+    content.vb: Public Overridable Function CloneEmpty(Of TResult) As Tensor(Of TResult)
+  overload: Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.CloneEmpty*
+  nameWithType.vb: Tensor(Of T).CloneEmpty(Of TResult)()
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+  fullName.vb: Microsoft.ML.OnnxRuntime.Tensors.Tensor(Of T).CloneEmpty(Of TResult)()
+  name.vb: CloneEmpty(Of TResult)()
+- uid: Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.CloneEmpty``1(ReadOnlySpan{System.Int32})
+  commentId: M:Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.CloneEmpty``1(ReadOnlySpan{System.Int32})
+  id: CloneEmpty``1(ReadOnlySpan{System.Int32})
+  parent: Microsoft.ML.OnnxRuntime.Tensors.Tensor`1
+  langs:
+  - csharp
+  - vb
+  name: CloneEmpty<TResult>(ReadOnlySpan<Int32>)
+  nameWithType: Tensor<T>.CloneEmpty<TResult>(ReadOnlySpan<Int32>)
+  fullName: Microsoft.ML.OnnxRuntime.Tensors.Tensor<T>.CloneEmpty<TResult>(ReadOnlySpan<System.Int32>)
+  type: Method
+  source:
+    id: CloneEmpty
+    path: ''
+    startLine: 8731
+  assemblies:
+  - cs.temp.dll
+  namespace: Microsoft.ML.OnnxRuntime.Tensors
+  summary: "\nCreates a new Tensor of a different type with the specified dimensions and the same layout as this tensor with elements initialized to their default value.\n"
+  example: []
+  syntax:
+    content: public abstract Tensor<TResult> CloneEmpty<TResult>(ReadOnlySpan<int> dimensions)
+    parameters:
+    - id: dimensions
+      type: ReadOnlySpan{System.Int32}
+      description: An span of integers that represent the size of each dimension of the DenseTensor to create.
+    typeParameters:
+    - id: TResult
+      description: Type contained within the new Tensor.  Typically a value type such as int, double, float, etc.
+    return:
+      type: Microsoft.ML.OnnxRuntime.Tensors.Tensor{{TResult}}
+      description: A new Tensor with the same layout as this tensor of specified <code data-dev-comment-type="paramref" class="paramref">dimensions</code> with elements of <code data-dev-comment-type="typeparamref" class="typeparamref">TResult</code> type initialized to their default value.
+    content.vb: Public MustOverride Function CloneEmpty(Of TResult)(dimensions As ReadOnlySpan(Of Integer)) As Tensor(Of TResult)
+  overload: Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.CloneEmpty*
+  nameWithType.vb: Tensor(Of T).CloneEmpty(Of TResult)(ReadOnlySpan(Of Int32))
+  modifiers.csharp:
+  - public
+  - abstract
+  modifiers.vb:
+  - Public
+  - MustOverride
+  fullName.vb: Microsoft.ML.OnnxRuntime.Tensors.Tensor(Of T).CloneEmpty(Of TResult)(ReadOnlySpan(Of System.Int32))
+  name.vb: CloneEmpty(Of TResult)(ReadOnlySpan(Of Int32))
+- uid: Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.GetDiagonal
+  commentId: M:Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.GetDiagonal
+  id: GetDiagonal
+  parent: Microsoft.ML.OnnxRuntime.Tensors.Tensor`1
+  langs:
+  - csharp
+  - vb
+  name: GetDiagonal()
+  nameWithType: Tensor<T>.GetDiagonal()
+  fullName: Microsoft.ML.OnnxRuntime.Tensors.Tensor<T>.GetDiagonal()
+  type: Method
+  source:
+    id: GetDiagonal
+    path: ''
+    startLine: 8737
+  assemblies:
+  - cs.temp.dll
+  namespace: Microsoft.ML.OnnxRuntime.Tensors
+  summary: "\nGets the n-1 dimension diagonal from the n dimension tensor.\n"
+  example: []
+  syntax:
+    content: public Tensor<T> GetDiagonal()
+    return:
+      type: Microsoft.ML.OnnxRuntime.Tensors.Tensor`1
+      description: An n-1 dimension tensor with the values from the main diagonal of this tensor.
+    content.vb: Public Function GetDiagonal As Tensor(Of T)
+  overload: Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.GetDiagonal*
+  nameWithType.vb: Tensor(Of T).GetDiagonal()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Microsoft.ML.OnnxRuntime.Tensors.Tensor(Of T).GetDiagonal()
+- uid: Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.GetDiagonal(System.Int32)
+  commentId: M:Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.GetDiagonal(System.Int32)
+  id: GetDiagonal(System.Int32)
+  parent: Microsoft.ML.OnnxRuntime.Tensors.Tensor`1
+  langs:
+  - csharp
+  - vb
+  name: GetDiagonal(Int32)
+  nameWithType: Tensor<T>.GetDiagonal(Int32)
+  fullName: Microsoft.ML.OnnxRuntime.Tensors.Tensor<T>.GetDiagonal(System.Int32)
+  type: Method
+  source:
+    id: GetDiagonal
+    path: ''
+    startLine: 8747
+  assemblies:
+  - cs.temp.dll
+  namespace: Microsoft.ML.OnnxRuntime.Tensors
+  summary: "\nGets the n-1 dimension diagonal from the n dimension tensor at the specified offset from center.\n"
+  example: []
+  syntax:
+    content: public Tensor<T> GetDiagonal(int offset)
+    parameters:
+    - id: offset
+      type: System.Int32
+      description: Offset of diagonal to set in returned tensor.  0 for the main diagonal, less than zero for diagonals below, greater than zero from diagonals above.
+    return:
+      type: Microsoft.ML.OnnxRuntime.Tensors.Tensor`1
+      description: An n-1 dimension tensor with the values from the specified diagonal of this tensor.
+    content.vb: Public Function GetDiagonal(offset As Integer) As Tensor(Of T)
+  overload: Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.GetDiagonal*
+  nameWithType.vb: Tensor(Of T).GetDiagonal(Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Microsoft.ML.OnnxRuntime.Tensors.Tensor(Of T).GetDiagonal(System.Int32)
+- uid: Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.GetTriangle
+  commentId: M:Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.GetTriangle
+  id: GetTriangle
+  parent: Microsoft.ML.OnnxRuntime.Tensors.Tensor`1
+  langs:
+  - csharp
+  - vb
+  name: GetTriangle()
+  nameWithType: Tensor<T>.GetTriangle()
+  fullName: Microsoft.ML.OnnxRuntime.Tensors.Tensor<T>.GetTriangle()
+  type: Method
+  source:
+    id: GetTriangle
+    path: ''
+    startLine: 8828
+  assemblies:
+  - cs.temp.dll
+  namespace: Microsoft.ML.OnnxRuntime.Tensors
+  summary: "\nGets a tensor representing the elements below and including the diagonal, with the rest of the elements zero-ed.\n"
+  example: []
+  syntax:
+    content: public Tensor<T> GetTriangle()
+    return:
+      type: Microsoft.ML.OnnxRuntime.Tensors.Tensor`1
+      description: A tensor with the values from this tensor at and below the main diagonal and zeros elsewhere.
+    content.vb: Public Function GetTriangle As Tensor(Of T)
+  overload: Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.GetTriangle*
+  nameWithType.vb: Tensor(Of T).GetTriangle()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Microsoft.ML.OnnxRuntime.Tensors.Tensor(Of T).GetTriangle()
+- uid: Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.GetTriangle(System.Int32)
+  commentId: M:Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.GetTriangle(System.Int32)
+  id: GetTriangle(System.Int32)
+  parent: Microsoft.ML.OnnxRuntime.Tensors.Tensor`1
+  langs:
+  - csharp
+  - vb
+  name: GetTriangle(Int32)
+  nameWithType: Tensor<T>.GetTriangle(Int32)
+  fullName: Microsoft.ML.OnnxRuntime.Tensors.Tensor<T>.GetTriangle(System.Int32)
+  type: Method
+  source:
+    id: GetTriangle
+    path: ''
+    startLine: 8838
+  assemblies:
+  - cs.temp.dll
+  namespace: Microsoft.ML.OnnxRuntime.Tensors
+  summary: "\nGets a tensor representing the elements below and including the specified diagonal, with the rest of the elements zero-ed.\n"
+  example: []
+  syntax:
+    content: public Tensor<T> GetTriangle(int offset)
+    parameters:
+    - id: offset
+      type: System.Int32
+      description: Offset of diagonal to set in returned tensor.  0 for the main diagonal, less than zero for diagonals below, greater than zero from diagonals above.
+    return:
+      type: Microsoft.ML.OnnxRuntime.Tensors.Tensor`1
+      description: A tensor with the values from this tensor at and below the specified diagonal and zeros elsewhere.
+    content.vb: Public Function GetTriangle(offset As Integer) As Tensor(Of T)
+  overload: Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.GetTriangle*
+  nameWithType.vb: Tensor(Of T).GetTriangle(Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Microsoft.ML.OnnxRuntime.Tensors.Tensor(Of T).GetTriangle(System.Int32)
+- uid: Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.GetUpperTriangle
+  commentId: M:Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.GetUpperTriangle
+  id: GetUpperTriangle
+  parent: Microsoft.ML.OnnxRuntime.Tensors.Tensor`1
+  langs:
+  - csharp
+  - vb
+  name: GetUpperTriangle()
+  nameWithType: Tensor<T>.GetUpperTriangle()
+  fullName: Microsoft.ML.OnnxRuntime.Tensors.Tensor<T>.GetUpperTriangle()
+  type: Method
+  source:
+    id: GetUpperTriangle
+    path: ''
+    startLine: 8847
+  assemblies:
+  - cs.temp.dll
+  namespace: Microsoft.ML.OnnxRuntime.Tensors
+  summary: "\nGets a tensor representing the elements above and including the diagonal, with the rest of the elements zero-ed.\n"
+  example: []
+  syntax:
+    content: public Tensor<T> GetUpperTriangle()
+    return:
+      type: Microsoft.ML.OnnxRuntime.Tensors.Tensor`1
+      description: A tensor with the values from this tensor at and above the main diagonal and zeros elsewhere.
+    content.vb: Public Function GetUpperTriangle As Tensor(Of T)
+  overload: Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.GetUpperTriangle*
+  nameWithType.vb: Tensor(Of T).GetUpperTriangle()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Microsoft.ML.OnnxRuntime.Tensors.Tensor(Of T).GetUpperTriangle()
+- uid: Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.GetUpperTriangle(System.Int32)
+  commentId: M:Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.GetUpperTriangle(System.Int32)
+  id: GetUpperTriangle(System.Int32)
+  parent: Microsoft.ML.OnnxRuntime.Tensors.Tensor`1
+  langs:
+  - csharp
+  - vb
+  name: GetUpperTriangle(Int32)
+  nameWithType: Tensor<T>.GetUpperTriangle(Int32)
+  fullName: Microsoft.ML.OnnxRuntime.Tensors.Tensor<T>.GetUpperTriangle(System.Int32)
+  type: Method
+  source:
+    id: GetUpperTriangle
+    path: ''
+    startLine: 8857
+  assemblies:
+  - cs.temp.dll
+  namespace: Microsoft.ML.OnnxRuntime.Tensors
+  summary: "\nGets a tensor representing the elements above and including the specified diagonal, with the rest of the elements zero-ed.\n"
+  example: []
+  syntax:
+    content: public Tensor<T> GetUpperTriangle(int offset)
+    parameters:
+    - id: offset
+      type: System.Int32
+      description: Offset of diagonal to set in returned tensor.  0 for the main diagonal, less than zero for diagonals below, greater than zero from diagonals above.
+    return:
+      type: Microsoft.ML.OnnxRuntime.Tensors.Tensor`1
+      description: A tensor with the values from this tensor at and above the specified diagonal and zeros elsewhere.
+    content.vb: Public Function GetUpperTriangle(offset As Integer) As Tensor(Of T)
+  overload: Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.GetUpperTriangle*
+  nameWithType.vb: Tensor(Of T).GetUpperTriangle(Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Microsoft.ML.OnnxRuntime.Tensors.Tensor(Of T).GetUpperTriangle(System.Int32)
+- uid: Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.GetTriangle(System.Int32,System.Boolean)
+  commentId: M:Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.GetTriangle(System.Int32,System.Boolean)
+  id: GetTriangle(System.Int32,System.Boolean)
+  parent: Microsoft.ML.OnnxRuntime.Tensors.Tensor`1
+  langs:
+  - csharp
+  - vb
+  name: GetTriangle(Int32, Boolean)
+  nameWithType: Tensor<T>.GetTriangle(Int32, Boolean)
+  fullName: Microsoft.ML.OnnxRuntime.Tensors.Tensor<T>.GetTriangle(System.Int32, System.Boolean)
+  type: Method
+  source:
+    id: GetTriangle
+    path: ''
+    startLine: 8868
+  assemblies:
+  - cs.temp.dll
+  namespace: Microsoft.ML.OnnxRuntime.Tensors
+  summary: "\nImplementation method for GetTriangle, GetLowerTriangle, GetUpperTriangle\n"
+  example: []
+  syntax:
+    content: public Tensor<T> GetTriangle(int offset, bool upper)
+    parameters:
+    - id: offset
+      type: System.Int32
+      description: Offset of diagonal to set in returned tensor.
+    - id: upper
+      type: System.Boolean
+      description: true for upper triangular and false otherwise
+    return:
+      type: Microsoft.ML.OnnxRuntime.Tensors.Tensor`1
+      description: ''
+    content.vb: Public Function GetTriangle(offset As Integer, upper As Boolean) As Tensor(Of T)
+  overload: Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.GetTriangle*
+  nameWithType.vb: Tensor(Of T).GetTriangle(Int32, Boolean)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Microsoft.ML.OnnxRuntime.Tensors.Tensor(Of T).GetTriangle(System.Int32, System.Boolean)
+- uid: Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.Reshape(ReadOnlySpan{System.Int32})
+  commentId: M:Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.Reshape(ReadOnlySpan{System.Int32})
+  id: Reshape(ReadOnlySpan{System.Int32})
+  parent: Microsoft.ML.OnnxRuntime.Tensors.Tensor`1
+  langs:
+  - csharp
+  - vb
+  name: Reshape(ReadOnlySpan<Int32>)
+  nameWithType: Tensor<T>.Reshape(ReadOnlySpan<Int32>)
+  fullName: Microsoft.ML.OnnxRuntime.Tensors.Tensor<T>.Reshape(ReadOnlySpan<System.Int32>)
+  type: Method
+  source:
+    id: Reshape
+    path: ''
+    startLine: 8954
+  assemblies:
+  - cs.temp.dll
+  namespace: Microsoft.ML.OnnxRuntime.Tensors
+  summary: "\nReshapes the current tensor to new dimensions, using the same backing storage if possible.\n"
+  example: []
+  syntax:
+    content: public abstract Tensor<T> Reshape(ReadOnlySpan<int> dimensions)
+    parameters:
+    - id: dimensions
+      type: ReadOnlySpan{System.Int32}
+      description: An span of integers that represent the size of each dimension of the Tensor to create.
+    return:
+      type: Microsoft.ML.OnnxRuntime.Tensors.Tensor`1
+      description: A new tensor that reinterprets this tensor with different dimensions.
+    content.vb: Public MustOverride Function Reshape(dimensions As ReadOnlySpan(Of Integer)) As Tensor(Of T)
+  overload: Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.Reshape*
+  nameWithType.vb: Tensor(Of T).Reshape(ReadOnlySpan(Of Int32))
+  modifiers.csharp:
+  - public
+  - abstract
+  modifiers.vb:
+  - Public
+  - MustOverride
+  fullName.vb: Microsoft.ML.OnnxRuntime.Tensors.Tensor(Of T).Reshape(ReadOnlySpan(Of System.Int32))
+  name.vb: Reshape(ReadOnlySpan(Of Int32))
+- uid: Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.Item(System.Int32[])
+  commentId: P:Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.Item(System.Int32[])
+  id: Item(System.Int32[])
+  parent: Microsoft.ML.OnnxRuntime.Tensors.Tensor`1
+  langs:
+  - csharp
+  - vb
+  name: Item[Int32[]]
+  nameWithType: Tensor<T>.Item[Int32[]]
+  fullName: Microsoft.ML.OnnxRuntime.Tensors.Tensor<T>.Item[System.Int32[]]
+  type: Property
+  source:
+    id: this[]
+    path: ''
+    startLine: 8961
+  assemblies:
+  - cs.temp.dll
+  namespace: Microsoft.ML.OnnxRuntime.Tensors
+  summary: "\nObtains the value at the specified indices\n"
+  example: []
+  syntax:
+    content: public virtual T this[params int[] indices] { get; set; }
+    parameters:
+    - id: indices
+      type: System.Int32[]
+      description: A one-dimensional array of integers that represent the indices specifying the position of the element to get.
+    return:
+      type: '{T}'
+      description: The value at the specified position in this Tensor.
+    content.vb: Public Overridable Property Item(ParamArray indices As Integer()) As T
+  overload: Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.Item*
+  nameWithType.vb: Tensor(Of T).Item(Int32())
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+  fullName.vb: Microsoft.ML.OnnxRuntime.Tensors.Tensor(Of T).Item(System.Int32())
+  name.vb: Item(Int32())
+- uid: Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.Item(ReadOnlySpan{System.Int32})
+  commentId: P:Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.Item(ReadOnlySpan{System.Int32})
+  id: Item(ReadOnlySpan{System.Int32})
+  parent: Microsoft.ML.OnnxRuntime.Tensors.Tensor`1
+  langs:
+  - csharp
+  - vb
+  name: Item[ReadOnlySpan<Int32>]
+  nameWithType: Tensor<T>.Item[ReadOnlySpan<Int32>]
+  fullName: Microsoft.ML.OnnxRuntime.Tensors.Tensor<T>.Item[ReadOnlySpan<System.Int32>]
+  type: Property
+  source:
+    id: this[]
+    path: ''
+    startLine: 8989
+  assemblies:
+  - cs.temp.dll
+  namespace: Microsoft.ML.OnnxRuntime.Tensors
+  summary: "\nObtains the value at the specified indices\n"
+  example: []
+  syntax:
+    content: public virtual T this[ReadOnlySpan<int> indices] { get; set; }
+    parameters:
+    - id: indices
+      type: ReadOnlySpan{System.Int32}
+      description: A span integers that represent the indices specifying the position of the element to get.
+    return:
+      type: '{T}'
+      description: The value at the specified position in this Tensor.
+    content.vb: Public Overridable Property Item(indices As ReadOnlySpan(Of Integer)) As T
+  overload: Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.Item*
+  nameWithType.vb: Tensor(Of T).Item(ReadOnlySpan(Of Int32))
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+  fullName.vb: Microsoft.ML.OnnxRuntime.Tensors.Tensor(Of T).Item(ReadOnlySpan(Of System.Int32))
+  name.vb: Item(ReadOnlySpan(Of Int32))
+- uid: Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.GetValue(System.Int32)
+  commentId: M:Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.GetValue(System.Int32)
+  id: GetValue(System.Int32)
+  parent: Microsoft.ML.OnnxRuntime.Tensors.Tensor`1
+  langs:
+  - csharp
+  - vb
+  name: GetValue(Int32)
+  nameWithType: Tensor<T>.GetValue(Int32)
+  fullName: Microsoft.ML.OnnxRuntime.Tensors.Tensor<T>.GetValue(System.Int32)
+  type: Method
+  source:
+    id: GetValue
+    path: ''
+    startLine: 9007
+  assemblies:
+  - cs.temp.dll
+  namespace: Microsoft.ML.OnnxRuntime.Tensors
+  summary: "\nGets the value at the specied index, where index is a linearized version of n-dimension indices using strides.\n"
+  example: []
+  syntax:
+    content: public abstract T GetValue(int index)
+    parameters:
+    - id: index
+      type: System.Int32
+      description: An integer index computed as a dot-product of indices.
+    return:
+      type: '{T}'
+      description: The value at the specified position in this Tensor.
+    content.vb: Public MustOverride Function GetValue(index As Integer) As T
+  overload: Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.GetValue*
+  nameWithType.vb: Tensor(Of T).GetValue(Int32)
+  modifiers.csharp:
+  - public
+  - abstract
+  modifiers.vb:
+  - Public
+  - MustOverride
+  fullName.vb: Microsoft.ML.OnnxRuntime.Tensors.Tensor(Of T).GetValue(System.Int32)
+- uid: Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.SetValue(System.Int32,`0)
+  commentId: M:Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.SetValue(System.Int32,`0)
+  id: SetValue(System.Int32,`0)
+  parent: Microsoft.ML.OnnxRuntime.Tensors.Tensor`1
+  langs:
+  - csharp
+  - vb
+  name: SetValue(Int32, T)
+  nameWithType: Tensor<T>.SetValue(Int32, T)
+  fullName: Microsoft.ML.OnnxRuntime.Tensors.Tensor<T>.SetValue(System.Int32, T)
+  type: Method
+  source:
+    id: SetValue
+    path: ''
+    startLine: 9014
+  assemblies:
+  - cs.temp.dll
+  namespace: Microsoft.ML.OnnxRuntime.Tensors
+  summary: "\nSets the value at the specied index, where index is a linearized version of n-dimension indices using strides.\n"
+  example: []
+  syntax:
+    content: public abstract void SetValue(int index, T value)
+    parameters:
+    - id: index
+      type: System.Int32
+      description: An integer index computed as a dot-product of indices.
+    - id: value
+      type: '{T}'
+      description: The new value to set at the specified position in this Tensor.
+    content.vb: Public MustOverride Sub SetValue(index As Integer, value As T)
+  overload: Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.SetValue*
+  nameWithType.vb: Tensor(Of T).SetValue(Int32, T)
+  modifiers.csharp:
+  - public
+  - abstract
+  modifiers.vb:
+  - Public
+  - MustOverride
+  fullName.vb: Microsoft.ML.OnnxRuntime.Tensors.Tensor(Of T).SetValue(System.Int32, T)
+- uid: Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.Compare(Microsoft.ML.OnnxRuntime.Tensors.Tensor{`0},Microsoft.ML.OnnxRuntime.Tensors.Tensor{`0})
+  commentId: M:Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.Compare(Microsoft.ML.OnnxRuntime.Tensors.Tensor{`0},Microsoft.ML.OnnxRuntime.Tensors.Tensor{`0})
+  id: Compare(Microsoft.ML.OnnxRuntime.Tensors.Tensor{`0},Microsoft.ML.OnnxRuntime.Tensors.Tensor{`0})
+  parent: Microsoft.ML.OnnxRuntime.Tensors.Tensor`1
+  langs:
+  - csharp
+  - vb
+  name: Compare(Tensor<T>, Tensor<T>)
+  nameWithType: Tensor<T>.Compare(Tensor<T>, Tensor<T>)
+  fullName: Microsoft.ML.OnnxRuntime.Tensors.Tensor<T>.Compare(Microsoft.ML.OnnxRuntime.Tensors.Tensor<T>, Microsoft.ML.OnnxRuntime.Tensors.Tensor<T>)
+  type: Method
+  source:
+    id: Compare
+    path: ''
+    startLine: 9024
+  assemblies:
+  - cs.temp.dll
+  namespace: Microsoft.ML.OnnxRuntime.Tensors
+  summary: "\nPerforms a value comparison of the content and shape of two tensors.  Two tensors are equal if they have the same shape and same value at every set of indices.  If not equal a tensor is greater or less than another tensor based on the first non-equal element when enumerating in linear order.\n"
+  example: []
+  syntax:
+    content: public static int Compare(Tensor<T> left, Tensor<T> right)
+    parameters:
+    - id: left
+      type: Microsoft.ML.OnnxRuntime.Tensors.Tensor`1
+      description: ''
+    - id: right
+      type: Microsoft.ML.OnnxRuntime.Tensors.Tensor`1
+      description: ''
+    return:
+      type: System.Int32
+      description: ''
+    content.vb: Public Shared Function Compare(left As Tensor(Of T), right As Tensor(Of T)) As Integer
+  overload: Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.Compare*
+  nameWithType.vb: Tensor(Of T).Compare(Tensor(Of T), Tensor(Of T))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Microsoft.ML.OnnxRuntime.Tensors.Tensor(Of T).Compare(Microsoft.ML.OnnxRuntime.Tensors.Tensor(Of T), Microsoft.ML.OnnxRuntime.Tensors.Tensor(Of T))
+  name.vb: Compare(Tensor(Of T), Tensor(Of T))
+- uid: Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.Equals(Microsoft.ML.OnnxRuntime.Tensors.Tensor{`0},Microsoft.ML.OnnxRuntime.Tensors.Tensor{`0})
+  commentId: M:Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.Equals(Microsoft.ML.OnnxRuntime.Tensors.Tensor{`0},Microsoft.ML.OnnxRuntime.Tensors.Tensor{`0})
+  id: Equals(Microsoft.ML.OnnxRuntime.Tensors.Tensor{`0},Microsoft.ML.OnnxRuntime.Tensors.Tensor{`0})
+  parent: Microsoft.ML.OnnxRuntime.Tensors.Tensor`1
+  langs:
+  - csharp
+  - vb
+  name: Equals(Tensor<T>, Tensor<T>)
+  nameWithType: Tensor<T>.Equals(Tensor<T>, Tensor<T>)
+  fullName: Microsoft.ML.OnnxRuntime.Tensors.Tensor<T>.Equals(Microsoft.ML.OnnxRuntime.Tensors.Tensor<T>, Microsoft.ML.OnnxRuntime.Tensors.Tensor<T>)
+  type: Method
+  source:
+    id: Equals
+    path: ''
+    startLine: 9035
+  assemblies:
+  - cs.temp.dll
+  namespace: Microsoft.ML.OnnxRuntime.Tensors
+  summary: "\nPerforms a value equality comparison of the content of two tensors. Two tensors are equal if they have the same shape and same value at every set of indices.\n"
+  example: []
+  syntax:
+    content: public static bool Equals(Tensor<T> left, Tensor<T> right)
+    parameters:
+    - id: left
+      type: Microsoft.ML.OnnxRuntime.Tensors.Tensor`1
+      description: ''
+    - id: right
+      type: Microsoft.ML.OnnxRuntime.Tensors.Tensor`1
+      description: ''
+    return:
+      type: System.Boolean
+      description: ''
+    content.vb: Public Shared Function Equals(left As Tensor(Of T), right As Tensor(Of T)) As Boolean
+  overload: Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.Equals*
+  nameWithType.vb: Tensor(Of T).Equals(Tensor(Of T), Tensor(Of T))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Microsoft.ML.OnnxRuntime.Tensors.Tensor(Of T).Equals(Microsoft.ML.OnnxRuntime.Tensors.Tensor(Of T), Microsoft.ML.OnnxRuntime.Tensors.Tensor(Of T))
+  name.vb: Equals(Tensor(Of T), Tensor(Of T))
+- uid: Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.IsFixedSize
+  commentId: P:Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.IsFixedSize
+  id: IsFixedSize
+  parent: Microsoft.ML.OnnxRuntime.Tensors.Tensor`1
+  langs:
+  - csharp
+  - vb
+  name: IsFixedSize
+  nameWithType: Tensor<T>.IsFixedSize
+  fullName: Microsoft.ML.OnnxRuntime.Tensors.Tensor<T>.IsFixedSize
+  type: Property
+  source:
+    id: IsFixedSize
+    path: ''
+    startLine: 9108
+  assemblies:
+  - cs.temp.dll
+  namespace: Microsoft.ML.OnnxRuntime.Tensors
+  summary: "\nAlways fixed size Tensor\n"
+  example: []
+  syntax:
+    content: public bool IsFixedSize { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+      description: always true
+    content.vb: Public ReadOnly Property IsFixedSize As Boolean
+  overload: Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.IsFixedSize*
+  nameWithType.vb: Tensor(Of T).IsFixedSize
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+  fullName.vb: Microsoft.ML.OnnxRuntime.Tensors.Tensor(Of T).IsFixedSize
+- uid: Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.IsReadOnly
+  commentId: P:Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.IsReadOnly
+  id: IsReadOnly
+  parent: Microsoft.ML.OnnxRuntime.Tensors.Tensor`1
+  langs:
+  - csharp
+  - vb
+  name: IsReadOnly
+  nameWithType: Tensor<T>.IsReadOnly
+  fullName: Microsoft.ML.OnnxRuntime.Tensors.Tensor<T>.IsReadOnly
+  type: Property
+  source:
+    id: IsReadOnly
+    path: ''
+    startLine: 9114
+  assemblies:
+  - cs.temp.dll
+  namespace: Microsoft.ML.OnnxRuntime.Tensors
+  summary: "\nTensor is not readonly\n"
+  example: []
+  syntax:
+    content: public bool IsReadOnly { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+      description: always false
+    content.vb: Public ReadOnly Property IsReadOnly As Boolean
+  overload: Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.IsReadOnly*
+  nameWithType.vb: Tensor(Of T).IsReadOnly
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+  fullName.vb: Microsoft.ML.OnnxRuntime.Tensors.Tensor(Of T).IsReadOnly
+- uid: Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.Contains(`0)
+  commentId: M:Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.Contains(`0)
+  id: Contains(`0)
+  parent: Microsoft.ML.OnnxRuntime.Tensors.Tensor`1
+  langs:
+  - csharp
+  - vb
+  name: Contains(T)
+  nameWithType: Tensor<T>.Contains(T)
+  fullName: Microsoft.ML.OnnxRuntime.Tensors.Tensor<T>.Contains(T)
+  type: Method
+  source:
+    id: Contains
+    path: ''
+    startLine: 9197
+  assemblies:
+  - cs.temp.dll
+  namespace: Microsoft.ML.OnnxRuntime.Tensors
+  summary: "\nDetermines whether an element is in the Tensor&lt;T>.\n"
+  example: []
+  syntax:
+    content: protected virtual bool Contains(T item)
+    parameters:
+    - id: item
+      type: '{T}'
+      description: "\nThe object to locate in the Tensor&lt;T>. The value can be null for reference types.\n"
+    return:
+      type: System.Boolean
+      description: "\ntrue if item is found in the Tensor&lt;T>; otherwise, false.\n"
+    content.vb: Protected Overridable Function Contains(item As T) As Boolean
+  overload: Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.Contains*
+  nameWithType.vb: Tensor(Of T).Contains(T)
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+  fullName.vb: Microsoft.ML.OnnxRuntime.Tensors.Tensor(Of T).Contains(T)
+- uid: Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.CopyTo(`0[],System.Int32)
+  commentId: M:Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.CopyTo(`0[],System.Int32)
+  id: CopyTo(`0[],System.Int32)
+  parent: Microsoft.ML.OnnxRuntime.Tensors.Tensor`1
+  langs:
+  - csharp
+  - vb
+  name: CopyTo(T[], Int32)
+  nameWithType: Tensor<T>.CopyTo(T[], Int32)
+  fullName: Microsoft.ML.OnnxRuntime.Tensors.Tensor<T>.CopyTo(T[], System.Int32)
+  type: Method
+  source:
+    id: CopyTo
+    path: ''
+    startLine: 9216
+  assemblies:
+  - cs.temp.dll
+  namespace: Microsoft.ML.OnnxRuntime.Tensors
+  summary: "\nCopies the elements of the Tensor&lt;T> to an Array, starting at a particular Array index.\n"
+  example: []
+  syntax:
+    content: protected virtual void CopyTo(T[] array, int arrayIndex)
+    parameters:
+    - id: array
+      type: '{T}[]'
+      description: "\nThe one-dimensional Array that is the destination of the elements copied from Tensor&lt;T>. The Array must have zero-based indexing.\n"
+    - id: arrayIndex
+      type: System.Int32
+      description: "\nThe zero-based index in array at which copying begins.\n"
+    content.vb: Protected Overridable Sub CopyTo(array As T(), arrayIndex As Integer)
+  overload: Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.CopyTo*
+  nameWithType.vb: Tensor(Of T).CopyTo(T(), Int32)
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+  fullName.vb: Microsoft.ML.OnnxRuntime.Tensors.Tensor(Of T).CopyTo(T(), System.Int32)
+  name.vb: CopyTo(T(), Int32)
+- uid: Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.IndexOf(`0)
+  commentId: M:Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.IndexOf(`0)
+  id: IndexOf(`0)
+  parent: Microsoft.ML.OnnxRuntime.Tensors.Tensor`1
+  langs:
+  - csharp
+  - vb
+  name: IndexOf(T)
+  nameWithType: Tensor<T>.IndexOf(T)
+  fullName: Microsoft.ML.OnnxRuntime.Tensors.Tensor<T>.IndexOf(T)
+  type: Method
+  source:
+    id: IndexOf
+    path: ''
+    startLine: 9262
+  assemblies:
+  - cs.temp.dll
+  namespace: Microsoft.ML.OnnxRuntime.Tensors
+  summary: "\nDetermines the index of a specific item in the Tensor&lt;T>.\n"
+  example: []
+  syntax:
+    content: protected virtual int IndexOf(T item)
+    parameters:
+    - id: item
+      type: '{T}'
+      description: The object to locate in the Tensor&lt;T>.
+    return:
+      type: System.Int32
+      description: The index of item if found in the tensor; otherwise, -1.
+    content.vb: Protected Overridable Function IndexOf(item As T) As Integer
+  overload: Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.IndexOf*
+  nameWithType.vb: Tensor(Of T).IndexOf(T)
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+  fullName.vb: Microsoft.ML.OnnxRuntime.Tensors.Tensor(Of T).IndexOf(T)
+- uid: Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.ToDenseTensor
+  commentId: M:Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.ToDenseTensor
+  id: ToDenseTensor
+  parent: Microsoft.ML.OnnxRuntime.Tensors.Tensor`1
+  langs:
+  - csharp
+  - vb
+  name: ToDenseTensor()
+  nameWithType: Tensor<T>.ToDenseTensor()
+  fullName: Microsoft.ML.OnnxRuntime.Tensors.Tensor<T>.ToDenseTensor()
+  type: Method
+  source:
+    id: ToDenseTensor
+    path: ''
+    startLine: 9508
+  assemblies:
+  - cs.temp.dll
+  namespace: Microsoft.ML.OnnxRuntime.Tensors
+  summary: "\nCreates a copy of this tensor as a DenseTensor&lt;T>.  If this tensor is already a DenseTensor&lt;T> calling this method is equivalent to calling Clone().\n"
+  example: []
+  syntax:
+    content: public virtual DenseTensor<T> ToDenseTensor()
+    return:
+      type: Microsoft.ML.OnnxRuntime.Tensors.DenseTensor{{T}}
+      description: ''
+    content.vb: Public Overridable Function ToDenseTensor As DenseTensor(Of T)
+  overload: Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.ToDenseTensor*
+  nameWithType.vb: Tensor(Of T).ToDenseTensor()
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+  fullName.vb: Microsoft.ML.OnnxRuntime.Tensors.Tensor(Of T).ToDenseTensor()
+- uid: Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.GetArrayString(System.Boolean)
+  commentId: M:Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.GetArrayString(System.Boolean)
+  id: GetArrayString(System.Boolean)
+  parent: Microsoft.ML.OnnxRuntime.Tensors.Tensor`1
+  langs:
+  - csharp
+  - vb
+  name: GetArrayString(Boolean)
+  nameWithType: Tensor<T>.GetArrayString(Boolean)
+  fullName: Microsoft.ML.OnnxRuntime.Tensors.Tensor<T>.GetArrayString(System.Boolean)
+  type: Method
+  source:
+    id: GetArrayString
+    path: ''
+    startLine: 9525
+  assemblies:
+  - cs.temp.dll
+  namespace: Microsoft.ML.OnnxRuntime.Tensors
+  summary: "\nGet a string representation of Tensor\n"
+  example: []
+  syntax:
+    content: public string GetArrayString(bool includeWhitespace = true)
+    parameters:
+    - id: includeWhitespace
+      type: System.Boolean
+      description: ''
+    return:
+      type: System.String
+      description: ''
+    content.vb: Public Function GetArrayString(includeWhitespace As Boolean = True) As String
+  overload: Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.GetArrayString*
+  nameWithType.vb: Tensor(Of T).GetArrayString(Boolean)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Microsoft.ML.OnnxRuntime.Tensors.Tensor(Of T).GetArrayString(System.Boolean)
+references:
+- uid: Microsoft.ML.OnnxRuntime.Tensors
+  commentId: N:Microsoft.ML.OnnxRuntime.Tensors
+  name: Microsoft.ML.OnnxRuntime.Tensors
+  nameWithType: Microsoft.ML.OnnxRuntime.Tensors
+  fullName: Microsoft.ML.OnnxRuntime.Tensors
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Microsoft.ML.OnnxRuntime.Tensors.TensorBase
+  commentId: T:Microsoft.ML.OnnxRuntime.Tensors.TensorBase
+  parent: Microsoft.ML.OnnxRuntime.Tensors
+  name: TensorBase
+  nameWithType: TensorBase
+  fullName: Microsoft.ML.OnnxRuntime.Tensors.TensorBase
+- uid: IList
+  isExternal: true
+  name: IList
+  nameWithType: IList
+  fullName: IList
+- uid: IList{{T}}
+  commentId: '!:IList{`0}'
+  definition: IList`1
+  name: IList<T>
+  nameWithType: IList<T>
+  fullName: IList<T>
+  nameWithType.vb: IList(Of T)
+  fullName.vb: IList(Of T)
+  name.vb: IList(Of T)
+  spec.csharp:
+  - uid: IList`1
+    name: IList
+    nameWithType: IList
+    fullName: IList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: IList`1
+    name: IList
+    nameWithType: IList
+    fullName: IList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: IReadOnlyList{{T}}
+  commentId: '!:IReadOnlyList{`0}'
+  definition: IReadOnlyList`1
+  name: IReadOnlyList<T>
+  nameWithType: IReadOnlyList<T>
+  fullName: IReadOnlyList<T>
+  nameWithType.vb: IReadOnlyList(Of T)
+  fullName.vb: IReadOnlyList(Of T)
+  name.vb: IReadOnlyList(Of T)
+  spec.csharp:
+  - uid: IReadOnlyList`1
+    name: IReadOnlyList
+    nameWithType: IReadOnlyList
+    fullName: IReadOnlyList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: IReadOnlyList`1
+    name: IReadOnlyList
+    nameWithType: IReadOnlyList
+    fullName: IReadOnlyList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: IStructuralComparable
+  isExternal: true
+  name: IStructuralComparable
+  nameWithType: IStructuralComparable
+  fullName: IStructuralComparable
+- uid: IStructuralEquatable
+  isExternal: true
+  name: IStructuralEquatable
+  nameWithType: IStructuralEquatable
+  fullName: IStructuralEquatable
+- uid: Microsoft.ML.OnnxRuntime.Tensors.TensorBase.GetTypeInfo(Type)
+  commentId: M:Microsoft.ML.OnnxRuntime.Tensors.TensorBase.GetTypeInfo(Type)
+  parent: Microsoft.ML.OnnxRuntime.Tensors.TensorBase
+  isExternal: true
+  name: GetTypeInfo(Type)
+  nameWithType: TensorBase.GetTypeInfo(Type)
+  fullName: Microsoft.ML.OnnxRuntime.Tensors.TensorBase.GetTypeInfo(Type)
+  spec.csharp:
+  - uid: Microsoft.ML.OnnxRuntime.Tensors.TensorBase.GetTypeInfo(Type)
+    name: GetTypeInfo
+    nameWithType: TensorBase.GetTypeInfo
+    fullName: Microsoft.ML.OnnxRuntime.Tensors.TensorBase.GetTypeInfo
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Type
+    name: Type
+    nameWithType: Type
+    fullName: Type
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.ML.OnnxRuntime.Tensors.TensorBase.GetTypeInfo(Type)
+    name: GetTypeInfo
+    nameWithType: TensorBase.GetTypeInfo
+    fullName: Microsoft.ML.OnnxRuntime.Tensors.TensorBase.GetTypeInfo
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Type
+    name: Type
+    nameWithType: Type
+    fullName: Type
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.ML.OnnxRuntime.Tensors.TensorBase.GetElementTypeInfo(Microsoft.ML.OnnxRuntime.Tensors.TensorElementType)
+  commentId: M:Microsoft.ML.OnnxRuntime.Tensors.TensorBase.GetElementTypeInfo(Microsoft.ML.OnnxRuntime.Tensors.TensorElementType)
+  parent: Microsoft.ML.OnnxRuntime.Tensors.TensorBase
+  name: GetElementTypeInfo(TensorElementType)
+  nameWithType: TensorBase.GetElementTypeInfo(TensorElementType)
+  fullName: Microsoft.ML.OnnxRuntime.Tensors.TensorBase.GetElementTypeInfo(Microsoft.ML.OnnxRuntime.Tensors.TensorElementType)
+  spec.csharp:
+  - uid: Microsoft.ML.OnnxRuntime.Tensors.TensorBase.GetElementTypeInfo(Microsoft.ML.OnnxRuntime.Tensors.TensorElementType)
+    name: GetElementTypeInfo
+    nameWithType: TensorBase.GetElementTypeInfo
+    fullName: Microsoft.ML.OnnxRuntime.Tensors.TensorBase.GetElementTypeInfo
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Microsoft.ML.OnnxRuntime.Tensors.TensorElementType
+    name: TensorElementType
+    nameWithType: TensorElementType
+    fullName: Microsoft.ML.OnnxRuntime.Tensors.TensorElementType
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.ML.OnnxRuntime.Tensors.TensorBase.GetElementTypeInfo(Microsoft.ML.OnnxRuntime.Tensors.TensorElementType)
+    name: GetElementTypeInfo
+    nameWithType: TensorBase.GetElementTypeInfo
+    fullName: Microsoft.ML.OnnxRuntime.Tensors.TensorBase.GetElementTypeInfo
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Microsoft.ML.OnnxRuntime.Tensors.TensorElementType
+    name: TensorElementType
+    nameWithType: TensorElementType
+    fullName: Microsoft.ML.OnnxRuntime.Tensors.TensorElementType
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.ML.OnnxRuntime.Tensors.TensorBase.GetTypeInfo
+  commentId: M:Microsoft.ML.OnnxRuntime.Tensors.TensorBase.GetTypeInfo
+  parent: Microsoft.ML.OnnxRuntime.Tensors.TensorBase
+  name: GetTypeInfo()
+  nameWithType: TensorBase.GetTypeInfo()
+  fullName: Microsoft.ML.OnnxRuntime.Tensors.TensorBase.GetTypeInfo()
+  spec.csharp:
+  - uid: Microsoft.ML.OnnxRuntime.Tensors.TensorBase.GetTypeInfo
+    name: GetTypeInfo
+    nameWithType: TensorBase.GetTypeInfo
+    fullName: Microsoft.ML.OnnxRuntime.Tensors.TensorBase.GetTypeInfo
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.ML.OnnxRuntime.Tensors.TensorBase.GetTypeInfo
+    name: GetTypeInfo
+    nameWithType: TensorBase.GetTypeInfo
+    fullName: Microsoft.ML.OnnxRuntime.Tensors.TensorBase.GetTypeInfo
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: IList`1
+  isExternal: true
+  name: IList<>
+  nameWithType: IList<>
+  fullName: IList<>
+  nameWithType.vb: IList(Of )
+  fullName.vb: IList(Of )
+  name.vb: IList(Of )
+  spec.csharp:
+  - uid: IList`1
+    name: IList
+    nameWithType: IList
+    fullName: IList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: IList`1
+    name: IList
+    nameWithType: IList
+    fullName: IList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: IReadOnlyList`1
+  isExternal: true
+  name: IReadOnlyList<>
+  nameWithType: IReadOnlyList<>
+  fullName: IReadOnlyList<>
+  nameWithType.vb: IReadOnlyList(Of )
+  fullName.vb: IReadOnlyList(Of )
+  name.vb: IReadOnlyList(Of )
+  spec.csharp:
+  - uid: IReadOnlyList`1
+    name: IReadOnlyList
+    nameWithType: IReadOnlyList
+    fullName: IReadOnlyList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: IReadOnlyList`1
+    name: IReadOnlyList
+    nameWithType: IReadOnlyList
+    fullName: IReadOnlyList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.#ctor*
+  commentId: Overload:Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.#ctor
+  name: Tensor
+  nameWithType: Tensor<T>.Tensor
+  fullName: Microsoft.ML.OnnxRuntime.Tensors.Tensor<T>.Tensor
+  nameWithType.vb: Tensor(Of T).Tensor
+  fullName.vb: Microsoft.ML.OnnxRuntime.Tensors.Tensor(Of T).Tensor
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: ReadOnlySpan{System.Int32}
+  commentId: '!:ReadOnlySpan{System.Int32}'
+  definition: ReadOnlySpan`1
+  name: ReadOnlySpan<Int32>
+  nameWithType: ReadOnlySpan<Int32>
+  fullName: ReadOnlySpan<System.Int32>
+  nameWithType.vb: ReadOnlySpan(Of Int32)
+  fullName.vb: ReadOnlySpan(Of System.Int32)
+  name.vb: ReadOnlySpan(Of Int32)
+  spec.csharp:
+  - uid: ReadOnlySpan`1
+    name: ReadOnlySpan
+    nameWithType: ReadOnlySpan
+    fullName: ReadOnlySpan
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: ReadOnlySpan`1
+    name: ReadOnlySpan
+    nameWithType: ReadOnlySpan
+    fullName: ReadOnlySpan
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: ReadOnlySpan`1
+  isExternal: true
+  name: ReadOnlySpan<>
+  nameWithType: ReadOnlySpan<>
+  fullName: ReadOnlySpan<>
+  nameWithType.vb: ReadOnlySpan(Of )
+  fullName.vb: ReadOnlySpan(Of )
+  name.vb: ReadOnlySpan(Of )
+  spec.csharp:
+  - uid: ReadOnlySpan`1
+    name: ReadOnlySpan
+    nameWithType: ReadOnlySpan
+    fullName: ReadOnlySpan
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: ReadOnlySpan`1
+    name: ReadOnlySpan
+    nameWithType: ReadOnlySpan
+    fullName: ReadOnlySpan
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Array
+  isExternal: true
+  name: Array
+  nameWithType: Array
+  fullName: Array
+- uid: Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.Length*
+  commentId: Overload:Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.Length
+  name: Length
+  nameWithType: Tensor<T>.Length
+  fullName: Microsoft.ML.OnnxRuntime.Tensors.Tensor<T>.Length
+  nameWithType.vb: Tensor(Of T).Length
+  fullName.vb: Microsoft.ML.OnnxRuntime.Tensors.Tensor(Of T).Length
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.Rank*
+  commentId: Overload:Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.Rank
+  name: Rank
+  nameWithType: Tensor<T>.Rank
+  fullName: Microsoft.ML.OnnxRuntime.Tensors.Tensor<T>.Rank
+  nameWithType.vb: Tensor(Of T).Rank
+  fullName.vb: Microsoft.ML.OnnxRuntime.Tensors.Tensor(Of T).Rank
+- uid: Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.IsReversedStride*
+  commentId: Overload:Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.IsReversedStride
+  name: IsReversedStride
+  nameWithType: Tensor<T>.IsReversedStride
+  fullName: Microsoft.ML.OnnxRuntime.Tensors.Tensor<T>.IsReversedStride
+  nameWithType.vb: Tensor(Of T).IsReversedStride
+  fullName.vb: Microsoft.ML.OnnxRuntime.Tensors.Tensor(Of T).IsReversedStride
+- uid: Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.Dimensions*
+  commentId: Overload:Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.Dimensions
+  name: Dimensions
+  nameWithType: Tensor<T>.Dimensions
+  fullName: Microsoft.ML.OnnxRuntime.Tensors.Tensor<T>.Dimensions
+  nameWithType.vb: Tensor(Of T).Dimensions
+  fullName.vb: Microsoft.ML.OnnxRuntime.Tensors.Tensor(Of T).Dimensions
+- uid: Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.Strides*
+  commentId: Overload:Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.Strides
+  name: Strides
+  nameWithType: Tensor<T>.Strides
+  fullName: Microsoft.ML.OnnxRuntime.Tensors.Tensor<T>.Strides
+  nameWithType.vb: Tensor(Of T).Strides
+  fullName.vb: Microsoft.ML.OnnxRuntime.Tensors.Tensor(Of T).Strides
+- uid: Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.Fill*
+  commentId: Overload:Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.Fill
+  name: Fill
+  nameWithType: Tensor<T>.Fill
+  fullName: Microsoft.ML.OnnxRuntime.Tensors.Tensor<T>.Fill
+  nameWithType.vb: Tensor(Of T).Fill
+  fullName.vb: Microsoft.ML.OnnxRuntime.Tensors.Tensor(Of T).Fill
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.Clone*
+  commentId: Overload:Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.Clone
+  name: Clone
+  nameWithType: Tensor<T>.Clone
+  fullName: Microsoft.ML.OnnxRuntime.Tensors.Tensor<T>.Clone
+  nameWithType.vb: Tensor(Of T).Clone
+  fullName.vb: Microsoft.ML.OnnxRuntime.Tensors.Tensor(Of T).Clone
+- uid: Microsoft.ML.OnnxRuntime.Tensors.Tensor`1
+  commentId: T:Microsoft.ML.OnnxRuntime.Tensors.Tensor`1
+  parent: Microsoft.ML.OnnxRuntime.Tensors
+  name: Tensor<T>
+  nameWithType: Tensor<T>
+  fullName: Microsoft.ML.OnnxRuntime.Tensors.Tensor<T>
+  nameWithType.vb: Tensor(Of T)
+  fullName.vb: Microsoft.ML.OnnxRuntime.Tensors.Tensor(Of T)
+  name.vb: Tensor(Of T)
+  spec.csharp:
+  - uid: Microsoft.ML.OnnxRuntime.Tensors.Tensor`1
+    name: Tensor
+    nameWithType: Tensor
+    fullName: Microsoft.ML.OnnxRuntime.Tensors.Tensor
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.ML.OnnxRuntime.Tensors.Tensor`1
+    name: Tensor
+    nameWithType: Tensor
+    fullName: Microsoft.ML.OnnxRuntime.Tensors.Tensor
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.CloneEmpty*
+  commentId: Overload:Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.CloneEmpty
+  name: CloneEmpty
+  nameWithType: Tensor<T>.CloneEmpty
+  fullName: Microsoft.ML.OnnxRuntime.Tensors.Tensor<T>.CloneEmpty
+  nameWithType.vb: Tensor(Of T).CloneEmpty
+  fullName.vb: Microsoft.ML.OnnxRuntime.Tensors.Tensor(Of T).CloneEmpty
+- uid: Microsoft.ML.OnnxRuntime.Tensors.Tensor{{TResult}}
+  commentId: T:Microsoft.ML.OnnxRuntime.Tensors.Tensor{``0}
+  parent: Microsoft.ML.OnnxRuntime.Tensors
+  definition: Microsoft.ML.OnnxRuntime.Tensors.Tensor`1
+  name: Tensor<TResult>
+  nameWithType: Tensor<TResult>
+  fullName: Microsoft.ML.OnnxRuntime.Tensors.Tensor<TResult>
+  nameWithType.vb: Tensor(Of TResult)
+  fullName.vb: Microsoft.ML.OnnxRuntime.Tensors.Tensor(Of TResult)
+  name.vb: Tensor(Of TResult)
+  spec.csharp:
+  - uid: Microsoft.ML.OnnxRuntime.Tensors.Tensor`1
+    name: Tensor
+    nameWithType: Tensor
+    fullName: Microsoft.ML.OnnxRuntime.Tensors.Tensor
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.ML.OnnxRuntime.Tensors.Tensor`1
+    name: Tensor
+    nameWithType: Tensor
+    fullName: Microsoft.ML.OnnxRuntime.Tensors.Tensor
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.GetDiagonal*
+  commentId: Overload:Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.GetDiagonal
+  name: GetDiagonal
+  nameWithType: Tensor<T>.GetDiagonal
+  fullName: Microsoft.ML.OnnxRuntime.Tensors.Tensor<T>.GetDiagonal
+  nameWithType.vb: Tensor(Of T).GetDiagonal
+  fullName.vb: Microsoft.ML.OnnxRuntime.Tensors.Tensor(Of T).GetDiagonal
+- uid: Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.GetTriangle*
+  commentId: Overload:Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.GetTriangle
+  name: GetTriangle
+  nameWithType: Tensor<T>.GetTriangle
+  fullName: Microsoft.ML.OnnxRuntime.Tensors.Tensor<T>.GetTriangle
+  nameWithType.vb: Tensor(Of T).GetTriangle
+  fullName.vb: Microsoft.ML.OnnxRuntime.Tensors.Tensor(Of T).GetTriangle
+- uid: Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.GetUpperTriangle*
+  commentId: Overload:Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.GetUpperTriangle
+  name: GetUpperTriangle
+  nameWithType: Tensor<T>.GetUpperTriangle
+  fullName: Microsoft.ML.OnnxRuntime.Tensors.Tensor<T>.GetUpperTriangle
+  nameWithType.vb: Tensor(Of T).GetUpperTriangle
+  fullName.vb: Microsoft.ML.OnnxRuntime.Tensors.Tensor(Of T).GetUpperTriangle
+- uid: Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.Reshape*
+  commentId: Overload:Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.Reshape
+  name: Reshape
+  nameWithType: Tensor<T>.Reshape
+  fullName: Microsoft.ML.OnnxRuntime.Tensors.Tensor<T>.Reshape
+  nameWithType.vb: Tensor(Of T).Reshape
+  fullName.vb: Microsoft.ML.OnnxRuntime.Tensors.Tensor(Of T).Reshape
+- uid: Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.Item*
+  commentId: Overload:Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.Item
+  name: Item
+  nameWithType: Tensor<T>.Item
+  fullName: Microsoft.ML.OnnxRuntime.Tensors.Tensor<T>.Item
+  nameWithType.vb: Tensor(Of T).Item
+  fullName.vb: Microsoft.ML.OnnxRuntime.Tensors.Tensor(Of T).Item
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.GetValue*
+  commentId: Overload:Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.GetValue
+  name: GetValue
+  nameWithType: Tensor<T>.GetValue
+  fullName: Microsoft.ML.OnnxRuntime.Tensors.Tensor<T>.GetValue
+  nameWithType.vb: Tensor(Of T).GetValue
+  fullName.vb: Microsoft.ML.OnnxRuntime.Tensors.Tensor(Of T).GetValue
+- uid: Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.SetValue*
+  commentId: Overload:Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.SetValue
+  name: SetValue
+  nameWithType: Tensor<T>.SetValue
+  fullName: Microsoft.ML.OnnxRuntime.Tensors.Tensor<T>.SetValue
+  nameWithType.vb: Tensor(Of T).SetValue
+  fullName.vb: Microsoft.ML.OnnxRuntime.Tensors.Tensor(Of T).SetValue
+- uid: Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.Compare*
+  commentId: Overload:Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.Compare
+  name: Compare
+  nameWithType: Tensor<T>.Compare
+  fullName: Microsoft.ML.OnnxRuntime.Tensors.Tensor<T>.Compare
+  nameWithType.vb: Tensor(Of T).Compare
+  fullName.vb: Microsoft.ML.OnnxRuntime.Tensors.Tensor(Of T).Compare
+- uid: Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.Equals*
+  commentId: Overload:Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.Equals
+  name: Equals
+  nameWithType: Tensor<T>.Equals
+  fullName: Microsoft.ML.OnnxRuntime.Tensors.Tensor<T>.Equals
+  nameWithType.vb: Tensor(Of T).Equals
+  fullName.vb: Microsoft.ML.OnnxRuntime.Tensors.Tensor(Of T).Equals
+- uid: Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.IsFixedSize*
+  commentId: Overload:Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.IsFixedSize
+  name: IsFixedSize
+  nameWithType: Tensor<T>.IsFixedSize
+  fullName: Microsoft.ML.OnnxRuntime.Tensors.Tensor<T>.IsFixedSize
+  nameWithType.vb: Tensor(Of T).IsFixedSize
+  fullName.vb: Microsoft.ML.OnnxRuntime.Tensors.Tensor(Of T).IsFixedSize
+- uid: Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.IsReadOnly*
+  commentId: Overload:Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.IsReadOnly
+  name: IsReadOnly
+  nameWithType: Tensor<T>.IsReadOnly
+  fullName: Microsoft.ML.OnnxRuntime.Tensors.Tensor<T>.IsReadOnly
+  nameWithType.vb: Tensor(Of T).IsReadOnly
+  fullName.vb: Microsoft.ML.OnnxRuntime.Tensors.Tensor(Of T).IsReadOnly
+- uid: Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.Contains*
+  commentId: Overload:Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.Contains
+  name: Contains
+  nameWithType: Tensor<T>.Contains
+  fullName: Microsoft.ML.OnnxRuntime.Tensors.Tensor<T>.Contains
+  nameWithType.vb: Tensor(Of T).Contains
+  fullName.vb: Microsoft.ML.OnnxRuntime.Tensors.Tensor(Of T).Contains
+- uid: Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.CopyTo*
+  commentId: Overload:Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.CopyTo
+  name: CopyTo
+  nameWithType: Tensor<T>.CopyTo
+  fullName: Microsoft.ML.OnnxRuntime.Tensors.Tensor<T>.CopyTo
+  nameWithType.vb: Tensor(Of T).CopyTo
+  fullName.vb: Microsoft.ML.OnnxRuntime.Tensors.Tensor(Of T).CopyTo
+- uid: '{T}[]'
+  isExternal: true
+  name: T[]
+  nameWithType: T[]
+  fullName: T[]
+  nameWithType.vb: T()
+  fullName.vb: T()
+  name.vb: T()
+  spec.csharp:
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.IndexOf*
+  commentId: Overload:Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.IndexOf
+  name: IndexOf
+  nameWithType: Tensor<T>.IndexOf
+  fullName: Microsoft.ML.OnnxRuntime.Tensors.Tensor<T>.IndexOf
+  nameWithType.vb: Tensor(Of T).IndexOf
+  fullName.vb: Microsoft.ML.OnnxRuntime.Tensors.Tensor(Of T).IndexOf
+- uid: Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.ToDenseTensor*
+  commentId: Overload:Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.ToDenseTensor
+  name: ToDenseTensor
+  nameWithType: Tensor<T>.ToDenseTensor
+  fullName: Microsoft.ML.OnnxRuntime.Tensors.Tensor<T>.ToDenseTensor
+  nameWithType.vb: Tensor(Of T).ToDenseTensor
+  fullName.vb: Microsoft.ML.OnnxRuntime.Tensors.Tensor(Of T).ToDenseTensor
+- uid: Microsoft.ML.OnnxRuntime.Tensors.DenseTensor{{T}}
+  commentId: T:Microsoft.ML.OnnxRuntime.Tensors.DenseTensor{``0}
+  parent: Microsoft.ML.OnnxRuntime.Tensors
+  definition: Microsoft.ML.OnnxRuntime.Tensors.DenseTensor`1
+  name: DenseTensor<T>
+  nameWithType: DenseTensor<T>
+  fullName: Microsoft.ML.OnnxRuntime.Tensors.DenseTensor<T>
+  nameWithType.vb: DenseTensor(Of T)
+  fullName.vb: Microsoft.ML.OnnxRuntime.Tensors.DenseTensor(Of T)
+  name.vb: DenseTensor(Of T)
+  spec.csharp:
+  - uid: Microsoft.ML.OnnxRuntime.Tensors.DenseTensor`1
+    name: DenseTensor
+    nameWithType: DenseTensor
+    fullName: Microsoft.ML.OnnxRuntime.Tensors.DenseTensor
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.ML.OnnxRuntime.Tensors.DenseTensor`1
+    name: DenseTensor
+    nameWithType: DenseTensor
+    fullName: Microsoft.ML.OnnxRuntime.Tensors.DenseTensor
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.ML.OnnxRuntime.Tensors.DenseTensor`1
+  commentId: T:Microsoft.ML.OnnxRuntime.Tensors.DenseTensor`1
+  name: DenseTensor<T>
+  nameWithType: DenseTensor<T>
+  fullName: Microsoft.ML.OnnxRuntime.Tensors.DenseTensor<T>
+  nameWithType.vb: DenseTensor(Of T)
+  fullName.vb: Microsoft.ML.OnnxRuntime.Tensors.DenseTensor(Of T)
+  name.vb: DenseTensor(Of T)
+  spec.csharp:
+  - uid: Microsoft.ML.OnnxRuntime.Tensors.DenseTensor`1
+    name: DenseTensor
+    nameWithType: DenseTensor
+    fullName: Microsoft.ML.OnnxRuntime.Tensors.DenseTensor
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.ML.OnnxRuntime.Tensors.DenseTensor`1
+    name: DenseTensor
+    nameWithType: DenseTensor
+    fullName: Microsoft.ML.OnnxRuntime.Tensors.DenseTensor
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.GetArrayString*
+  commentId: Overload:Microsoft.ML.OnnxRuntime.Tensors.Tensor`1.GetArrayString
+  name: GetArrayString
+  nameWithType: Tensor<T>.GetArrayString
+  fullName: Microsoft.ML.OnnxRuntime.Tensors.Tensor<T>.GetArrayString
+  nameWithType.vb: Tensor(Of T).GetArrayString
+  fullName.vb: Microsoft.ML.OnnxRuntime.Tensors.Tensor(Of T).GetArrayString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

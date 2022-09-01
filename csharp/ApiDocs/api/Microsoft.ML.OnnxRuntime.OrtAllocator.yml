@@ -1,0 +1,337 @@
+### YamlMime:ManagedReference
+items:
+- uid: Microsoft.ML.OnnxRuntime.OrtAllocator
+  commentId: T:Microsoft.ML.OnnxRuntime.OrtAllocator
+  id: OrtAllocator
+  parent: Microsoft.ML.OnnxRuntime
+  children:
+  - Microsoft.ML.OnnxRuntime.OrtAllocator.#ctor(Microsoft.ML.OnnxRuntime.InferenceSession,Microsoft.ML.OnnxRuntime.OrtMemoryInfo)
+  - Microsoft.ML.OnnxRuntime.OrtAllocator.Allocate(System.UInt32)
+  - Microsoft.ML.OnnxRuntime.OrtAllocator.DefaultInstance
+  - Microsoft.ML.OnnxRuntime.OrtAllocator.Info
+  - Microsoft.ML.OnnxRuntime.OrtAllocator.IsInvalid
+  - Microsoft.ML.OnnxRuntime.OrtAllocator.ReleaseHandle
+  langs:
+  - csharp
+  - vb
+  name: OrtAllocator
+  nameWithType: OrtAllocator
+  fullName: Microsoft.ML.OnnxRuntime.OrtAllocator
+  type: Class
+  source:
+    id: OrtAllocator
+    path: ''
+    startLine: 5000
+  assemblies:
+  - cs.temp.dll
+  namespace: Microsoft.ML.OnnxRuntime
+  summary: "\nThe class exposes native internal allocator for Onnxruntime.\nThis allocator enables you to allocate memory from the internal\nmemory pools including device allocations. Useful for binding.\n"
+  example: []
+  syntax:
+    content: 'public class OrtAllocator : SafeHandle'
+    content.vb: >-
+      Public Class OrtAllocator
+          Inherits SafeHandle
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Microsoft.ML.OnnxRuntime.OrtAllocator.DefaultInstance
+  commentId: P:Microsoft.ML.OnnxRuntime.OrtAllocator.DefaultInstance
+  id: DefaultInstance
+  parent: Microsoft.ML.OnnxRuntime.OrtAllocator
+  langs:
+  - csharp
+  - vb
+  name: DefaultInstance
+  nameWithType: OrtAllocator.DefaultInstance
+  fullName: Microsoft.ML.OnnxRuntime.OrtAllocator.DefaultInstance
+  type: Property
+  source:
+    id: DefaultInstance
+    path: ''
+    startLine: 5017
+  assemblies:
+  - cs.temp.dll
+  namespace: Microsoft.ML.OnnxRuntime
+  summary: "\nDefault CPU allocator instance\n"
+  example: []
+  syntax:
+    content: public static OrtAllocator DefaultInstance { get; }
+    parameters: []
+    return:
+      type: Microsoft.ML.OnnxRuntime.OrtAllocator
+    content.vb: Public Shared ReadOnly Property DefaultInstance As OrtAllocator
+  overload: Microsoft.ML.OnnxRuntime.OrtAllocator.DefaultInstance*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Microsoft.ML.OnnxRuntime.OrtAllocator.IsInvalid
+  commentId: P:Microsoft.ML.OnnxRuntime.OrtAllocator.IsInvalid
+  id: IsInvalid
+  parent: Microsoft.ML.OnnxRuntime.OrtAllocator
+  langs:
+  - csharp
+  - vb
+  name: IsInvalid
+  nameWithType: OrtAllocator.IsInvalid
+  fullName: Microsoft.ML.OnnxRuntime.OrtAllocator.IsInvalid
+  type: Property
+  source:
+    id: IsInvalid
+    path: ''
+    startLine: 5037
+  assemblies:
+  - cs.temp.dll
+  namespace: Microsoft.ML.OnnxRuntime
+  summary: "\nOverrides SafeHandle.IsInvalid\n"
+  example: []
+  syntax:
+    content: public override bool IsInvalid { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+      description: returns true if handle is equal to Zero
+    content.vb: Public Overrides ReadOnly Property IsInvalid As Boolean
+  overload: Microsoft.ML.OnnxRuntime.OrtAllocator.IsInvalid*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
+- uid: Microsoft.ML.OnnxRuntime.OrtAllocator.#ctor(Microsoft.ML.OnnxRuntime.InferenceSession,Microsoft.ML.OnnxRuntime.OrtMemoryInfo)
+  commentId: M:Microsoft.ML.OnnxRuntime.OrtAllocator.#ctor(Microsoft.ML.OnnxRuntime.InferenceSession,Microsoft.ML.OnnxRuntime.OrtMemoryInfo)
+  id: '#ctor(Microsoft.ML.OnnxRuntime.InferenceSession,Microsoft.ML.OnnxRuntime.OrtMemoryInfo)'
+  parent: Microsoft.ML.OnnxRuntime.OrtAllocator
+  langs:
+  - csharp
+  - vb
+  name: OrtAllocator(InferenceSession, OrtMemoryInfo)
+  nameWithType: OrtAllocator.OrtAllocator(InferenceSession, OrtMemoryInfo)
+  fullName: Microsoft.ML.OnnxRuntime.OrtAllocator.OrtAllocator(Microsoft.ML.OnnxRuntime.InferenceSession, Microsoft.ML.OnnxRuntime.OrtMemoryInfo)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 5058
+  assemblies:
+  - cs.temp.dll
+  namespace: Microsoft.ML.OnnxRuntime
+  summary: "\nCreates an instance of OrtAllocator according to the specifications in OrtMemorInfo.\nThe requested allocator should be available within the given session instance. This means\nboth, the native library was build with specific allocators (for instance CUDA) and the corresponding\nprovider was added to SessionsOptions before instantiating the session object.\n"
+  example: []
+  syntax:
+    content: public OrtAllocator(InferenceSession session, OrtMemoryInfo memInfo)
+    parameters:
+    - id: session
+      type: Microsoft.ML.OnnxRuntime.InferenceSession
+      description: ''
+    - id: memInfo
+      type: Microsoft.ML.OnnxRuntime.OrtMemoryInfo
+      description: ''
+    content.vb: Public Sub New(session As InferenceSession, memInfo As OrtMemoryInfo)
+  overload: Microsoft.ML.OnnxRuntime.OrtAllocator.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.ML.OnnxRuntime.OrtAllocator.Info
+  commentId: P:Microsoft.ML.OnnxRuntime.OrtAllocator.Info
+  id: Info
+  parent: Microsoft.ML.OnnxRuntime.OrtAllocator
+  langs:
+  - csharp
+  - vb
+  name: Info
+  nameWithType: OrtAllocator.Info
+  fullName: Microsoft.ML.OnnxRuntime.OrtAllocator.Info
+  type: Property
+  source:
+    id: Info
+    path: ''
+    startLine: 5069
+  assemblies:
+  - cs.temp.dll
+  namespace: Microsoft.ML.OnnxRuntime
+  summary: "\nOrtMemoryInfo instance owned by the allocator\n"
+  example: []
+  syntax:
+    content: public OrtMemoryInfo Info { get; }
+    parameters: []
+    return:
+      type: Microsoft.ML.OnnxRuntime.OrtMemoryInfo
+      description: Instance of OrtMemoryInfo describing this allocator
+    content.vb: Public ReadOnly Property Info As OrtMemoryInfo
+  overload: Microsoft.ML.OnnxRuntime.OrtAllocator.Info*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Microsoft.ML.OnnxRuntime.OrtAllocator.Allocate(System.UInt32)
+  commentId: M:Microsoft.ML.OnnxRuntime.OrtAllocator.Allocate(System.UInt32)
+  id: Allocate(System.UInt32)
+  parent: Microsoft.ML.OnnxRuntime.OrtAllocator
+  langs:
+  - csharp
+  - vb
+  name: Allocate(UInt32)
+  nameWithType: OrtAllocator.Allocate(UInt32)
+  fullName: Microsoft.ML.OnnxRuntime.OrtAllocator.Allocate(System.UInt32)
+  type: Method
+  source:
+    id: Allocate
+    path: ''
+    startLine: 5085
+  assemblies:
+  - cs.temp.dll
+  namespace: Microsoft.ML.OnnxRuntime
+  summary: "\nAllocate native memory. Returns a disposable instance of OrtMemoryAllocation\n"
+  example: []
+  syntax:
+    content: public OrtMemoryAllocation Allocate(uint size)
+    parameters:
+    - id: size
+      type: System.UInt32
+      description: number of bytes to allocate
+    return:
+      type: Microsoft.ML.OnnxRuntime.OrtMemoryAllocation
+      description: Instance of OrtMemoryAllocation
+    content.vb: Public Function Allocate(size As UInteger) As OrtMemoryAllocation
+  overload: Microsoft.ML.OnnxRuntime.OrtAllocator.Allocate*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.ML.OnnxRuntime.OrtAllocator.ReleaseHandle
+  commentId: M:Microsoft.ML.OnnxRuntime.OrtAllocator.ReleaseHandle
+  id: ReleaseHandle
+  parent: Microsoft.ML.OnnxRuntime.OrtAllocator
+  langs:
+  - csharp
+  - vb
+  name: ReleaseHandle()
+  nameWithType: OrtAllocator.ReleaseHandle()
+  fullName: Microsoft.ML.OnnxRuntime.OrtAllocator.ReleaseHandle()
+  type: Method
+  source:
+    id: ReleaseHandle
+    path: ''
+    startLine: 5107
+  assemblies:
+  - cs.temp.dll
+  namespace: Microsoft.ML.OnnxRuntime
+  summary: "\nOverrides SafeHandle.ReleaseHandle() to properly dispose of\nthe native instance of OrtAllocator\n"
+  example: []
+  syntax:
+    content: protected override bool ReleaseHandle()
+    return:
+      type: System.Boolean
+      description: always returns true
+    content.vb: Protected Overrides Function ReleaseHandle As Boolean
+  overload: Microsoft.ML.OnnxRuntime.OrtAllocator.ReleaseHandle*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+references:
+- uid: Microsoft.ML.OnnxRuntime
+  commentId: N:Microsoft.ML.OnnxRuntime
+  name: Microsoft.ML.OnnxRuntime
+  nameWithType: Microsoft.ML.OnnxRuntime
+  fullName: Microsoft.ML.OnnxRuntime
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Microsoft.ML.OnnxRuntime.OrtAllocator.DefaultInstance*
+  commentId: Overload:Microsoft.ML.OnnxRuntime.OrtAllocator.DefaultInstance
+  name: DefaultInstance
+  nameWithType: OrtAllocator.DefaultInstance
+  fullName: Microsoft.ML.OnnxRuntime.OrtAllocator.DefaultInstance
+- uid: Microsoft.ML.OnnxRuntime.OrtAllocator
+  commentId: T:Microsoft.ML.OnnxRuntime.OrtAllocator
+  parent: Microsoft.ML.OnnxRuntime
+  name: OrtAllocator
+  nameWithType: OrtAllocator
+  fullName: Microsoft.ML.OnnxRuntime.OrtAllocator
+- uid: Microsoft.ML.OnnxRuntime.OrtAllocator.IsInvalid*
+  commentId: Overload:Microsoft.ML.OnnxRuntime.OrtAllocator.IsInvalid
+  name: IsInvalid
+  nameWithType: OrtAllocator.IsInvalid
+  fullName: Microsoft.ML.OnnxRuntime.OrtAllocator.IsInvalid
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Microsoft.ML.OnnxRuntime.OrtAllocator.#ctor*
+  commentId: Overload:Microsoft.ML.OnnxRuntime.OrtAllocator.#ctor
+  name: OrtAllocator
+  nameWithType: OrtAllocator.OrtAllocator
+  fullName: Microsoft.ML.OnnxRuntime.OrtAllocator.OrtAllocator
+- uid: Microsoft.ML.OnnxRuntime.InferenceSession
+  commentId: T:Microsoft.ML.OnnxRuntime.InferenceSession
+  parent: Microsoft.ML.OnnxRuntime
+  name: InferenceSession
+  nameWithType: InferenceSession
+  fullName: Microsoft.ML.OnnxRuntime.InferenceSession
+- uid: Microsoft.ML.OnnxRuntime.OrtMemoryInfo
+  commentId: T:Microsoft.ML.OnnxRuntime.OrtMemoryInfo
+  parent: Microsoft.ML.OnnxRuntime
+  name: OrtMemoryInfo
+  nameWithType: OrtMemoryInfo
+  fullName: Microsoft.ML.OnnxRuntime.OrtMemoryInfo
+- uid: Microsoft.ML.OnnxRuntime.OrtAllocator.Info*
+  commentId: Overload:Microsoft.ML.OnnxRuntime.OrtAllocator.Info
+  name: Info
+  nameWithType: OrtAllocator.Info
+  fullName: Microsoft.ML.OnnxRuntime.OrtAllocator.Info
+- uid: Microsoft.ML.OnnxRuntime.OrtAllocator.Allocate*
+  commentId: Overload:Microsoft.ML.OnnxRuntime.OrtAllocator.Allocate
+  name: Allocate
+  nameWithType: OrtAllocator.Allocate
+  fullName: Microsoft.ML.OnnxRuntime.OrtAllocator.Allocate
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  name: UInt32
+  nameWithType: UInt32
+  fullName: System.UInt32
+- uid: Microsoft.ML.OnnxRuntime.OrtMemoryAllocation
+  commentId: T:Microsoft.ML.OnnxRuntime.OrtMemoryAllocation
+  parent: Microsoft.ML.OnnxRuntime
+  name: OrtMemoryAllocation
+  nameWithType: OrtMemoryAllocation
+  fullName: Microsoft.ML.OnnxRuntime.OrtMemoryAllocation
+- uid: Microsoft.ML.OnnxRuntime.OrtAllocator.ReleaseHandle*
+  commentId: Overload:Microsoft.ML.OnnxRuntime.OrtAllocator.ReleaseHandle
+  name: ReleaseHandle
+  nameWithType: OrtAllocator.ReleaseHandle
+  fullName: Microsoft.ML.OnnxRuntime.OrtAllocator.ReleaseHandle

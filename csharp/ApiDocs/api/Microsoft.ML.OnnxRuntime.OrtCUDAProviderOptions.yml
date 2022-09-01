@@ -1,0 +1,371 @@
+### YamlMime:ManagedReference
+items:
+- uid: Microsoft.ML.OnnxRuntime.OrtCUDAProviderOptions
+  commentId: T:Microsoft.ML.OnnxRuntime.OrtCUDAProviderOptions
+  id: OrtCUDAProviderOptions
+  parent: Microsoft.ML.OnnxRuntime
+  children:
+  - Microsoft.ML.OnnxRuntime.OrtCUDAProviderOptions.#ctor
+  - Microsoft.ML.OnnxRuntime.OrtCUDAProviderOptions.GetOptions
+  - Microsoft.ML.OnnxRuntime.OrtCUDAProviderOptions.IsInvalid
+  - Microsoft.ML.OnnxRuntime.OrtCUDAProviderOptions.ReleaseHandle
+  - Microsoft.ML.OnnxRuntime.OrtCUDAProviderOptions.UpdateOptions(Dictionary{System.String,System.String})
+  langs:
+  - csharp
+  - vb
+  name: OrtCUDAProviderOptions
+  nameWithType: OrtCUDAProviderOptions
+  fullName: Microsoft.ML.OnnxRuntime.OrtCUDAProviderOptions
+  type: Class
+  source:
+    id: OrtCUDAProviderOptions
+    path: ''
+    startLine: 6054
+  assemblies:
+  - cs.temp.dll
+  namespace: Microsoft.ML.OnnxRuntime
+  summary: "\nHolds the options for configuring a CUDA Execution Provider instance\n"
+  example: []
+  syntax:
+    content: 'public class OrtCUDAProviderOptions : SafeHandle'
+    content.vb: >-
+      Public Class OrtCUDAProviderOptions
+          Inherits SafeHandle
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Microsoft.ML.OnnxRuntime.OrtCUDAProviderOptions.#ctor
+  commentId: M:Microsoft.ML.OnnxRuntime.OrtCUDAProviderOptions.#ctor
+  id: '#ctor'
+  parent: Microsoft.ML.OnnxRuntime.OrtCUDAProviderOptions
+  langs:
+  - csharp
+  - vb
+  name: OrtCUDAProviderOptions()
+  nameWithType: OrtCUDAProviderOptions.OrtCUDAProviderOptions()
+  fullName: Microsoft.ML.OnnxRuntime.OrtCUDAProviderOptions.OrtCUDAProviderOptions()
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 6070
+  assemblies:
+  - cs.temp.dll
+  namespace: Microsoft.ML.OnnxRuntime
+  summary: "\nConstructs an empty OrtCUDAroviderOptions instance\n"
+  example: []
+  syntax:
+    content: public OrtCUDAProviderOptions()
+    content.vb: Public Sub New
+  overload: Microsoft.ML.OnnxRuntime.OrtCUDAProviderOptions.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.ML.OnnxRuntime.OrtCUDAProviderOptions.GetOptions
+  commentId: M:Microsoft.ML.OnnxRuntime.OrtCUDAProviderOptions.GetOptions
+  id: GetOptions
+  parent: Microsoft.ML.OnnxRuntime.OrtCUDAProviderOptions
+  langs:
+  - csharp
+  - vb
+  name: GetOptions()
+  nameWithType: OrtCUDAProviderOptions.GetOptions()
+  fullName: Microsoft.ML.OnnxRuntime.OrtCUDAProviderOptions.GetOptions()
+  type: Method
+  source:
+    id: GetOptions
+    path: ''
+    startLine: 6083
+  assemblies:
+  - cs.temp.dll
+  namespace: Microsoft.ML.OnnxRuntime
+  summary: "\nGet CUDA EP provider options\n"
+  example: []
+  syntax:
+    content: public string GetOptions()
+    return:
+      type: System.String
+      description: 'return C# UTF-16 encoded string '
+    content.vb: Public Function GetOptions As String
+  overload: Microsoft.ML.OnnxRuntime.OrtCUDAProviderOptions.GetOptions*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.ML.OnnxRuntime.OrtCUDAProviderOptions.UpdateOptions(Dictionary{System.String,System.String})
+  commentId: M:Microsoft.ML.OnnxRuntime.OrtCUDAProviderOptions.UpdateOptions(Dictionary{System.String,System.String})
+  id: UpdateOptions(Dictionary{System.String,System.String})
+  parent: Microsoft.ML.OnnxRuntime.OrtCUDAProviderOptions
+  langs:
+  - csharp
+  - vb
+  name: UpdateOptions(Dictionary<String, String>)
+  nameWithType: OrtCUDAProviderOptions.UpdateOptions(Dictionary<String, String>)
+  fullName: Microsoft.ML.OnnxRuntime.OrtCUDAProviderOptions.UpdateOptions(Dictionary<System.String, System.String>)
+  type: Method
+  source:
+    id: UpdateOptions
+    path: ''
+    startLine: 6102
+  assemblies:
+  - cs.temp.dll
+  namespace: Microsoft.ML.OnnxRuntime
+  summary: "\nUpdates  the configuration knobs of OrtCUDAProviderOptions that will eventually be used to configure a CUDA EP\nPlease refer to the following on different key/value pairs to configure a CUDA EP and their meaning:\nhttps://www.onnxruntime.ai/docs/reference/execution-providers/CUDA-ExecutionProvider.html\n"
+  example: []
+  syntax:
+    content: public void UpdateOptions(Dictionary<string, string> providerOptions)
+    parameters:
+    - id: providerOptions
+      type: Dictionary{System.String,System.String}
+      description: key/value pairs used to configure a CUDA Execution Provider
+    content.vb: Public Sub UpdateOptions(providerOptions As Dictionary(Of String, String))
+  overload: Microsoft.ML.OnnxRuntime.OrtCUDAProviderOptions.UpdateOptions*
+  nameWithType.vb: OrtCUDAProviderOptions.UpdateOptions(Dictionary(Of String, String))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Microsoft.ML.OnnxRuntime.OrtCUDAProviderOptions.UpdateOptions(Dictionary(Of System.String, System.String))
+  name.vb: UpdateOptions(Dictionary(Of String, String))
+- uid: Microsoft.ML.OnnxRuntime.OrtCUDAProviderOptions.IsInvalid
+  commentId: P:Microsoft.ML.OnnxRuntime.OrtCUDAProviderOptions.IsInvalid
+  id: IsInvalid
+  parent: Microsoft.ML.OnnxRuntime.OrtCUDAProviderOptions
+  langs:
+  - csharp
+  - vb
+  name: IsInvalid
+  nameWithType: OrtCUDAProviderOptions.IsInvalid
+  fullName: Microsoft.ML.OnnxRuntime.OrtCUDAProviderOptions.IsInvalid
+  type: Property
+  source:
+    id: IsInvalid
+    path: ''
+    startLine: 6122
+  assemblies:
+  - cs.temp.dll
+  namespace: Microsoft.ML.OnnxRuntime
+  summary: "\nOverrides SafeHandle.IsInvalid\n"
+  example: []
+  syntax:
+    content: public override bool IsInvalid { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+      description: returns true if handle is equal to Zero
+    content.vb: Public Overrides ReadOnly Property IsInvalid As Boolean
+  overload: Microsoft.ML.OnnxRuntime.OrtCUDAProviderOptions.IsInvalid*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
+- uid: Microsoft.ML.OnnxRuntime.OrtCUDAProviderOptions.ReleaseHandle
+  commentId: M:Microsoft.ML.OnnxRuntime.OrtCUDAProviderOptions.ReleaseHandle
+  id: ReleaseHandle
+  parent: Microsoft.ML.OnnxRuntime.OrtCUDAProviderOptions
+  langs:
+  - csharp
+  - vb
+  name: ReleaseHandle()
+  nameWithType: OrtCUDAProviderOptions.ReleaseHandle()
+  fullName: Microsoft.ML.OnnxRuntime.OrtCUDAProviderOptions.ReleaseHandle()
+  type: Method
+  source:
+    id: ReleaseHandle
+    path: ''
+    startLine: 6137
+  assemblies:
+  - cs.temp.dll
+  namespace: Microsoft.ML.OnnxRuntime
+  summary: "\nOverrides SafeHandle.ReleaseHandle() to properly dispose of\nthe native instance of OrtCUDAProviderOptions\n"
+  example: []
+  syntax:
+    content: protected override bool ReleaseHandle()
+    return:
+      type: System.Boolean
+      description: always returns true
+    content.vb: Protected Overrides Function ReleaseHandle As Boolean
+  overload: Microsoft.ML.OnnxRuntime.OrtCUDAProviderOptions.ReleaseHandle*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+references:
+- uid: Microsoft.ML.OnnxRuntime
+  commentId: N:Microsoft.ML.OnnxRuntime
+  name: Microsoft.ML.OnnxRuntime
+  nameWithType: Microsoft.ML.OnnxRuntime
+  fullName: Microsoft.ML.OnnxRuntime
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Microsoft.ML.OnnxRuntime.OrtCUDAProviderOptions.#ctor*
+  commentId: Overload:Microsoft.ML.OnnxRuntime.OrtCUDAProviderOptions.#ctor
+  name: OrtCUDAProviderOptions
+  nameWithType: OrtCUDAProviderOptions.OrtCUDAProviderOptions
+  fullName: Microsoft.ML.OnnxRuntime.OrtCUDAProviderOptions.OrtCUDAProviderOptions
+- uid: Microsoft.ML.OnnxRuntime.OrtCUDAProviderOptions.GetOptions*
+  commentId: Overload:Microsoft.ML.OnnxRuntime.OrtCUDAProviderOptions.GetOptions
+  name: GetOptions
+  nameWithType: OrtCUDAProviderOptions.GetOptions
+  fullName: Microsoft.ML.OnnxRuntime.OrtCUDAProviderOptions.GetOptions
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Microsoft.ML.OnnxRuntime.OrtCUDAProviderOptions.UpdateOptions*
+  commentId: Overload:Microsoft.ML.OnnxRuntime.OrtCUDAProviderOptions.UpdateOptions
+  name: UpdateOptions
+  nameWithType: OrtCUDAProviderOptions.UpdateOptions
+  fullName: Microsoft.ML.OnnxRuntime.OrtCUDAProviderOptions.UpdateOptions
+- uid: Dictionary{System.String,System.String}
+  commentId: '!:Dictionary{System.String,System.String}'
+  definition: Dictionary`2
+  name: Dictionary<String, String>
+  nameWithType: Dictionary<String, String>
+  fullName: Dictionary<System.String, System.String>
+  nameWithType.vb: Dictionary(Of String, String)
+  fullName.vb: Dictionary(Of System.String, System.String)
+  name.vb: Dictionary(Of String, String)
+  spec.csharp:
+  - uid: Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Dictionary`2
+  isExternal: true
+  name: Dictionary<, >
+  nameWithType: Dictionary<, >
+  fullName: Dictionary<, >
+  nameWithType.vb: Dictionary(Of , )
+  fullName.vb: Dictionary(Of , )
+  name.vb: Dictionary(Of , )
+  spec.csharp:
+  - uid: Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.ML.OnnxRuntime.OrtCUDAProviderOptions.IsInvalid*
+  commentId: Overload:Microsoft.ML.OnnxRuntime.OrtCUDAProviderOptions.IsInvalid
+  name: IsInvalid
+  nameWithType: OrtCUDAProviderOptions.IsInvalid
+  fullName: Microsoft.ML.OnnxRuntime.OrtCUDAProviderOptions.IsInvalid
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Microsoft.ML.OnnxRuntime.OrtCUDAProviderOptions.ReleaseHandle*
+  commentId: Overload:Microsoft.ML.OnnxRuntime.OrtCUDAProviderOptions.ReleaseHandle
+  name: ReleaseHandle
+  nameWithType: OrtCUDAProviderOptions.ReleaseHandle
+  fullName: Microsoft.ML.OnnxRuntime.OrtCUDAProviderOptions.ReleaseHandle
