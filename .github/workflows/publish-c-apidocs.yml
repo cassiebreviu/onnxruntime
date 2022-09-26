@@ -3,6 +3,7 @@ on:
   push:
     branches:
       - master
+      - lint-updates-csharp
 
 jobs:
   publish:
