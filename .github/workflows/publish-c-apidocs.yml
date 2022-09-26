@@ -3,8 +3,6 @@ on:
   push:
     branches:
       - master
-      - lint-updates-csharp
-
 jobs:
   publish:
     name: Generate C/C++ API docs
