@@ -8,6 +8,7 @@ var struct_ort_1_1_session_options =
     [ "AddExternalInitializers", "struct_ort_1_1_session_options.html#a3277c66581b1a2a004ba88a9fd2027b7", null ],
     [ "AddInitializer", "struct_ort_1_1_session_options.html#a85b55eeb514e2cbef7fd57de6279b93d", null ],
     [ "AppendExecutionProvider", "struct_ort_1_1_session_options.html#a5e0892dcb91736981c85768ff6339fe5", null ],
+    [ "AppendExecutionProvider_CANN", "struct_ort_1_1_session_options.html#aba171778870a8a0b5b3895bea289826a", null ],
     [ "AppendExecutionProvider_CUDA", "struct_ort_1_1_session_options.html#afea37bbd589b4acd151ce2cc49ac7844", null ],
     [ "AppendExecutionProvider_CUDA_V2", "struct_ort_1_1_session_options.html#a50ec5541f48ac4032737c1c344ff655c", null ],
     [ "AppendExecutionProvider_MIGraphX", "struct_ort_1_1_session_options.html#abd2ed4c029bb4cfaebf89b792c9a4acc", null ],

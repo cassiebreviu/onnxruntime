@@ -189,7 +189,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:ac23781981a046c2e6066c0001693cbf0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Wraps <a class="el" href="struct_ort_api.html#a13721f0f99a5ba512adf8089eb76b3ed" title="Append TensorRT provider to session options.">OrtApi::SessionOptionsAppendExecutionProvider_TensorRT</a>.  <a href="struct_ort_1_1_session_options.html#ac23781981a046c2e6066c0001693cbf0">More...</a><br /></td></tr>
 <tr class="separator:ac23781981a046c2e6066c0001693cbf0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abd2ed4c029bb4cfaebf89b792c9a4acc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_ort_1_1_session_options.html">SessionOptions</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_ort_1_1_session_options.html#abd2ed4c029bb4cfaebf89b792c9a4acc">AppendExecutionProvider_MIGraphX</a> (const <a class="el" href="struct_ort_m_i_graph_x_provider_options.html">OrtMIGraphXProviderOptions</a> &amp;provider_options)</td></tr>
+<tr class="memdesc:abd2ed4c029bb4cfaebf89b792c9a4acc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Wraps <a class="el" href="struct_ort_api.html#aa5f5f9cd1dccf52b00cf697df5cc51b3" title="Append CANN provider to session options.">OrtApi::SessionOptionsAppendExecutionProvider_CANN</a>.  <a href="struct_ort_1_1_session_options.html#abd2ed4c029bb4cfaebf89b792c9a4acc">More...</a><br /></td></tr>
 <tr class="separator:abd2ed4c029bb4cfaebf89b792c9a4acc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba171778870a8a0b5b3895bea289826a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_ort_1_1_session_options.html">SessionOptions</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_ort_1_1_session_options.html#aba171778870a8a0b5b3895bea289826a">AppendExecutionProvider_CANN</a> (const <a class="el" href="group___global.html#ga8c583d44d04b39c4328fa754994f7730">OrtCANNProviderOptions</a> &amp;provider_options)</td></tr>
+<tr class="separator:aba171778870a8a0b5b3895bea289826a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5e0892dcb91736981c85768ff6339fe5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_ort_1_1_session_options.html">SessionOptions</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_ort_1_1_session_options.html#a5e0892dcb91736981c85768ff6339fe5">AppendExecutionProvider</a> (const std::string &amp;provider_name, const std::unordered_map&lt; std::string, std::string &gt; &amp;provider_options={})</td></tr>
 <tr class="memdesc:a5e0892dcb91736981c85768ff6339fe5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Wraps <a class="el" href="struct_ort_api.html#a5f357353ba83dce8103d0faff837996e" title=": Append execution provider to the session options.">OrtApi::SessionOptionsAppendExecutionProvider</a>. Currently supports SNPE and XNNPACK.  <a href="struct_ort_1_1_session_options.html#a5e0892dcb91736981c85768ff6339fe5">More...</a><br /></td></tr>
 <tr class="separator:a5e0892dcb91736981c85768ff6339fe5"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -455,6 +458,24 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="aba171778870a8a0b5b3895bea289826a" name="aba171778870a8a0b5b3895bea289826a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aba171778870a8a0b5b3895bea289826a">&#9670;&nbsp;</a></span>AppendExecutionProvider_CANN()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_ort_1_1_session_options.html">SessionOptions</a> &amp; Ort::SessionOptions::AppendExecutionProvider_CANN </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="group___global.html#ga8c583d44d04b39c4328fa754994f7730">OrtCANNProviderOptions</a> &amp;&#160;</td>
+          <td class="paramname"><em>provider_options</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="afea37bbd589b4acd151ce2cc49ac7844" name="afea37bbd589b4acd151ce2cc49ac7844"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#afea37bbd589b4acd151ce2cc49ac7844">&#9670;&nbsp;</a></span>AppendExecutionProvider_CUDA()</h2>
 
@@ -510,6 +531,8 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Wraps <a class="el" href="struct_ort_api.html#aa5f5f9cd1dccf52b00cf697df5cc51b3" title="Append CANN provider to session options.">OrtApi::SessionOptionsAppendExecutionProvider_CANN</a>. </p>
 <p >Wraps <a class="el" href="struct_ort_api.html#a21660e2cfcd3d64d2091335db0d91e89" title="Append MIGraphX provider to session options.">OrtApi::SessionOptionsAppendExecutionProvider_MIGraphX</a> </p>
 
 </div>

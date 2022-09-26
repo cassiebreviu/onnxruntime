@@ -17,13 +17,14 @@ var searchData=
   ['allocatorgetinfo_14',['AllocatorGetInfo',['../struct_ort_api.html#aa8256a9586e494d57807623634172bf6',1,'OrtApi']]],
   ['allocatorwithdefaultoptions_15',['AllocatorWithDefaultOptions',['../struct_ort_1_1_allocator_with_default_options.html#ad25e08123ae46e2202996d121e7d29e7',1,'Ort::AllocatorWithDefaultOptions']]],
   ['appendexecutionprovider_16',['AppendExecutionProvider',['../struct_ort_1_1_session_options.html#a5e0892dcb91736981c85768ff6339fe5',1,'Ort::SessionOptions']]],
-  ['appendexecutionprovider_5fcuda_17',['AppendExecutionProvider_CUDA',['../struct_ort_1_1_session_options.html#afea37bbd589b4acd151ce2cc49ac7844',1,'Ort::SessionOptions']]],
-  ['appendexecutionprovider_5fcuda_5fv2_18',['AppendExecutionProvider_CUDA_V2',['../struct_ort_1_1_session_options.html#a50ec5541f48ac4032737c1c344ff655c',1,'Ort::SessionOptions']]],
-  ['appendexecutionprovider_5fmigraphx_19',['AppendExecutionProvider_MIGraphX',['../struct_ort_1_1_session_options.html#abd2ed4c029bb4cfaebf89b792c9a4acc',1,'Ort::SessionOptions']]],
-  ['appendexecutionprovider_5fopenvino_20',['AppendExecutionProvider_OpenVINO',['../struct_ort_1_1_session_options.html#a82914de4692c4cefdfc22dabd48e1b12',1,'Ort::SessionOptions']]],
-  ['appendexecutionprovider_5frocm_21',['AppendExecutionProvider_ROCM',['../struct_ort_1_1_session_options.html#aaa789e496dfdd6682344f7d3748ecf52',1,'Ort::SessionOptions']]],
-  ['appendexecutionprovider_5ftensorrt_22',['AppendExecutionProvider_TensorRT',['../struct_ort_1_1_session_options.html#a17bf9c1f81f7ac33cde7bb49034ca009',1,'Ort::SessionOptions']]],
-  ['appendexecutionprovider_5ftensorrt_5fv2_23',['AppendExecutionProvider_TensorRT_V2',['../struct_ort_1_1_session_options.html#ac23781981a046c2e6066c0001693cbf0',1,'Ort::SessionOptions']]],
-  ['arenacfg_24',['ArenaCfg',['../struct_ort_1_1_arena_cfg.html#a1c6f844ba4da1cbdaf64978c18883390',1,'Ort::ArenaCfg::ArenaCfg(std::nullptr_t)'],['../struct_ort_1_1_arena_cfg.html#af5984643b2ec4748e45df6e50b9f2720',1,'Ort::ArenaCfg::ArenaCfg(size_t max_mem, int arena_extend_strategy, int initial_chunk_size_bytes, int max_dead_bytes_per_chunk)']]],
-  ['at_25',['At',['../struct_ort_1_1_value.html#a9823fe23891528c075f2d5ddc4b45efc',1,'Ort::Value']]]
+  ['appendexecutionprovider_5fcann_17',['AppendExecutionProvider_CANN',['../struct_ort_1_1_session_options.html#aba171778870a8a0b5b3895bea289826a',1,'Ort::SessionOptions']]],
+  ['appendexecutionprovider_5fcuda_18',['AppendExecutionProvider_CUDA',['../struct_ort_1_1_session_options.html#afea37bbd589b4acd151ce2cc49ac7844',1,'Ort::SessionOptions']]],
+  ['appendexecutionprovider_5fcuda_5fv2_19',['AppendExecutionProvider_CUDA_V2',['../struct_ort_1_1_session_options.html#a50ec5541f48ac4032737c1c344ff655c',1,'Ort::SessionOptions']]],
+  ['appendexecutionprovider_5fmigraphx_20',['AppendExecutionProvider_MIGraphX',['../struct_ort_1_1_session_options.html#abd2ed4c029bb4cfaebf89b792c9a4acc',1,'Ort::SessionOptions']]],
+  ['appendexecutionprovider_5fopenvino_21',['AppendExecutionProvider_OpenVINO',['../struct_ort_1_1_session_options.html#a82914de4692c4cefdfc22dabd48e1b12',1,'Ort::SessionOptions']]],
+  ['appendexecutionprovider_5frocm_22',['AppendExecutionProvider_ROCM',['../struct_ort_1_1_session_options.html#aaa789e496dfdd6682344f7d3748ecf52',1,'Ort::SessionOptions']]],
+  ['appendexecutionprovider_5ftensorrt_23',['AppendExecutionProvider_TensorRT',['../struct_ort_1_1_session_options.html#a17bf9c1f81f7ac33cde7bb49034ca009',1,'Ort::SessionOptions']]],
+  ['appendexecutionprovider_5ftensorrt_5fv2_24',['AppendExecutionProvider_TensorRT_V2',['../struct_ort_1_1_session_options.html#ac23781981a046c2e6066c0001693cbf0',1,'Ort::SessionOptions']]],
+  ['arenacfg_25',['ArenaCfg',['../struct_ort_1_1_arena_cfg.html#a1c6f844ba4da1cbdaf64978c18883390',1,'Ort::ArenaCfg::ArenaCfg(std::nullptr_t)'],['../struct_ort_1_1_arena_cfg.html#af5984643b2ec4748e45df6e50b9f2720',1,'Ort::ArenaCfg::ArenaCfg(size_t max_mem, int arena_extend_strategy, int initial_chunk_size_bytes, int max_dead_bytes_per_chunk)']]],
+  ['at_26',['At',['../struct_ort_1_1_value.html#a9823fe23891528c075f2d5ddc4b45efc',1,'Ort::Value']]]
 ];

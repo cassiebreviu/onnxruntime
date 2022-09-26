@@ -132,13 +132,28 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a472ac8b0c5a97d89c372730314f80d29"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2057c2ff617ed0d67dbcdfe76f9a686c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_ort_api.html#a2057c2ff617ed0d67dbcdfe76f9a686c">ReleaseKernelInfo</a> (<a class="el" href="group___global.html#ga0dc9b747ee56ed963beb424a48ed6b8b">OrtKernelInfo</a> *input)</td></tr>
 <tr class="separator:a2057c2ff617ed0d67dbcdfe76f9a686c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa5f5f9cd1dccf52b00cf697df5cc51b3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___global.html#gabbdf49d59489efef1b125d8e0d59adc6">OrtStatus</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_ort_api.html#aa5f5f9cd1dccf52b00cf697df5cc51b3">SessionOptionsAppendExecutionProvider_CANN</a> (<a class="el" href="group___global.html#gaa6c56bcb36e39611481a17065d3ce620">OrtSessionOptions</a> *options, const <a class="el" href="group___global.html#ga8c583d44d04b39c4328fa754994f7730">OrtCANNProviderOptions</a> *cann_options)</td></tr>
+<tr class="memdesc:aa5f5f9cd1dccf52b00cf697df5cc51b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Append CANN provider to session options.  <a href="struct_ort_api.html#aa5f5f9cd1dccf52b00cf697df5cc51b3">More...</a><br /></td></tr>
+<tr class="separator:aa5f5f9cd1dccf52b00cf697df5cc51b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6415d89ebbda1e04484dab10b36c3fdb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___global.html#gabbdf49d59489efef1b125d8e0d59adc6">OrtStatus</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_ort_api.html#a6415d89ebbda1e04484dab10b36c3fdb">CreateCANNProviderOptions</a> (<a class="el" href="group___global.html#ga8c583d44d04b39c4328fa754994f7730">OrtCANNProviderOptions</a> **out)</td></tr>
+<tr class="memdesc:a6415d89ebbda1e04484dab10b36c3fdb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create an OrtCANNProviderOptions.  <a href="struct_ort_api.html#a6415d89ebbda1e04484dab10b36c3fdb">More...</a><br /></td></tr>
+<tr class="separator:a6415d89ebbda1e04484dab10b36c3fdb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1227ae4e9f51c643731fa0f40c8b78db"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___global.html#gabbdf49d59489efef1b125d8e0d59adc6">OrtStatus</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_ort_api.html#a1227ae4e9f51c643731fa0f40c8b78db">UpdateCANNProviderOptions</a> (<a class="el" href="group___global.html#ga8c583d44d04b39c4328fa754994f7730">OrtCANNProviderOptions</a> *cann_options, const char *const *provider_options_keys, const char *const *provider_options_values, size_t num_keys)</td></tr>
+<tr class="memdesc:a1227ae4e9f51c643731fa0f40c8b78db"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set options in a CANN Execution Provider.  <a href="struct_ort_api.html#a1227ae4e9f51c643731fa0f40c8b78db">More...</a><br /></td></tr>
+<tr class="separator:a1227ae4e9f51c643731fa0f40c8b78db"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0937f8ab8cb1e4015e3baa5f84df1652"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___global.html#gabbdf49d59489efef1b125d8e0d59adc6">OrtStatus</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_ort_api.html#a0937f8ab8cb1e4015e3baa5f84df1652">GetCANNProviderOptionsAsString</a> (const <a class="el" href="group___global.html#ga8c583d44d04b39c4328fa754994f7730">OrtCANNProviderOptions</a> *cann_options, <a class="el" href="struct_ort_allocator.html">OrtAllocator</a> *allocator, char **ptr)</td></tr>
+<tr class="memdesc:a0937f8ab8cb1e4015e3baa5f84df1652"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get serialized CANN provider options string.  <a href="struct_ort_api.html#a0937f8ab8cb1e4015e3baa5f84df1652">More...</a><br /></td></tr>
+<tr class="separator:a0937f8ab8cb1e4015e3baa5f84df1652"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4efb2c6f01315a22b9cfe943c9c28b06"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_ort_api.html#a4efb2c6f01315a22b9cfe943c9c28b06">OrtApi</a> (const <a class="el" href="struct_ort_api.html">OrtApi</a> &amp;)=delete</td></tr>
 <tr class="separator:a4efb2c6f01315a22b9cfe943c9c28b06"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:aecf909dbe8b0aca1687d77615cc996bd"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="group___global.html#gac23a672ac48036d62cbbbb6631e667db">OrtTrainingApi</a> *(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_ort_api.html#aecf909dbe8b0aca1687d77615cc996bd">GetTrainingApi</a> )(uint32_t version) __attribute__((nonnull))</td></tr>
-<tr class="separator:aecf909dbe8b0aca1687d77615cc996bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a165a49644eea25878451d429c4f6012f"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="group___global.html#gac23a672ac48036d62cbbbb6631e667db">OrtTrainingApi</a> *(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_ort_api.html#a165a49644eea25878451d429c4f6012f">GetTrainingApi</a> )(uint32_t version)</td></tr>
+<tr class="separator:a165a49644eea25878451d429c4f6012f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a55be68299745699560dfbfd3de72a96c"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_ort_api.html#a55be68299745699560dfbfd3de72a96c">ReleaseCANNProviderOptions</a> )(<a class="el" href="group___global.html#ga8c583d44d04b39c4328fa754994f7730">OrtCANNProviderOptions</a> *input)</td></tr>
+<tr class="memdesc:a55be68299745699560dfbfd3de72a96c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Release an OrtCANNProviderOptions.  <a href="struct_ort_api.html#a55be68299745699560dfbfd3de72a96c">More...</a><br /></td></tr>
+<tr class="separator:a55be68299745699560dfbfd3de72a96c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader">OrtStatus</h2></td></tr>
 <tr class="memitem:ab3f31bf5a89fae003e5f57f27c1503f0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___global.html#gabbdf49d59489efef1b125d8e0d59adc6">OrtStatus</a> *(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_ort_api.html#ab3f31bf5a89fae003e5f57f27c1503f0">CreateStatus</a> )(<a class="el" href="group___global.html#gabab5349c294603a9eac437fdafd40a3d">OrtErrorCode</a> code, const char *msg) __attribute__((nonnull))</td></tr>
@@ -1816,6 +1831,35 @@ Public Attributes</h2></td></tr>
 </dl>
 <p><dl class="section return"><dt>Returns</dt><dd>If no error, nullptr will be returned. If there is an error, a pointer to an <a class="el" href="group___global.html#gabbdf49d59489efef1b125d8e0d59adc6">OrtStatus</a> that contains error details will be returned. Use <a class="el" href="struct_ort_api.html#a9b21334e290855a585f53d53dda44551">OrtApi::ReleaseStatus</a> to free this pointer.</dd></dl>
  </p>
+
+</div>
+</div>
+<a id="a6415d89ebbda1e04484dab10b36c3fdb" name="a6415d89ebbda1e04484dab10b36c3fdb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6415d89ebbda1e04484dab10b36c3fdb">&#9670;&nbsp;</a></span>CreateCANNProviderOptions()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group___global.html#gabbdf49d59489efef1b125d8e0d59adc6">OrtStatus</a> * OrtApi::CreateCANNProviderOptions </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group___global.html#ga8c583d44d04b39c4328fa754994f7730">OrtCANNProviderOptions</a> **&#160;</td>
+          <td class="paramname"><em>out</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Create an OrtCANNProviderOptions. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">out</td><td>created <a class="el" href="group___global.html#ga8c583d44d04b39c4328fa754994f7730">OrtCANNProviderOptions</a>. Must be released with <a class="el" href="struct_ort_api.html#a55be68299745699560dfbfd3de72a96c" title="Release an OrtCANNProviderOptions.">OrtApi::ReleaseCANNProviderOptions</a></td></tr>
+  </table>
+  </dd>
+</dl>
+<p><dl class="section return"><dt>Returns</dt><dd>If no error, nullptr will be returned. If there is an error, a pointer to an <a class="el" href="group___global.html#gabbdf49d59489efef1b125d8e0d59adc6">OrtStatus</a> that contains error details will be returned. Use <a class="el" href="struct_ort_api.html#a9b21334e290855a585f53d53dda44551">OrtApi::ReleaseStatus</a> to free this pointer.</dd></dl>
+</p>
+<dl class="section since"><dt>Since</dt><dd>Version 1.13. </dd></dl>
 
 </div>
 </div>
@@ -4083,6 +4127,53 @@ Public Attributes</h2></td></tr>
 </dl>
 <p><dl class="section return"><dt>Returns</dt><dd>If no error, nullptr will be returned. If there is an error, a pointer to an <a class="el" href="group___global.html#gabbdf49d59489efef1b125d8e0d59adc6">OrtStatus</a> that contains error details will be returned. Use <a class="el" href="struct_ort_api.html#a9b21334e290855a585f53d53dda44551">OrtApi::ReleaseStatus</a> to free this pointer.</dd></dl>
  </p>
+
+</div>
+</div>
+<a id="a0937f8ab8cb1e4015e3baa5f84df1652" name="a0937f8ab8cb1e4015e3baa5f84df1652"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0937f8ab8cb1e4015e3baa5f84df1652">&#9670;&nbsp;</a></span>GetCANNProviderOptionsAsString()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group___global.html#gabbdf49d59489efef1b125d8e0d59adc6">OrtStatus</a> * OrtApi::GetCANNProviderOptionsAsString </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="group___global.html#ga8c583d44d04b39c4328fa754994f7730">OrtCANNProviderOptions</a> *&#160;</td>
+          <td class="paramname"><em>cann_options</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_ort_allocator.html">OrtAllocator</a> *&#160;</td>
+          <td class="paramname"><em>allocator</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char **&#160;</td>
+          <td class="paramname"><em>ptr</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get serialized CANN provider options string. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">cann_options</td><td>OrtCANNProviderOptions instance </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">allocator</td><td>a ptr to an instance of <a class="el" href="struct_ort_allocator.html" title="Memory allocation interface.">OrtAllocator</a> obtained with <a class="el" href="struct_ort_api.html#ad3aabe6f82aa81b75048a4bdf937d974" title="Create an allocator for an OrtSession following an OrtMemoryInfo.">CreateAllocator()</a> or <a class="el" href="struct_ort_api.html#a8dec797ae52ee1a681e4f88be1fb4bb3" title="Get the default allocator.">GetAllocatorWithDefaultOptions()</a>, the specified allocator will be used to allocate continuous buffers for output strings and lengths. </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">ptr</td><td>is a UTF-8 null terminated string allocated using 'allocator'. The caller is responsible for using the same allocator to free it.</td></tr>
+  </table>
+  </dd>
+</dl>
+<p><dl class="section return"><dt>Returns</dt><dd>If no error, nullptr will be returned. If there is an error, a pointer to an <a class="el" href="group___global.html#gabbdf49d59489efef1b125d8e0d59adc6">OrtStatus</a> that contains error details will be returned. Use <a class="el" href="struct_ort_api.html#a9b21334e290855a585f53d53dda44551">OrtApi::ReleaseStatus</a> to free this pointer.</dd></dl>
+</p>
+<dl class="section since"><dt>Since</dt><dd>Version 1.13. </dd></dl>
 
 </div>
 </div>
@@ -8124,8 +8215,49 @@ Public Attributes</h2></td></tr>
 <p>Currently supported providers: SNPE XNNPACK</p>
 <p >Note: If an execution provider has a dedicated SessionOptionsAppendExecutionProvider_&lt;provider name&gt; function that should be used to add it.</p>
 <p >SNPE supported keys: "runtime": SNPE runtime engine, options: "CPU", "CPU_FLOAT32", "GPU", "GPU_FLOAT32_16_HYBRID", "GPU_FLOAT16", "DSP", "DSP_FIXED8_TF", "AIP_FIXED_TF", "AIP_FIXED8_TF". Mapping to SNPE Runtime_t definition: CPU, CPU_FLOAT32 =&gt; zdl::DlSystem::Runtime_t::CPU; GPU, GPU_FLOAT32_16_HYBRID =&gt; zdl::DlSystem::Runtime_t::GPU; GPU_FLOAT16 =&gt; zdl::DlSystem::Runtime_t::GPU_FLOAT16; DSP, DSP_FIXED8_TF =&gt; zdl::DlSystem::Runtime_t::DSP. AIP_FIXED_TF, AIP_FIXED8_TF =&gt; zdl::DlSystem::Runtime_t::AIP_FIXED_TF. "priority": execution priority, options: "low", "normal". "buffer_type": ITensor or user buffers, options: "ITENSOR", user buffer with different types - "TF8", "TF16", "UINT8", "FLOAT". "ITENSOR" &ndash; default, ITensor which is float only. "TF8" &ndash; quantized model required, "FLOAT" &ndash; for both quantized or non-quantized model If SNPE is not available (due to a non Snpe enabled build or its dependencies not being installed), this function will fail.</p>
-<p >XNNPACK supported keys: None currently</p>
+<p >XNNPACK supported keys: "intra_op_num_threads": number of thread-pool size to use for XNNPACK execution provider.</p>
 <dl class="section since"><dt>Since</dt><dd>Version 1.12. </dd></dl>
+
+</div>
+</div>
+<a id="aa5f5f9cd1dccf52b00cf697df5cc51b3" name="aa5f5f9cd1dccf52b00cf697df5cc51b3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa5f5f9cd1dccf52b00cf697df5cc51b3">&#9670;&nbsp;</a></span>SessionOptionsAppendExecutionProvider_CANN()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group___global.html#gabbdf49d59489efef1b125d8e0d59adc6">OrtStatus</a> * OrtApi::SessionOptionsAppendExecutionProvider_CANN </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group___global.html#gaa6c56bcb36e39611481a17065d3ce620">OrtSessionOptions</a> *&#160;</td>
+          <td class="paramname"><em>options</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="group___global.html#ga8c583d44d04b39c4328fa754994f7730">OrtCANNProviderOptions</a> *&#160;</td>
+          <td class="paramname"><em>cann_options</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Append CANN provider to session options. </p>
+<p >If CANN is not available (due to a non CANN enabled build, or if CANN is not installed on the system), this function will return failure.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">options</td><td></td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">cann_options</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<p><dl class="section return"><dt>Returns</dt><dd>If no error, nullptr will be returned. If there is an error, a pointer to an <a class="el" href="group___global.html#gabbdf49d59489efef1b125d8e0d59adc6">OrtStatus</a> that contains error details will be returned. Use <a class="el" href="struct_ort_api.html#a9b21334e290855a585f53d53dda44551">OrtApi::ReleaseStatus</a> to free this pointer.</dd></dl>
+</p>
+<dl class="section since"><dt>Since</dt><dd>Version 1.13. </dd></dl>
 
 </div>
 </div>
@@ -9432,6 +9564,60 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a1227ae4e9f51c643731fa0f40c8b78db" name="a1227ae4e9f51c643731fa0f40c8b78db"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1227ae4e9f51c643731fa0f40c8b78db">&#9670;&nbsp;</a></span>UpdateCANNProviderOptions()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group___global.html#gabbdf49d59489efef1b125d8e0d59adc6">OrtStatus</a> * OrtApi::UpdateCANNProviderOptions </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group___global.html#ga8c583d44d04b39c4328fa754994f7730">OrtCANNProviderOptions</a> *&#160;</td>
+          <td class="paramname"><em>cann_options</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *const *&#160;</td>
+          <td class="paramname"><em>provider_options_keys</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *const *&#160;</td>
+          <td class="paramname"><em>provider_options_values</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>num_keys</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set options in a CANN Execution Provider. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">cann_options</td><td></td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">provider_options_keys</td><td>Array of UTF-8 null-terminated string for provider options keys </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">provider_options_values</td><td>Array of UTF-8 null-terminated string for provider options values </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">num_keys</td><td>Number of elements in the <code>provider_option_keys</code> and <code>provider_options_values</code> arrays</td></tr>
+  </table>
+  </dd>
+</dl>
+<p><dl class="section return"><dt>Returns</dt><dd>If no error, nullptr will be returned. If there is an error, a pointer to an <a class="el" href="group___global.html#gabbdf49d59489efef1b125d8e0d59adc6">OrtStatus</a> that contains error details will be returned. Use <a class="el" href="struct_ort_api.html#a9b21334e290855a585f53d53dda44551">OrtApi::ReleaseStatus</a> to free this pointer.</dd></dl>
+</p>
+<dl class="section since"><dt>Since</dt><dd>Version 1.13. </dd></dl>
+
+</div>
+</div>
 <a id="a4710fc51f75a4b9a75bde20acbfa0783" name="a4710fc51f75a4b9a75bde20acbfa0783"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4710fc51f75a4b9a75bde20acbfa0783">&#9670;&nbsp;</a></span>UpdateCUDAProviderOptions()</h2>
 
@@ -9802,17 +9988,40 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="aecf909dbe8b0aca1687d77615cc996bd" name="aecf909dbe8b0aca1687d77615cc996bd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aecf909dbe8b0aca1687d77615cc996bd">&#9670;&nbsp;</a></span>GetTrainingApi</h2>
+<a id="a165a49644eea25878451d429c4f6012f" name="a165a49644eea25878451d429c4f6012f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a165a49644eea25878451d429c4f6012f">&#9670;&nbsp;</a></span>GetTrainingApi</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="group___global.html#gac23a672ac48036d62cbbbb6631e667db">OrtTrainingApi</a> *( * OrtApi::GetTrainingApi) (uint32_t version) __attribute__((nonnull))</td>
+          <td class="memname">const <a class="el" href="group___global.html#gac23a672ac48036d62cbbbb6631e667db">OrtTrainingApi</a> *( * OrtApi::GetTrainingApi) (uint32_t version)</td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a55be68299745699560dfbfd3de72a96c" name="a55be68299745699560dfbfd3de72a96c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a55be68299745699560dfbfd3de72a96c">&#9670;&nbsp;</a></span>ReleaseCANNProviderOptions</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void( * OrtApi::ReleaseCANNProviderOptions) (<a class="el" href="group___global.html#ga8c583d44d04b39c4328fa754994f7730">OrtCANNProviderOptions</a> *input)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Release an OrtCANNProviderOptions. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">the</td><td>pointer of OrtCANNProviderOptions which will been deleted</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section since"><dt>Since</dt><dd>Version 1.13. </dd></dl>
 
 </div>
 </div>
