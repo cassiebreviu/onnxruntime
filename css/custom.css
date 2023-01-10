@@ -779,3 +779,16 @@ a .abbr[data-original-title], a abbr[title]{
   div.tbl_panel[aria-hidden='false'] {
      display:block;
   }
+
+.carousel-indicators li {
+	border-radius:0;
+	width:8px;
+	height:8px;
+	background:#fff;
+}
+.carousel-indicators .active {
+	width:10px;
+	height:10px;
+	background:#39b3d7;
+	border-color:#39b3d7;
+}
