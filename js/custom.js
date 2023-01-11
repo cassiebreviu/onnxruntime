@@ -190,6 +190,34 @@ function carouselNormalization() {
   }
 }
 
+// async function getTenMostRecentYouTubeVideos () {
+//   let apiKey = '';
+//   let channelId = 'UC_SJk17KdRvDulXz-nc1uFg';
+//   let maxResults = 20;
+//   let url = 'https://www.googleapis.com/youtube/v3/search?' +
+//             'part=snippet&statistics&channelId=' + channelId +
+//             '&maxResults=' + maxResults +
+//             '&order=date&type=video' +
+//             '&key=' + apiKey +
+//             '&order=viewcount';
+//   let response = await fetch(url);
+//   let data = await response.json();
+//   console.log(data.items[0]);
+//   let videoUrlBase = 'https://www.youtube.com/embed/';
+  
+//   let resultArray = [];
+//   for (let video of data.items) {
+//     let title = video.snippet.title;
+//     let videoId = video.id.videoId;
+//     let videoUrl = videoUrlBase + videoId;
+//     let img = video.snippet.thumbnails.medium.url;
+//     resultArray.push({title, videoUrl, img});
+//     console.log(title, videoUrl, img);
+//   }
+//   return resultArray;
+
+// }
+
 (function ($){
 	$.fn.responsiveTabs = function() {
 	this.addClass('ddTabs'),
